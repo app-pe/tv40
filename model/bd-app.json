@@ -1,0 +1,539 @@
+{
+    "tienda":[
+        {
+            "id_tienda": "shop1",
+            "nombre_tienda": "Inpactum",
+            "descripcion_tienda": "Tienda de ropa con propósito",
+            "ruc": 1234777999,
+            "razon_social": "Inpactum S.A",
+            "imagen_logo": "/img/tiendas/inpactum/logo_inpactum.jpg",
+            "imagen_banner": "/img/tiendas/inpactum/banner_inpactum.jpg",
+            "url_imagen_tienda":"img/tiendas/inpactum/"
+        },
+        {
+            "id_tienda": "shop2",
+            "nombre_tienda": "Blueplhare",
+            "descripcion_tienda": "Tienda de ropa con propósito",
+            "ruc": 1234777999,
+            "razon_social": "Blueplhare S.A",
+            "imagen_logo": "/img/tiendas/bp/logo_bp.jpg",
+            "imagen_banner": "/img/tiendas/bp/banner_bp.jpg",
+            "url_imagen_tienda":"img/tiendas/bp/"
+        }
+    ],
+    "categoria":[          
+        {"id_categoria":"cat1","url_imagen_categoria":"img/categorias/moda-hombre/","nombre_categoria":"Moda hombre","default_imagen_categoria": "img/categorias/cat-1.jpg","tipo_categoria":"hombre","estado_categoria":"activado","menu":"mp"},
+        {"id_categoria":"cat2","url_imagen_categoria":"img/categorias/moda-infantil/","nombre_categoria":"Moda mujer","default_imagen_categoria": "img/categorias/cat-2.jpg","tipo_categoria":"hombre","estado_categoria":"desactivado","menu":"mp"},
+        {"id_categoria":"cat3","url_imagen_categoria":"img/categorias/moda-mujer/","nombre_categoria":"Moda infantil","default_imagen_categoria": "img/categorias/cat-3.jpg","tipo_categoria":"hombre","estado_categoria":"desactivado","menu":"mp"},                    
+        {"id_categoria":"cat4","url_imagen_categoria":"img/categorias/polos/","nombre_categoria":"Polos","default_imagen_categoria": "img/categorias/cat-4.jpg","tipo_categoria":"hombre","estado_categoria":"activado","menu":"ms"},                    
+        {"id_categoria":"cat5","url_imagen_categoria":"img/categorias/poleras/","nombre_categoria":"Poleras","default_imagen_categoria": "img/categorias/cat-5.jpg","tipo_categoria":"hombre","estado_categoria":"activado","menu":"ms"},                   
+        {"id_categoria":"cat6","url_imagen_categoria":"img/categorias/pantalones/","nombre_categoria":"Pantalones","default_imagen_categoria": "img/categorias/cat-6.jpg","tipo_categoria":"hombre","estado_categoria":"activado","menu":"ms"},                   
+        {"id_categoria":"cat7","url_imagen_categoria":"img/categorias/libros/","nombre_categoria":"Libros","default_imagen_categoria": "img/categorias/cat-7.jpg","tipo_categoria":"libro","estado_categoria":"activado","menu":"mp"},                  
+        {"id_categoria":"cat8","url_imagen_categoria":"img/categorias/libros/crecimiento_personal/","nombre_categoria":"Crecimiento Personal","default_imagen_categoria": "img/categorias/libros/crecimiento_personal/ebook_eclavo.jpg","tipo_categoria":"libro","estado_categoria":"activado","menu":"ms"},                  
+        {"id_categoria":"cat9","url_imagen_categoria":"img/categorias/libros/educacion_financiera/","nombre_categoria":"Educación Financiera","default_imagen_categoria": "img/categorias/libros/educacion_financiera/portada_cuento.jpg","tipo_categoria":"libro","estado_categoria":"activado","menu":"ms"}                  
+    ], 
+    "tienda_categoria":[
+        {
+        "id_tienda": "shop1",
+        "id_categoria": "cat1",
+        "nombre_tienda": "Inpactum",
+        "nombre_categoria": "Moda hombre",
+        "url_imagen":"img/categorias/moda-hombre/"        
+        },
+        {
+        "id_tienda": "shop2",
+        "id_categoria": "cat4",
+        "nombre_tienda": "Inpactum",
+        "nombre_categoria": "Polos",
+        "url_imagen":"img/categorias/polos/"        
+        }
+    ],
+    "producto":[
+        {     
+         "id_producto": "p1",
+         "nombre_producto": "POLO MANGA CORTA MAUI AND SONS PARA HOMBRE", 
+         "imagen_principal": "polo1_blanco_adelante.jpg",        
+         "precio_catalogo": 90,
+         "precio_oferta": 79,  
+         "cantidad": 10,
+         "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",   
+         "id_categoria": "cat4",     
+         "id_tienda": "shop1"           
+        },
+        {     
+         "id_producto": "p2",
+         "nombre_producto": "POLO SIN MANGAS MAUI AND SONS PARA HOMBRE",   
+         "imagen_principal": "polo2_turquesa_adelante.jpg",      
+         "precio_catalogo": 90,
+         "precio_oferta": 69, 
+         "cantidad": 10,  
+         "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+         "id_categoria": "cat4",     
+         "id_tienda": "shop1"             
+        },
+        {     
+        "id_producto": "p3",
+        "nombre_producto": "POLERA MANGAS LARGAS MAUI AND SONS PARA HOMBRE",   
+        "imagen_principal": "polera1_negro_adelante.jpg",      
+        "precio_catalogo": 120,
+        "precio_oferta": 95, 
+        "cantidad": 10,  
+        "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "id_categoria": "cat5",     
+        "id_tienda": "shop1"            
+        },    
+        {     
+        "id_producto": "p4",
+        "nombre_producto": "POLERA ALGODÓN OMNI LOGO HOODIE QUIKSILVER PARA HOMBRE",   
+        "imagen_principal": "polera2_negro_adelante.jpg",      
+        "precio_catalogo": 250,
+        "precio_oferta": 199, 
+        "cantidad": 10,  
+        "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "id_categoria": "cat5",     
+        "id_tienda": "shop1"             
+        },    
+        {     
+        "id_producto": "p5",
+        "nombre_producto": "POLERA CANGURO 5O1326 MAUI AND SONS PARA HOMBRE",   
+        "imagen_principal": "polera3_rojo_adelante.jpg",      
+        "precio_catalogo": 150,
+        "precio_oferta": 100, 
+        "cantidad": 10,  
+        "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "id_categoria": "cat5",     
+        "id_tienda": "shop1"             
+        },    
+        {     
+        "id_producto": "p6",
+        "nombre_producto": "POLERA CANGURO 5O1326 MAUI AND SONS PARA HOMBRE",   
+        "imagen_principal": "polera3_rojo_adelante.jpg",      
+        "precio_catalogo": 150,
+        "precio_oferta": 95, 
+        "cantidad": 10,  
+        "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "id_categoria": "cat5",     
+        "id_tienda": "shop2"           
+        },    
+        {     
+        "id_producto": "p7",
+        "nombre_producto": "PANTALÓN FRICKIN REGULAR STRETCH VOLCOM PARA HOMBRE",   
+        "imagen_principal": "p1_caqui_adelante.jpg",      
+        "precio_catalogo": 290,
+        "precio_oferta": 239, 
+        "cantidad": 15,  
+        "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "id_categoria": "cat6",     
+        "id_tienda": "shop2"             
+        },    
+        {     
+        "id_producto": "p8",
+        "nombre_producto": "PANTALON CARGO MULTIBOLSILLO PARA HOMBRE",   
+        "imagen_principal": "p2_verde_adelante.jpg",      
+        "precio_catalogo": 220,
+        "precio_oferta": 120, 
+        "cantidad": 15,  
+        "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "id_categoria": "cat6",     
+        "id_tienda": "shop1"             
+        },
+        {     
+        "id_producto": "p9",
+        "nombre_producto": "ebook_eclavo",   
+        "imagen_principal": "ebook_eclavo.jpg",      
+        "precio_catalogo": 220,
+        "precio_oferta": 120, 
+        "cantidad": 15,  
+        "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "id_categoria": "cat7",     
+        "id_tienda": "shop1"             
+        }        
+    ],
+    "imagenes":[
+        {"id_producto":"p1","id_atributo":"atbp1","id_color":"c1","nombre_img":"polo1_blanco_adelante.jpg"},
+        {"id_producto":"p1","id_atributo":"atbp1","id_color":"c1","nombre_img":"polo1_blanco_detras.jpg"},
+        {"id_producto":"p1","id_atributo":"atbp1","id_color":"c2","nombre_img":"polo1_lila_adelante.jpg"},
+        {"id_producto":"p1","id_atributo":"atbp1","id_color":"c2","nombre_img":"polo1_lila_detras.jpg"},
+        {"id_producto":"p2","id_atributo":"atbp2","id_color":"c3","nombre_img":"polo2_turquesa_adelante.jpg"},
+        {"id_producto":"p2","id_atributo":"atbp2","id_color":"c3","nombre_img":"polo2_turquesa_detras.jpg"},
+        {"id_producto":"p2","id_atributo":"atbp2","id_color":"c4","nombre_img":"polo2_naranja_adelante.jpg"},
+        {"id_producto":"p2","id_atributo":"atbp2","id_color":"c4","nombre_img":"polo2_naranja_detras.jpg"},
+        {"id_producto":"p3","id_atributo":"atbp3","id_color":"c5","nombre_img":"polera1_negro_adelante.jpg"},
+        {"id_producto":"p3","id_atributo":"atbp3","id_color":"c5","nombre_img":"polera1_negro_detras.jpg"},
+        {"id_producto":"p3","id_atributo":"atbp3","id_color":"c6","nombre_img":"polera1_morado_adelante.jpg"},
+        {"id_producto":"p3","id_atributo":"atbp3","id_color":"c6","nombre_img":"polera1_morado_detras.jpg"},
+        {"id_producto":"p4","id_atributo":"atbp4","id_color":"c5","nombre_img":"polera2_negro_adelante.jpg"},
+        {"id_producto":"p4","id_atributo":"atbp4","id_color":"c5","nombre_img":"polera2_negro_detras.jpg"},
+        {"id_producto":"p4","id_atributo":"atbp4","id_color":"c7","nombre_img":"polera2_azul_adelante.jpg"},
+        {"id_producto":"p4","id_atributo":"atbp4","id_color":"c7","nombre_img":"polera2_azul_detras.jpg"},
+        {"id_producto":"p5","id_atributo":"atbp5","id_color":"c10","nombre_img":"polera3_rojo_adelante.jpg"},
+        {"id_producto":"p5","id_atributo":"atbp5","id_color":"c10","nombre_img":"polera3_rojo_detras.jpg"},
+        {"id_producto":"p5","id_atributo":"atbp5","id_color":"c9","nombre_img":"polera3_verde_adelante.jpg"},
+        {"id_producto":"p5","id_atributo":"atbp5","id_color":"c9","nombre_img":"polera3_verde_detras.jpg"},
+        {"id_producto":"p6","id_atributo":"atbp6","id_color":"c10","nombre_img":"polera3_rojo_adelante.jpg"},
+        {"id_producto":"p6","id_atributo":"atbp6","id_color":"c10","nombre_img":"polera3_rojo_detras.jpg"},
+        {"id_producto":"p6","id_atributo":"atbp6","id_color":"c9","nombre_img":"polera3_verde_adelante.jpg"},
+        {"id_producto":"p6","id_atributo":"atbp6","id_color":"c9","nombre_img":"polera3_verde_detras.jpg"},
+        {"id_producto":"p7","id_atributo":"atbp7","id_color":"c8","nombre_img":"p1_caqui_adelante.jpg"},
+        {"id_producto":"p7","id_atributo":"atbp7","id_color":"c8","nombre_img":"pantalon1_caqui_detras.jpg"},
+        {"id_producto":"p7","id_atributo":"atbp7","id_color":"c5","nombre_img":"pantalon1_negro_adelante.jpg"},
+        {"id_producto":"p7","id_atributo":"atbp7","id_color":"c5","nombre_img":"pantalon1_negro_detras.jpg"},
+        {"id_producto":"p7","id_atributo":"atbp7","id_color":"c9","nombre_img":"pantalon1_verde_adelante.jpg"},
+        {"id_producto":"p7","id_atributo":"atbp7","id_color":"c9","nombre_img":"pantalon1_verde_detras.jpg"},
+        {"id_producto":"p8","id_atributo":"atbp8","id_color":"c9","nombre_img":"p2_verde_adelante.jpg"},
+        {"id_producto":"p8","id_atributo":"atbp8","id_color":"c7","nombre_img":"p2_azul_adelante.jpg"},
+        {"id_producto":"p8","id_atributo":"atbp8","id_color":"c5","nombre_img":"p2_negro_adelante.jpg"}
+        
+    ],
+    "atributo_producto":[
+        {     
+         "id_atributo": "atbp1",    
+         "cantidad": 5, 
+         "id_producto": "p1",
+         "id_color":"c1",
+         "id_tallas":"t2"
+        },
+        {     
+         "id_atributo": "atbp1",    
+         "cantidad": 5, 
+         "id_producto": "p1",
+         "id_color":"c1",
+         "id_tallas":"t3"
+        },
+        {     
+         "id_atributo": "atbp1",    
+         "cantidad": 5, 
+         "id_producto": "p1",
+         "id_color":"c1",
+         "id_tallas":"t4"
+        },
+        {     
+         "id_atributo": "atbp1",  
+         "cantidad": 5,   
+         "id_producto": "p1",
+         "id_color":"c2",
+         "id_tallas":"t4"
+        },    
+        {     
+         "id_atributo": "atbp1",  
+         "cantidad": 5,   
+         "id_producto": "p1",
+         "id_color":"c2",
+         "id_tallas":"t5"
+        }, 
+        {     
+         "id_atributo": "atbp2",
+         "cantidad": 5,     
+         "id_producto": "p2",
+         "id_color":"c3",
+         "id_tallas":"t2"
+        },
+        {     
+         "id_atributo": "atbp2",
+         "cantidad": 5,     
+         "id_producto": "p2",
+         "id_color":"c3",
+         "id_tallas":"t3"
+        },
+        {     
+         "id_atributo": "atbp2",
+         "cantidad": 5,     
+         "id_producto": "p2",
+         "id_color":"c4",
+         "id_tallas":"t1"
+        }, 
+        {     
+         "id_atributo": "atbp2",
+         "cantidad": 5,     
+         "id_producto": "p2",
+         "id_color":"c4",
+         "id_tallas":"t2"
+        }, 
+        {     
+         "id_atributo": "atbp2",
+         "cantidad": 5,     
+         "id_producto": "p2",
+         "id_color":"c4",
+         "id_tallas":"t3"
+        },
+        {     
+         "id_atributo": "atbp3",   
+         "cantidad": 5,  
+         "id_producto": "p3",
+         "id_color":"c5",
+         "id_tallas":"t2"
+        }, 
+        {     
+         "id_atributo": "atbp3",   
+         "cantidad": 5,  
+         "id_producto": "p3",
+         "id_color":"c5",
+         "id_tallas":"t3"
+        }, 
+        {     
+         "id_atributo": "atbp3",   
+         "cantidad": 5,  
+         "id_producto": "p3",
+         "id_color":"c5",
+         "id_tallas":"t4"
+        }, 
+        {     
+         "id_atributo": "atbp3",     
+         "cantidad": 5,
+         "id_producto": "p3",
+         "id_color":"c6",
+         "id_tallas":"t2"
+        },    
+        {     
+         "id_atributo": "atbp3",     
+         "cantidad": 5,
+         "id_producto": "p3",
+         "id_color":"c6",
+         "id_tallas":"t3"
+        },    
+        {     
+         "id_atributo": "atbp3",     
+         "cantidad": 5,
+         "id_producto": "p3",
+         "id_color":"c6",
+         "id_tallas":"t4"
+        }, 
+        {     
+         "id_atributo": "atbp4",   
+         "cantidad": 5,  
+         "id_producto": "p4",
+         "id_color":"c5",
+         "id_tallas":"t3"
+        }, 
+        {     
+         "id_atributo": "atbp4",   
+         "cantidad": 5,  
+         "id_producto": "p4",
+         "id_color":"c5",
+         "id_tallas":"t4"
+        }, 
+        {     
+         "id_atributo": "atbp4",   
+         "cantidad": 5,  
+         "id_producto": "p4",
+         "id_color":"c5",
+         "id_tallas":"t5"
+        }, 
+        {     
+         "id_atributo": "atbp4",  
+         "cantidad": 5,   
+         "id_producto": "p4",
+         "id_color":"c7",
+         "id_tallas":"t2"
+        },  
+        {     
+         "id_atributo": "atbp4",  
+         "cantidad": 5,   
+         "id_producto": "p4",
+         "id_color":"c7",
+         "id_tallas":"t3"
+        },
+        {     
+         "id_atributo": "atbp5",  
+         "cantidad": 5,   
+         "id_producto": "p5",
+         "id_color":"c10",
+         "id_tallas":"t3"
+        }, 
+        {     
+         "id_atributo": "atbp5",  
+         "cantidad": 5,   
+         "id_producto": "p5",
+         "id_color":"c10",
+         "id_tallas":"t4"
+        }, 
+        {     
+         "id_atributo": "atbp5",  
+         "cantidad": 5,   
+         "id_producto": "p5",
+         "id_color":"c10",
+         "id_tallas":"t5"
+        }, 
+        {     
+         "id_atributo": "atbp5",   
+         "cantidad": 5,  
+         "id_producto": "p5",
+         "id_color":"c9",
+         "id_tallas":"t2"
+        },
+        {     
+         "id_atributo": "atbp5",   
+         "cantidad": 5,  
+         "id_producto": "p5",
+         "id_color":"c9",
+         "id_tallas":"t3"
+        },
+        {     
+         "id_atributo": "atbp6",  
+         "cantidad": 5,   
+         "id_producto": "p6",
+         "id_color":"c10",
+         "id_tallas":"t3"
+        }, 
+        {     
+         "id_atributo": "atbp6",  
+         "cantidad": 5,   
+         "id_producto": "p6",
+         "id_color":"c10",
+         "id_tallas":"t4"
+        }, 
+        {     
+         "id_atributo": "atbp6",  
+         "cantidad": 5,   
+         "id_producto": "p6",
+         "id_color":"c10",
+         "id_tallas":"t5"
+        }, 
+        {     
+         "id_atributo": "atbp6",   
+         "cantidad": 5,  
+         "id_producto": "p6",
+         "id_color":"c9",
+         "id_tallas":"t2"
+        },   
+        {     
+         "id_atributo": "atbp6",   
+         "cantidad": 5,  
+         "id_producto": "p6",
+         "id_color":"c9",
+         "id_tallas":"t3"
+        }, 
+        {     
+         "id_atributo": "atbp7",   
+         "cantidad": 5,  
+         "id_producto": "p7",
+         "id_color":"c8",
+         "id_tallas":"t3"
+        }, 
+        {     
+         "id_atributo": "atbp7",   
+         "cantidad": 5,  
+         "id_producto": "p7",
+         "id_color":"c8",
+         "id_tallas":"t4"
+        }, 
+        {     
+         "id_atributo": "atbp7",   
+         "cantidad": 5,  
+         "id_producto": "p7",
+         "id_color":"c8",
+         "id_tallas":"t5"
+        }, 
+        {     
+         "id_atributo": "atbp7",     
+         "cantidad": 5,
+         "id_producto": "p7",
+         "id_color":"c5",
+         "id_tallas":"t2"
+        },    
+        {     
+         "id_atributo": "atbp7",     
+         "cantidad": 5,
+         "id_producto": "p7",
+         "id_color":"c5",
+         "id_tallas":"t3"
+        }, 
+        {     
+         "id_atributo": "atbp7",  
+         "cantidad": 5,   
+         "id_producto": "p7",
+         "id_color":"c9",
+         "id_tallas":"t2"
+        },      
+        {     
+         "id_atributo": "atbp7",  
+         "cantidad": 5,   
+         "id_producto": "p7",
+         "id_color":"c9",
+         "id_tallas":"t3"
+        },
+        {     
+         "id_atributo": "atbp8",   
+         "cantidad": 5,  
+         "id_producto": "p8",
+         "id_color":"c9",
+         "id_tallas":"t3"
+        }, 
+        {     
+         "id_atributo": "atbp8",   
+         "cantidad": 5,  
+         "id_producto": "p8",
+         "id_color":"c9",
+         "id_tallas":"t4"
+        }, 
+        {     
+         "id_atributo": "atbp8",   
+         "cantidad": 5,  
+         "id_producto": "p8",
+         "id_color":"c9",
+         "id_tallas":"t5"
+        },
+        {     
+         "id_atributo": "atbp8",   
+         "cantidad": 5,  
+         "id_producto": "p8",
+         "id_color":"c7",
+         "id_tallas":"t3"
+        }, 
+        {     
+         "id_atributo": "atbp8",   
+         "cantidad": 5,  
+         "id_producto": "p8",
+         "id_color":"c7",
+         "id_tallas":"t4"
+        }, 
+        {     
+         "id_atributo": "atbp8",   
+         "cantidad": 5,  
+         "id_producto": "p8",
+         "id_color":"c7",
+         "id_tallas":"t5"
+        },
+        {     
+         "id_atributo": "atbp8",   
+         "cantidad": 5,  
+         "id_producto": "p8",
+         "id_color":"c5",
+         "id_tallas":"t3"
+        }, 
+        {     
+         "id_atributo": "atbp8",   
+         "cantidad": 5,  
+         "id_producto": "p8",
+         "id_color":"c5",
+         "id_tallas":"t4"
+        }, 
+        {     
+         "id_atributo": "atbp8",   
+         "cantidad": 5,  
+         "id_producto": "p8",
+         "id_color":"c5",
+         "id_tallas":"t5"
+        }      
+    ],
+    "colores":[
+        {"id_color":"c1","nombre_color":"blanco"},
+        {"id_color":"c2","nombre_color":"lila"},    
+        {"id_color":"c3","nombre_color":"turquesa"},    
+        {"id_color":"c4","nombre_color":"naranja"},    
+        {"id_color":"c5","nombre_color":"negro"},    
+        {"id_color":"c6","nombre_color":"celeste"},    
+        {"id_color":"c7","nombre_color":"azul"},    
+        {"id_color":"c8","nombre_color":"caqui"},    
+        {"id_color":"c9","nombre_color":"verde"},    
+        {"id_color":"c10","nombre_color":"rojo"}    
+    ],
+    "tallas":[
+        {"id_talla":"t1","nombre_talla":"XS"},
+        {"id_talla":"t2","nombre_talla":"S"},
+        {"id_talla":"t3","nombre_talla":"M"},
+        {"id_talla":"t4","nombre_talla":"L"},
+        {"id_talla":"t5","nombre_talla":"XL"}    
+    ]
+}
+    
