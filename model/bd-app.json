@@ -150,7 +150,7 @@
         {     
         "id_producto": "p9",
         "nombre_producto": "Libro Elizabeth Clavo",   
-        "imagen_principal": "portada_cuento.jpg",      
+        "imagen_principal": "ebook_eclavo.jpg",      
         "precio_catalogo": 55,
         "precio_oferta": 45, 
         "cantidad": 10,  
@@ -203,7 +203,9 @@
         {"id_producto":"p7","id_atributo":"atbp7","id_color":"c9","nombre_img":"pantalon1_verde_detras.jpg"},
         {"id_producto":"p8","id_atributo":"atbp8","id_color":"c9","nombre_img":"p2_verde_adelante.jpg"},
         {"id_producto":"p8","id_atributo":"atbp8","id_color":"c7","nombre_img":"p2_azul_adelante.jpg"},
-        {"id_producto":"p8","id_atributo":"atbp8","id_color":"c5","nombre_img":"p2_negro_adelante.jpg"}
+        {"id_producto":"p8","id_atributo":"atbp8","id_color":"c5","nombre_img":"p2_negro_adelante.jpg"},
+        {"id_producto":"p9","id_atributo":"atbp9","id_color":"no","nombre_img":"ebook_eclavo.jpg"},
+        {"id_producto":"p10","id_atributo":"atbp10","id_color":"no","nombre_img":"portada_cuento.jpg"}
         
     ],
     "atributo_producto":[
@@ -540,7 +542,7 @@
          "id_atributo": "atbp9",   
          "cantidad": 5,  
          "id_producto": "p9",
-         "id_color":"",
+         "id_color":"no",
          "id_tallas":"",
          "id_portada":"porta9"
         },
@@ -548,7 +550,7 @@
          "id_atributo": "atbp10",   
          "cantidad": 5,  
          "id_producto": "p10",
-         "id_color":"",
+         "id_color":"no",
          "id_tallas":"",
          "id_portada":"porta10"
         }            

@@ -82,7 +82,7 @@ function crearCatalogo(filtrarProductosCategoria){
   return arrayatbprod;
 }
 
-function mostrarCatalogoProductosCategoria(){   
+function mostrarCatalogoProductosCategoria(){     
   console.log("MOSTRAR CATALOGO DE PRODUCTOS POR CATEGORIA---"); 
   const tipo_categoria = retornarTipoCategoria();
   const datos = generarCategoriasHTML("ms",tipo_categoria);
