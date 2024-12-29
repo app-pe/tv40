@@ -19,6 +19,16 @@
             "imagen_logo": "/img/tiendas/bp/logo_bp.jpg",
             "imagen_banner": "/img/tiendas/bp/banner_bp.jpg",
             "url_imagen_tienda":"img/tiendas/bp/"
+        },
+        {
+            "id_tienda": "shop3",
+            "nombre_tienda": "Club de Lectura",
+            "descripcion_tienda": "Para los amantes de la lectura",
+            "ruc": 1234777900,
+            "razon_social": "Club de Lectura",
+            "imagen_logo": "/img/tiendas/bp/logo_bp.jpg",
+            "imagen_banner": "/img/tiendas/bp/banner_bp.jpg",
+            "url_imagen_tienda":"img/tiendas/bp/"
         }
     ],
     "categoria":[          
@@ -139,15 +149,26 @@
         },
         {     
         "id_producto": "p9",
-        "nombre_producto": "ebook_eclavo",   
-        "imagen_principal": "ebook_eclavo.jpg",      
-        "precio_catalogo": 220,
-        "precio_oferta": 120, 
+        "nombre_producto": "Libro Elizabeth Clavo",   
+        "imagen_principal": "portada_cuento.jpg",      
+        "precio_catalogo": 55,
+        "precio_oferta": 45, 
+        "cantidad": 10,  
+        "descripcion":"<p class='mb-1'>Este cuento es ideal para enseñar a los niños sobre Educación Financiera.</p><p class='mb-1'>Los cuentos son excelentes para disfrutar la mejor experiencia y confort de la lectura.</p>",  
+        "id_categoria": "cat8",     
+        "id_tienda": "shop3"             
+        },
+        {     
+        "id_producto": "p10",
+        "nombre_producto": "Cuento para niños sobre Educación Financiera",   
+        "imagen_principal": "portada_cuento.jpg",      
+        "precio_catalogo": 50,
+        "precio_oferta": 35, 
         "cantidad": 15,  
-        "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
-        "id_categoria": "cat7",     
-        "id_tienda": "shop1"             
-        }        
+        "descripcion":"<p class='mb-1'>Este cuento es ideal para enseñar a los niños sobre Educación Financiera.</p><p class='mb-1'>Los cuentos son excelentes para disfrutar la mejor experiencia y confort de la lectura.</p>",  
+        "id_categoria": "cat9",     
+        "id_tienda": "shop3"             
+        }                
     ],
     "imagenes":[
         {"id_producto":"p1","id_atributo":"atbp1","id_color":"c1","nombre_img":"polo1_blanco_adelante.jpg"},
@@ -514,7 +535,23 @@
          "id_producto": "p8",
          "id_color":"c5",
          "id_tallas":"t5"
-        }      
+        },      
+        {     
+         "id_atributo": "atbp9",   
+         "cantidad": 5,  
+         "id_producto": "p9",
+         "id_color":"",
+         "id_tallas":"",
+         "id_portada":"porta9"
+        },
+        {     
+         "id_atributo": "atbp10",   
+         "cantidad": 5,  
+         "id_producto": "p10",
+         "id_color":"",
+         "id_tallas":"",
+         "id_portada":"porta10"
+        }            
     ],
     "colores":[
         {"id_color":"c1","nombre_color":"blanco"},

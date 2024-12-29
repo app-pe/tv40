@@ -86,4 +86,4 @@ function generarMenuCategoriaLPIndex(id_tipocat) {
     enlazar_paginas();  // Llamar a la función enlazar_paginas si es necesario
 }
 
-export {generarNavbarMenuCategorias,generarMenuCategoriaLP,generarMenuCategoriaCarouselLP,generarMenuCategoriaLPIndex}
+export {generarNavbarMenuCategorias,generarMenuCategoriaLP,generarMenuCategoriaCarouselLP,generarMenuCategoriaLPIndex,generarCategoriasHTML}

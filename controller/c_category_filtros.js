@@ -1,7 +1,8 @@
 import {data} from '../model/ms_datos.js';
 import { retornarId,enlazar_paginas } from '../model/ms_enlaces.js';
-import { retornarProductosCategoria,retornarUrlCategorias } from '../model/ms_filtros.js';
+import { retornarProductosCategoria,retornarUrlCategorias,retornarTipoCategoria } from '../model/ms_filtros.js';
 import { generarCatalogoProductos,juntar } from '../microservice/ms_catalogo.js';
+import { generarCategoriasHTML } from '../controller/c_categories.js';
 var categoriasp = data.categoria;
 var productos = data.producto; 
 var atributos = data.atributo_producto; 
@@ -9,6 +10,8 @@ var imagenesatb = data.imagenes;
 var colores = data.colores;
 var tallas = data.tallas;
 var filtrarProductosCategoria = retornarProductosCategoria();
+
+
 
 function crearCatalogo(filtrarProductosCategoria){
   var arrayatb = [];
@@ -80,13 +83,26 @@ function crearCatalogo(filtrarProductosCategoria){
 }
 
 function mostrarCatalogoProductosCategoria(){   
-  console.log("MOSTRAR CATALOGO DE PRODUCTOS POR CATEGORIA---");   
+  console.log("MOSTRAR CATALOGO DE PRODUCTOS POR CATEGORIA---"); 
+  const tipo_categoria = retornarTipoCategoria();
+  const datos = generarCategoriasHTML("ms",tipo_categoria);
+
+
+
+
+
+    console.log("datos-->");
+    console.log(datos);  
     console.log("filtrarProductosCategoria-->");
     console.log(filtrarProductosCategoria); 
     //crear catalogo
     var arrayatbprod = crearCatalogo(filtrarProductosCategoria);
     //generar catalogo
     var catalogox = generarCatalogoProductos(arrayatbprod);  
+    //si catalogox ''
+    if(catalogox === ''){
+      catalogox = datos.divCategorias;
+    }
     return catalogox;
 }
 

@@ -30,6 +30,14 @@ function retornarUrlCategorias(){
     filtrarCategoria = Object(filtrarCategoria);
     return filtrarCategoria.url_imagen_categoria;
 }
+function retornarTipoCategoria(){  
+    var id_categoria = id_url;
+    var filtrarCategoria = categorias.find(function(cat){                     
+        return cat.id_categoria === id_categoria        
+    });    
+    filtrarCategoria = Object(filtrarCategoria);
+    return filtrarCategoria.tipo_categoria;
+}
 
 
 //filtros detail producto
@@ -174,4 +182,4 @@ function retornarTallasporColor(){
 
 
 
-export{retornarProductosCategoria,retornarUrlCategorias,retornarObjProducto,retornarObjTienda,retornarUrlCategoria,retornarNombreTienda,retornarProductosTienda,retornarObjAtributoProducto,retornarColoresSinRepetir,retornarTallasporColor,retornarIdproducto_Atb,retornarUrlCategoriasTienda}
+export{retornarProductosCategoria,retornarUrlCategorias,retornarTipoCategoria,retornarObjProducto,retornarObjTienda,retornarUrlCategoria,retornarNombreTienda,retornarProductosTienda,retornarObjAtributoProducto,retornarColoresSinRepetir,retornarTallasporColor,retornarIdproducto_Atb,retornarUrlCategoriasTienda}

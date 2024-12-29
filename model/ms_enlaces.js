@@ -21,7 +21,8 @@ function enlazar_paginas(){
     var pasarCategoriaGaleria = document.getElementsByClassName('pasarCategoriaGaleria');
     for(var i=0;i<pasarCategoriaGaleria.length;i++){
         pasarCategoriaGaleria[i].onclick=function(e){
-            e.preventDefault();               
+            e.preventDefault();        
+            //var nombrePaginaActual = validarUrl();
             // Convertir la cadena JSON a un objeto JavaScript
             const obj = JSON.parse(this.id); 
             if(obj.catMenu==='ms'){
@@ -32,7 +33,7 @@ function enlazar_paginas(){
         }
     }
 
-    //es el unico metodo que usamos para pasarCategoriaGaleria
+    //es el unico metodo que usamos para pasarCategoriaMenuNav
     var pasarCategoriaMenuNav = document.getElementsByClassName('pasarCategoriaMenuNav');
     for(var i=0;i<pasarCategoriaMenuNav.length;i++){
         pasarCategoriaMenuNav[i].onclick=function(e){

@@ -2,6 +2,7 @@
 import { mostrarCatalogoProductosCategoria,mostrarfiltroPreciosCategoria,mostrarFiltroCategoria,mostrarFiltroColoresCategoria,mostrarFiltroTallasCategoria } from '../controller/c_category_filtros.js';
 import { enlazar_paginas } from '../model/ms_enlaces.js';
 //import {  } from '../controller/c_shop_filtros.js';
+// Selecciona el primer enlace con las clases especificadas
 
 let category =
 `
@@ -156,6 +157,7 @@ function generarProductosDeCategoria(bodyy){
     bodyy.insertBefore(divCategories,bodyy.children[3]); 
     
     enlazar_paginas();
+    var elemento = document.querySelector('.dropdown-item.pasarCategoriaMenuNav');
 }
 
 export {generarProductosDeCategoria}
