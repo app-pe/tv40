@@ -3,7 +3,7 @@ import { enlazar_paginas } from '../model/ms_enlaces.js';
 let categories =
 `
 <div class="text-center mb-4">
-    <h2 class="section-title px-5"><span class="px-2">Categorías</span></h2>
+    <h2 class="section-title px-5"><span class="px-2" id="titulo_categoria">Categorías</span></h2>
 </div>
 <div class="row px-xl-5 pb-3" id="show_categorias">`
 +generarMenuCategoriaLP()+

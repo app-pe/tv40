@@ -16,56 +16,69 @@ let category =
       <!--<input id="show_filtros" class="btn btn-primary" type="button" value="Aplicar filtros">-->            
       </div>
 
-      <div class="accordion accordion-flush" id="accordionFlushExample"> 
+      <div class="accordion" id="accordionExample"> 
         <!-- Filter Price Start -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo2" aria-expanded="false" aria-controls="flush-collapseTwo">
-                Precio
-              </button>
-            </h2>
-            <div id="flush-collapseTwo2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsePrecio" aria-expanded="true" aria-controls="collapsePrecio">
+                  Precio                  
+                  <i class="fa fa-chevron-down arrow"></i>
+                </button>
+              </h2>
+            </div> 
+            <div id="collapsePrecio" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
               <div><label for="customRange2" class="form-label">Elegir precio</label></div>
-              `+mostrarfiltroPreciosCategoria()+`                      
+              `+mostrarfiltroPreciosCategoria()+`     
+              </div>                 
             </div>
-          </div>
+       
         <!-- filter Price End -->    
-        <!-- Filter Catgory Start -->       
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Categorías
-              </button>
-            </h2>
-            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">`+                                
-            mostrarFiltroCategoria()+
-            `</div>
-          </div>  
-          <!-- Filter Catgory End -->  
-          <!-- Filter Colors Start -->       
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#filtro-colors" aria-expanded="false" aria-controls="">
-              Colores
-              </button>
-            </h2>
-            <div id="filtro-colors" class="accordion-collapse collapse" aria-labelledby="filtro-colors" data-bs-parent="#accordionFlushExample">`+                                
-            mostrarFiltroColoresCategoria()+
-            `</div>
-          </div>  
-          <!-- Filter Color End -->         
-          <!-- Filter Tallas Start -->       
-          <div class="accordion-item">
-            <h2 class="accordion-header">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#filtro-tallas" aria-expanded="false" aria-controls="">
-              Tallas
-              </button>
-            </h2>
-            <div id="filtro-tallas" class="accordion-collapse collapse" aria-labelledby="filtro-colors" data-bs-parent="#accordionFlushExample">`+                                
-            mostrarFiltroTallasCategoria()+
-            `</div>
-          </div>  
-          <!-- Filter Tallas End -->          
+        <!-- Filter Catgory Start -->
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseCategoria" aria-expanded="true" aria-controls="collapseCategoria">
+                  Categorías                  
+                  <i class="fa fa-chevron-down arrow"></i>
+                </button>
+              </h2>
+            </div> 
+            <div id="collapseCategoria" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">              
+              `+mostrarFiltroCategoria()+`     
+              </div>                 
+            </div>       
+        <!-- Filter Catgory End -->  
+        <!-- Filter Colors Start --> 
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseColores" aria-expanded="true" aria-controls="collapseColores">
+                  Colores                 
+                  <i class="fa fa-chevron-down arrow"></i>
+                </button>
+              </h2>
+            </div> 
+            <div id="collapseColores" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">              
+              `+mostrarFiltroColoresCategoria()+`     
+              </div>                 
+            </div>
+        <!-- Filter Color End -->         
+        <!-- Filter Tallas Start -->  
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTallas" aria-expanded="true" aria-controls="collapseTallas">
+                  Tallas                 
+                  <i class="fa fa-chevron-down arrow"></i>
+                </button>
+              </h2>
+            </div> 
+            <div id="collapseTallas" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">              
+              `+mostrarFiltroTallasCategoria()+`     
+              </div>                 
+            </div>
+        <!-- Filter Tallas End -->          
       </div>
 
       

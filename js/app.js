@@ -24,7 +24,7 @@ var nombrePaginaActual = validarUrl();
 if(nombrePaginaActual === "index.html"){   
     generarTopbar(bodyy);//0 
     generarNavbarCarousel(bodyy);//1
-    generarDivFeatured(bodyy);//2
+    //generarDivFeatured(bodyy);//2
     generarDivCategories(bodyy);//3
     generarDivOffers(bodyy);//4
     generarDivProductsModa(bodyy);//5
@@ -68,6 +68,12 @@ if(nombrePaginaActual === "checkout.html"){
 
 (function ($) {
     "use strict";
+    // Sube y Baja la flecha del boton filtro collapse
+    $('#accordionExample .collapse').on('shown.bs.collapse', function () {
+        $(this).prev('.card-header').find('.arrow').removeClass('fa-chevron-down').addClass('fa-chevron-up');
+      }).on('hidden.bs.collapse', function () {
+        $(this).prev('.card-header').find('.arrow').removeClass('fa-chevron-up').addClass('fa-chevron-down');
+      });
     
     // Dropdown on mouse hover
     $(document).ready(function () {

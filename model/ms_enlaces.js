@@ -17,37 +17,34 @@ function enlazar_paginas(){
                 window.open("shop.html?id="+this.id, "_self");                
             }
         }        
-
+    //es el unico metodo que usamos para pasarCategoriaGaleria
     var pasarCategoriaGaleria = document.getElementsByClassName('pasarCategoriaGaleria');
     for(var i=0;i<pasarCategoriaGaleria.length;i++){
         pasarCategoriaGaleria[i].onclick=function(e){
-            e.preventDefault();
-            //validamos categorias en index
-            var nombrePaginaActual = validarUrl();            
-            
-            generarMenuCategoriaLPIndex(this.alt);            
-            /*
-            if(nombrePaginaActual === "category.html"){
-                window.open("category.html?id="+this.id, "_self");
-            }     */                   
-                        
+            e.preventDefault();               
+            // Convertir la cadena JSON a un objeto JavaScript
+            const obj = JSON.parse(this.id); 
+            if(obj.catMenu==='ms'){
+                window.open("category.html?id="+obj.id_categoria, "_self");
+            }else{
+                generarMenuCategoriaLPIndex(obj.catTipo);
+            }         
         }
     }
 
-    var pasarCategoriaGaleria2 = document.getElementsByClassName('pasarCategoriaGaleria2');
-    for(var i=0;i<pasarCategoriaGaleria2.length;i++){
-        pasarCategoriaGaleria2[i].onclick=function(e){
-            e.preventDefault();           
-            window.open("category.html?id="+this.id, "_self");                    
+    //es el unico metodo que usamos para pasarCategoriaGaleria
+    var pasarCategoriaMenuNav = document.getElementsByClassName('pasarCategoriaMenuNav');
+    for(var i=0;i<pasarCategoriaMenuNav.length;i++){
+        pasarCategoriaMenuNav[i].onclick=function(e){
+            e.preventDefault();               
+            // Convertir la cadena JSON a un objeto JavaScript
+            const obj = JSON.parse(this.id); 
+            if(obj.catMenu==='mp'){
+                window.open("category.html?id="+obj.id_categoria, "_self");
+            }     
         }
     }
-    var pasarCategoriaGaleria3 = document.getElementsByClassName('pasarCategoriaGaleria3');
-    for(var i=0;i<pasarCategoriaGaleria3.length;i++){
-        pasarCategoriaGaleria3[i].onclick=function(e){
-            e.preventDefault();           
-            generarMenuCategoriaLPIndex(this.id);
-        }
-    }
+    
     //elegir categoria en category   
     var pasaridCategoria = document.getElementsByClassName('pasaridCategoria');
     for(var i=0;i<pasaridCategoria.length;i++){
