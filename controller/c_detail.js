@@ -1,6 +1,6 @@
 import { data } from '../model/ms_datos.js';
 import { retornarId,retornarIdColor,retornarIdAtributo,enlazar_paginas } from '../model/ms_enlaces.js';
-import { retornarObjProducto,retornarObjTienda,retornarUrlCategoria,retornarNombreTienda,retornarObjAtributoProducto,retornarColoresSinRepetir,retornarTallasporColor,retornarUrlCategorias,retornarIdproducto_Atb } from '../model/ms_filtros.js';
+import { retornarObjProducto,retornarObjTienda,retornarUrlCategoria,retornarNombreTienda,retornarObjAtributoProducto,retornarColoresSinRepetir,retornarTallasporColor,retornarUrlCategorias,retornarIdproducto_Atb,validarExisteColorUrlDetail } from '../model/ms_filtros.js';
 //data
 //var producto = data.producto;
 var productos = data.producto;
@@ -100,22 +100,21 @@ function mostrarNombreTienda(){
     `;
     return link_nombreTienda;
 }
-function mostrarAtbProducto(){ 
-    console.log("MOSTRAR DETAIL mostrarAtbProducto----");
-   
-    var id_url = retornarId(); 
-    console.log("id_url");
-    console.log(id_url);
-    
-    try {
-    var objAtributoProducto = retornarObjAtributoProducto();    
-    console.log("objAtributoProducto----");
-    console.log(objAtributoProducto);
-    var atb = (objAtributoProducto[0].id_atributo+objAtributoProducto[0].id_color+objAtributoProducto[0].id_tallas).toUpperCase();
-        
-    } catch (error) {
-        
-    }    
+function mostrarAtbProducto(){
+    var idcolor_enviado = validarExisteColorUrlDetail();
+    if(idcolor_enviado === 'no'){
+        try {
+            var objAtributoProducto = retornarObjAtributoProducto();
+            var atb = (objAtributoProducto[0].id_atributo).toUpperCase();                
+            } catch (error) {   
+            }   
+    }else{
+        try {
+            var objAtributoProducto = retornarObjAtributoProducto();
+            var atb = (objAtributoProducto[0].id_atributo+objAtributoProducto[0].id_color+objAtributoProducto[0].id_tallas).toUpperCase();                
+            } catch (error) {                
+            }   
+    }
     //<h5 id="codigo_atb" class="font-weight-semi-bold">ATB: ${atb}</h5>
     let atbProducto =
     `
@@ -154,11 +153,17 @@ function mostrarPriceOferta(){
 }
 function mostrarColores(){
     console.log("MOSTRAR COLORES-------");
-    let char_colores = "";       
+    let char_colores = ""; 
+    
+    var idcolor_enviado = validarExisteColorUrlDetail();
+    if(idcolor_enviado === 'no'){
+        char_colores = "";
+    }else{
     var atbColorElegido = [];      
     var filtrarColoresSinRepetir = retornarColoresSinRepetir();
     console.log("filtrarColoresSinRepetir---colores"); 
-    console.log(filtrarColoresSinRepetir); 
+    console.log(filtrarColoresSinRepetir);     
+    
     for (var j = 0; j < filtrarColoresSinRepetir.length; j++) {               
         //retorna id_color no repetido         
         var id_atributo = filtrarColoresSinRepetir[j].id_atributo; 
@@ -224,6 +229,8 @@ function mostrarColores(){
                         </div>
             `;   
         }
+    }
+   
     }
     return char_colores;
 }

@@ -110,6 +110,17 @@ function retornarObjAtributoProducto(){
     filtrarIdProducto = Object(filtrarIdProducto);
     return filtrarIdProducto;
 }
+function validarExisteColorUrlDetail(){
+    var valor = id_url;    
+    try {
+        var pos = valor.indexOf("?");
+        var id_atributo = valor.slice(0,pos);    
+        var id_color = valor.slice(pos+1);
+    } catch (error) {
+        
+    }   
+    return id_color;
+}
 function retornarIdproducto_Atb(){
     var valor = id_url;
     try {
@@ -182,4 +193,4 @@ function retornarTallasporColor(){
 
 
 
-export{retornarProductosCategoria,retornarUrlCategorias,retornarTipoCategoria,retornarObjProducto,retornarObjTienda,retornarUrlCategoria,retornarNombreTienda,retornarProductosTienda,retornarObjAtributoProducto,retornarColoresSinRepetir,retornarTallasporColor,retornarIdproducto_Atb,retornarUrlCategoriasTienda}
+export{retornarProductosCategoria,retornarUrlCategorias,retornarTipoCategoria,retornarObjProducto,retornarObjTienda,retornarUrlCategoria,retornarNombreTienda,retornarProductosTienda,retornarObjAtributoProducto,retornarColoresSinRepetir,retornarTallasporColor,retornarIdproducto_Atb,retornarUrlCategoriasTienda,validarExisteColorUrlDetail}

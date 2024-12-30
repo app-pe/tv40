@@ -34,8 +34,7 @@ function verCarrito(){
     `
     <tr name="vitem">
         <td class="align-middle small" id="${idp}"><img src="${url_imagen}" alt="" style="width: 40px;">${nombre_producto}</td>
-        <td class="align-middle vcolor" id="vcolor${conta}" name="vcolor" value="${color}">${color}</td>
-        <td class="align-middle vtalla" id="vtalla${conta}" name="vtalla" value="${talla}">${talla}</td>
+        
         <td class="align-middle" id="vprecio${conta}">S/${precio_oferta}</td>
         <td class="align-middle">
             <div class="input-group quantity mx-auto" style="width: 100px;">

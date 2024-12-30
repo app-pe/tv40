@@ -9,9 +9,7 @@ let cart =
                 <table class="table table-bordered text-center mb-0">
                     <thead class="bg-secondary text-dark">
                         <tr>
-                            <th>Producto</th>
-                            <th>Color</th>
-                            <th>Talla</th>
+                            <th>Producto</th>                            
                             <th>Precio</th>
                             <th>Cantidad</th>
                             <th>Subtotal</th>

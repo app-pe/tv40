@@ -32,17 +32,19 @@ let detail =
             </div>-->`+
             mostrarPriceOferta()+
             //<p class="mb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc invidunt ipsum et, labore clita lorem magna lorem ut.</p>
-            `<div class="d-flex mb-3">
-                <p class="text-dark font-weight-medium mb-0 mr-3">Tallas:</p>
-                <form id="show_tallas">`+
-                mostrarTallas()+
-                `</form>
-            </div>
-            <div class="d-flex mb-4">
-                <p class="text-dark font-weight-medium mb-0 mr-3">Colores:</p>
-                <form>`+
-                mostrarColores()+
-                `</form>
+            `<div id="divrbFtallaycolor">
+                <div class="d-flex mb-3">
+                    <p class="text-dark font-weight-medium mb-0 mr-3">Tallas:</p>
+                    <form id="show_tallas">`+
+                    mostrarTallas()+
+                    `</form>
+                </div>
+                <div class="d-flex mb-4">
+                    <p class="text-dark font-weight-medium mb-0 mr-3">Colores:</p>
+                    <form>`+
+                    mostrarColores()+
+                    `</form>
+                </div>
             </div>
             <div class="d-flex align-items-center mb-4 pt-2">
                 <div class="input-group quantity mr-3" style="width: 130px;">
@@ -190,6 +192,13 @@ function generarDetalleProducto(bodyy){
     
     enlazar_paginas();
     sumar_restar_carrito();
+    //cuando no hay colores borramos esa seccion
+    var vacio = mostrarColores();
+    if(vacio === ''){       
+        document.getElementById('divrbFtallaycolor').innerHTML = '';
+    }
+    
+   
 }
 
 export {generarDetalleProducto}
