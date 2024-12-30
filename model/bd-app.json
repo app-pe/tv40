@@ -40,7 +40,9 @@
         {"id_categoria":"cat6","url_imagen_categoria":"img/categorias/pantalones/","nombre_categoria":"Pantalones","default_imagen_categoria": "img/categorias/cat-6.jpg","tipo_categoria":"hombre","estado_categoria":"activado","menu":"ms"},                   
         {"id_categoria":"cat7","url_imagen_categoria":"img/categorias/libros/","nombre_categoria":"Libros","default_imagen_categoria": "img/categorias/cat-7.jpg","tipo_categoria":"libro","estado_categoria":"activado","menu":"mp"},                  
         {"id_categoria":"cat8","url_imagen_categoria":"img/categorias/libros/crecimiento_personal/","nombre_categoria":"Crecimiento Personal","default_imagen_categoria": "img/categorias/libros/crecimiento_personal/ebook_eclavo.jpg","tipo_categoria":"libro","estado_categoria":"activado","menu":"ms"},                  
-        {"id_categoria":"cat9","url_imagen_categoria":"img/categorias/libros/educacion_financiera/","nombre_categoria":"Educación Financiera","default_imagen_categoria": "img/categorias/libros/educacion_financiera/portada_cuento.jpg","tipo_categoria":"libro","estado_categoria":"activado","menu":"ms"}                  
+        {"id_categoria":"cat9","url_imagen_categoria":"img/categorias/libros/educacion_financiera/","nombre_categoria":"Educación Financiera","default_imagen_categoria": "img/categorias/libros/educacion_financiera/portada_cuento.jpg","tipo_categoria":"libro","estado_categoria":"activado","menu":"ms"},                  
+        {"id_categoria":"cat10","url_imagen_categoria":"img/categorias/snacks/","nombre_categoria":"Snacks","default_imagen_categoria": "img/snacks/chifles.jpg","tipo_categoria":"snack","estado_categoria":"activado","menu":"mp"},                  
+        {"id_categoria":"cat11","url_imagen_categoria":"img/categorias/snacks/","nombre_categoria":"Snacks","default_imagen_categoria": "img/snacks/chifles/chifles.jpg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"}                  
     ], 
     "tienda_categoria":[
         {
