@@ -42,7 +42,7 @@
         {"id_categoria":"cat8","url_imagen_categoria":"img/categorias/libros/crecimiento_personal/","nombre_categoria":"Crecimiento Personal","default_imagen_categoria": "img/categorias/libros/crecimiento_personal/ebook_eclavo.jpg","tipo_categoria":"libro","estado_categoria":"activado","menu":"ms"},                  
         {"id_categoria":"cat9","url_imagen_categoria":"img/categorias/libros/educacion_financiera/","nombre_categoria":"Educación Financiera","default_imagen_categoria": "img/categorias/libros/educacion_financiera/portada_cuento.jpg","tipo_categoria":"libro","estado_categoria":"activado","menu":"ms"},                  
         {"id_categoria":"cat10","url_imagen_categoria":"img/categorias/snacks/","nombre_categoria":"Snacks","default_imagen_categoria": "img/categorias/cat-10.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"mp"},                  
-        {"id_categoria":"cat11","url_imagen_categoria":"img/categorias/snacks/chifles/","nombre_categoria":"Snacks","default_imagen_categoria": "img/categorias/snacks/chifles/chifles.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"}                  
+        {"id_categoria":"cat11","url_imagen_categoria":"img/categorias/snacks/chifles/","nombre_categoria":"Chifles","default_imagen_categoria": "img/categorias/snacks/chifles/chifles.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"}                  
     ], 
     "tienda_categoria":[
         {
@@ -567,7 +567,8 @@
         {"id_color":"c7","nombre_color":"azul"},    
         {"id_color":"c8","nombre_color":"caqui"},    
         {"id_color":"c9","nombre_color":"verde"},    
-        {"id_color":"c10","nombre_color":"rojo"}    
+        {"id_color":"c10","nombre_color":"rojo"},    
+        {"id_color":"no","nombre_color":"no"}    
     ],
     "tallas":[
         {"id_talla":"t1","nombre_talla":"XS"},
