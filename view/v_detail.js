@@ -77,8 +77,7 @@ let detail =
             <div class="tab-content">
                 <div class="tab-pane fade show active" id="tab-pane-1">
                     <h4 class="mb-3">Producto de Alta Calidad</h4>
-                    `+mostrarDescripcionProducto()+`                 
-                    
+                    `+mostrarDescripcionProducto()+`
                 </div>
                 <div class="tab-pane fade" id="tab-pane-2">
                     `+mostrarBeneficioProducto()+`                    

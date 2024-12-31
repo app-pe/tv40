@@ -26,8 +26,8 @@ if(nombrePaginaActual === "index.html"){
     generarNavbarCarousel(bodyy);//1
     //generarDivFeatured(bodyy);//2
     generarDivCategories(bodyy);//3
-    generarDivOffers(bodyy);//4
-    generarDivProductsModa(bodyy);//5
+    //generarDivOffers(bodyy);//4
+    //generarDivProductsModa(bodyy);//5
     generarDivVendors(bodyy);//6
     generarDivFooter(bodyy);//7   
 }
