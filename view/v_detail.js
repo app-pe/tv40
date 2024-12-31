@@ -1,10 +1,10 @@
-import { mostrarGaleriaImagenes,mostrarAtbProducto,mostrarNombreProducto,mostrarDescripcionProducto,mostrarPriceOferta,mostrarColores,mostrarTallas,mostrarNombreTienda,sumar_restar_carrito } from '../controller/c_detail.js';
+import { mostrarGaleriaImagenes,mostrarAtbProducto,mostrarNombreProducto,mostrarDescripcionProducto,mostrarBeneficioProducto,mostrarPriceOferta,mostrarColores,mostrarTallas,mostrarNombreTienda,sumar_restar_carrito } from '../controller/c_detail.js';
 import { enlazar_paginas } from '../model/ms_enlaces.js';
 
 let detail =
 `
     <div class="row px-xl-5">
-        <div class="col-lg-5 pb-5">
+        <div class="col-lg-5 pb-2">
             <div id="product-carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner border" id="show_img_galeria">`+
                 mostrarGaleriaImagenes()+
@@ -30,8 +30,7 @@ let detail =
                 </div>
                 <small class="pt-1">(50 Reviews)</small>
             </div>-->`+
-            mostrarPriceOferta()+
-            //<p class="mb-4">Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc invidunt ipsum et, labore clita lorem magna lorem ut.</p>
+            mostrarPriceOferta()+            
             `<div id="divrbFtallaycolor">
                 <div class="d-flex mb-3">
                     <p class="text-dark font-weight-medium mb-0 mr-3">Tallas:</p>
@@ -50,13 +49,13 @@ let detail =
                 <div class="input-group quantity mr-3" style="width: 130px;">
                     <div class="input-group-btn">
                         <button class="btn btn-primary btn-minus" >
-                        <i class="fa fa-minus"></i>
+                        <i class="fa fa-minus letra_btn_cant"></i>
                         </button>
                     </div>                    
                     <input type="text" class="form-control bg-secondary text-center" id="cantidad" value="1" min="1" max="10" readonly="readonly">                    
                     <div class="input-group-btn">
                         <button class="btn btn-primary btn-plus">
-                            <i class="fa fa-plus"></i>
+                            <i class="fa fa-plus letra_btn_cant"></i>
                         </button>
                     </div>
                 </div>
@@ -77,31 +76,12 @@ let detail =
             </div>
             <div class="tab-content">
                 <div class="tab-pane fade show active" id="tab-pane-1">
-                    <h4 class="mb-3">Producto de Alta Calidad</h4>`+
-                    mostrarDescripcionProducto()+                    
-                    `
+                    <h4 class="mb-3">Producto de Alta Calidad</h4>
+                    `+mostrarDescripcionProducto()+`                 
+                    
                 </div>
                 <div class="tab-pane fade" id="tab-pane-2">
-                    <h4 class="mb-3">Beneficios</h4>
-                    <p>Los beneficios del producto te daran mucho confort, alegría y energía</p>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item px-0">
-                                    Suavidad y frescura para tu cuerpo
-                                </li>
-                                <li class="list-group-item px-0">
-                                    Fibras naturales de algodón
-                                </li>
-                                <li class="list-group-item px-0">
-                                    Colores de moda
-                                </li>
-                                <li class="list-group-item px-0">
-                                    Diseños personalizados
-                                </li>
-                              </ul> 
-                        </div>              
-                    </div>
+                    `+mostrarBeneficioProducto()+`                    
                 </div>
                 <div class="tab-pane fade" id="tab-pane-3">
                     <div class="row">
@@ -183,7 +163,7 @@ let detail =
 
 function generarDetalleProducto(bodyy){
     const divDetalleProducto = document.createElement('div');
-    divDetalleProducto.classList = 'container-fluid py-5';
+    divDetalleProducto.classList = 'container-fluid py-2';
     divDetalleProducto.id = 'show_detalleproducto';
     divDetalleProducto.innerHTML = detail;
     bodyy.appendChild(divDetalleProducto);

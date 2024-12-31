@@ -69,6 +69,7 @@
          "precio_oferta": 79,  
          "cantidad": 10,
          "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",   
+         "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",   
          "id_categoria": "cat4",     
          "id_tienda": "shop1"           
         },
@@ -80,6 +81,7 @@
          "precio_oferta": 69, 
          "cantidad": 10,  
          "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+         "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
          "id_categoria": "cat4",     
          "id_tienda": "shop1"             
         },
@@ -91,6 +93,7 @@
         "precio_oferta": 95, 
         "cantidad": 10,  
         "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
         "id_categoria": "cat5",     
         "id_tienda": "shop1"            
         },    
@@ -102,6 +105,7 @@
         "precio_oferta": 199, 
         "cantidad": 10,  
         "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
         "id_categoria": "cat5",     
         "id_tienda": "shop1"             
         },    
@@ -113,6 +117,7 @@
         "precio_oferta": 100, 
         "cantidad": 10,  
         "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
         "id_categoria": "cat5",     
         "id_tienda": "shop1"             
         },    
@@ -124,6 +129,7 @@
         "precio_oferta": 95, 
         "cantidad": 10,  
         "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
         "id_categoria": "cat5",     
         "id_tienda": "shop2"           
         },    
@@ -135,6 +141,7 @@
         "precio_oferta": 239, 
         "cantidad": 15,  
         "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
         "id_categoria": "cat6",     
         "id_tienda": "shop2"             
         },    
@@ -146,6 +153,7 @@
         "precio_oferta": 120, 
         "cantidad": 15,  
         "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
         "id_categoria": "cat6",     
         "id_tienda": "shop1"             
         },
@@ -157,6 +165,7 @@
         "precio_oferta": 45, 
         "cantidad": 10,  
         "descripcion":"<p class='mb-1'>Este libro es ideal para profundizar en temas de crecimiento personal.</p><p class='mb-1'>Este libro te enseñara las claves para disfrutar la mejor experiencia y confort de tu vida.</p>",  
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios de leer este libro son mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Claridad y frescura de tus pensamientos</li></ul></div> </div>",
         "id_categoria": "cat8",     
         "id_tienda": "shop3"             
         },
@@ -168,6 +177,7 @@
         "precio_oferta": 35, 
         "cantidad": 15,  
         "descripcion":"<p class='mb-1'>Este cuento es ideal para enseñar a los niños sobre Educación Financiera.</p><p class='mb-1'>Los cuentos son excelentes para disfrutar la mejor experiencia y confort de la lectura.</p>",  
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios de leer este libro son mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Gestionar mejor el tiempo y los recursos disponibles</li><li class='list-group-item px-0'>Desarrollar la mentalidad financiera</li></ul></div> </div>",
         "id_categoria": "cat9",     
         "id_tienda": "shop3"             
         },
@@ -179,6 +189,7 @@
         "precio_oferta": 50, 
         "cantidad": 15,  
         "descripcion":"<p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort de celebrar con la familia y amigos.</p>",  
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Productos naturales</li><li class='list-group-item px-0'>Se sirve rápido en tus reuniones</li> </ul></div> </div>",
         "id_categoria": "cat11",     
         "id_tienda": "shop3"             
         }                

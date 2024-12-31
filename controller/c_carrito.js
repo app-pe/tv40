@@ -35,25 +35,25 @@ function verCarrito(){
     <tr name="vitem">
         <td class="align-middle small" id="${idp}"><img src="${url_imagen}" alt="" style="width: 40px;">${nombre_producto}</td>
         
-        <td class="align-middle" id="vprecio${conta}">S/${precio_oferta}</td>
-        <td class="align-middle">
+        <td class="align-middle text-center" id="vprecio${conta}">S/${precio_oferta}</td>
+        <td class="align-middle text-center">
             <div class="input-group quantity mx-auto" style="width: 100px;">
                 <div class="input-group-btn">
                     <button class="btn btn-sm btn-primary menosCantidad">
-                    <i class="fa fa-minus" id="${idp+"|"+conta+"$"+precio}"></i>
+                    <i class="fa fa-minus letra_btn_cant" id="${idp+"|"+conta+"$"+precio}"></i>
                     </button>
                 </div>
                 <!--<input type="text" class="form-control form-control-sm bg-secondary text-center" value="1">-->
                 <input type="text" class="form-control form-control-sm bg-secondary text-center vcantidad" id="cantidad${conta}" name="vcantidad" value="${cantidad}" min="" max="" readonly="readonly">
                 <div class="input-group-btn">
                     <button class="btn btn-sm btn-primary masCantidad">
-                        <i class="fa fa-plus" id="${idp+"|"+conta+"$"+precio}"></i>
+                        <i class="fa fa-plus letra_btn_cant" id="${idp+"|"+conta+"$"+precio}"></i>
                     </button>
                 </div>
             </div>
         </td>
-        <td class="align-middle vsubtotal" id="subTotal${conta}" name="vsubtotal" value="${subtotal}">${subtotal}</td>        
-        <td class="align-middle"><button class="btn btn-sm btn-primary veliminarp"><i class="fa fa-times" id="${idp+"|"+conta}"></i></button></td>        
+        <td class="align-middle text-center vsubtotal" id="subTotal${conta}" name="vsubtotal" value="${subtotal}">${subtotal}</td>        
+        <td class="align-middle text-center"><button class="btn btn-sm btn-primary veliminarp"><i class="fa fa-times" id="${idp+"|"+conta}"></i></button></td>        
        
     </tr>
     `;

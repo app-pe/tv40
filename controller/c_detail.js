@@ -137,6 +137,11 @@ function mostrarDescripcionProducto(){
     
     return nombreProducto;
 }
+function mostrarBeneficioProducto(){    
+    let beneficioProducto = filtrarProducto.beneficio;
+    
+    return beneficioProducto;
+}
 function mostrarPriceOferta(){    
     let priceOferta =
     `
@@ -582,4 +587,4 @@ function sumar_restar_carrito(){
 
 
 
-export{mostrarGaleriaImagenes,mostrarAtbProducto,mostrarNombreProducto,mostrarDescripcionProducto,mostrarPriceOferta,mostrarColores,mostrarTallas,mostrarNombreTienda,mostrarCambioColoryTallas,mostrarCambioTallas,agregarCarrito,sumar_restar_carrito}
+export{mostrarGaleriaImagenes,mostrarAtbProducto,mostrarNombreProducto,mostrarDescripcionProducto,mostrarBeneficioProducto,mostrarPriceOferta,mostrarColores,mostrarTallas,mostrarNombreTienda,mostrarCambioColoryTallas,mostrarCambioTallas,agregarCarrito,sumar_restar_carrito}

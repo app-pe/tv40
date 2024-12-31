@@ -3033,7 +3033,7 @@ input[type="button"].btn-block {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 10rem;
+  min-width: 14rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
@@ -9662,3 +9662,70 @@ a.text-dark:hover, a.text-dark:focus {
 .text-products {
   font-size: small;
 }
+
+/*para centrar las imagenes en detail*/
+/* Asegúrate de que el carrusel ocupe el espacio completo de su contenedor */
+#product-carousel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centra el contenido de la imagen en el carrusel */
+#show_img_galeria {
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Centra la imagen dentro de su contenedor, asegurándose de que se ajuste correctamente */
+.carousel-item img {
+  object-fit: cover; /* Para que la imagen cubra el área sin distorsionarse */
+  max-height: 100%; /* Evita que la imagen se estire demasiado */
+}
+
+/* Asegúrate de que el contenedor del carrusel se adapte correctamente a pantallas pequeñas */
+@media (max-width: 767px) {
+  .col-lg-5 {
+      width: 100%;
+  }
+
+  .carousel-inner {
+      /*display: flex;*/
+      justify-content: center;
+      align-items: center;
+  }
+
+  .carousel-item img {
+      max-height: 300px; /* Limita el tamaño máximo de la imagen en pantallas pequeñas */
+      object-fit: contain; /* La imagen se ajusta sin recortarse */
+  }
+}
+/* Ajustes para pantallas de escritorio */
+@media (min-width: 768px) {
+  .col-lg-5 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-inner {
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-item img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 400px; /* Limita la altura máxima para que no ocupe toda la pantalla */
+    object-fit: contain; /* Asegura que la imagen se vea completamente sin recortarse */
+  }
+}
+
+.letra_btn_cant{
+  font-size: 20px;
+}
+
