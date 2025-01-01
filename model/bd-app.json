@@ -6,8 +6,8 @@
             "descripcion_tienda": "Tienda de ropa con propósito",
             "ruc": 1234777999,
             "razon_social": "Inpactum S.A",
-            "imagen_logo": "/img/tiendas/inpactum/logo_inpactum.jpg",
-            "imagen_banner": "/img/tiendas/inpactum/banner_inpactum.jpg",
+            "imagen_logo": "img/tiendas/inpactum/logo_inpactum.jpg",
+            "imagen_banner": "img/tiendas/inpactum/banner_inpactum.jpg",
             "url_imagen_tienda":"img/tiendas/inpactum/"
         },
         {
@@ -16,8 +16,8 @@
             "descripcion_tienda": "Tienda de ropa con propósito",
             "ruc": 1234777999,
             "razon_social": "Blueplhare S.A",
-            "imagen_logo": "/img/tiendas/bp/logo_bp.jpg",
-            "imagen_banner": "/img/tiendas/bp/banner_bp.jpg",
+            "imagen_logo": "img/tiendas/bp/logo_bp.jpg",
+            "imagen_banner": "img/tiendas/bp/banner_bp.jpg",
             "url_imagen_tienda":"img/tiendas/bp/"
         },
         {
@@ -26,9 +26,19 @@
             "descripcion_tienda": "Para los amantes de la lectura",
             "ruc": 1234777900,
             "razon_social": "Club de Lectura",
-            "imagen_logo": "/img/tiendas/bp/logo_bp.jpg",
-            "imagen_banner": "/img/tiendas/bp/banner_bp.jpg",
+            "imagen_logo": "img/tiendas/bp/logo_bp.jpg",
+            "imagen_banner": "img/tiendas/bp/banner_bp.jpg",
             "url_imagen_tienda":"img/tiendas/bp/"
+        },
+        {
+            "id_tienda": "shop4",
+            "nombre_tienda": "Chifles Chiflocos",
+            "descripcion_tienda": "Empresa dedicada a la preparación de Snacks, Chifles en todas sus presentaciones acompañados de Frutos secos.",
+            "ruc": 10008387309,
+            "razon_social": "Chifles Chiflocos",
+            "imagen_logo": "img/tiendas/chiflocos/logo_chiflocos.jpg",
+            "imagen_banner": "img/tiendas/chiflocos/banner_chiflocos.jpg",
+            "url_imagen_tienda":"img/tiendas/chiflocos/"
         }
     ],
     "categoria":[          
@@ -191,7 +201,7 @@
         "descripcion":"<p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort de celebrar con la familia y amigos.</p>",  
         "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Productos naturales</li><li class='list-group-item px-0'>Se sirve rápido en tus reuniones</li> </ul></div> </div>",
         "id_categoria": "cat11",     
-        "id_tienda": "shop3"             
+        "id_tienda": "shop4"             
         }                
     ],
     "imagenes":[
