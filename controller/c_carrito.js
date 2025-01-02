@@ -256,7 +256,8 @@ function mostrarTotalconenvio(totalx){
     var envio = 0;
     if(totalx < 200){
         if(totalx === 0){
-            alert("DEBE AGREGAR UN PRODUCTO");
+            //alert("DEBE AGREGAR UN PRODUCTO");
+            window.open("index.html", "_self");
         }else{
             //resum_envio = 20 soles
             document.getElementById("resum_envio").innerHTML = 20;
