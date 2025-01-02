@@ -296,8 +296,8 @@ function registrarPedido(){
     if(op_validarcarrito != undefined){
         window.open("checkout.html", "_self");        
     }
-    if(op_validarcarrito === undefined){
-        alert("NO SE PUEDE REGISTRAR, DEBE AGREGAR PRODUCTOS AL CARRITO");
+    if(op_validarcarrito === undefined){        
+        window.open("index.html", "_self");
     }
     
 

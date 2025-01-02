@@ -9626,12 +9626,20 @@ a.text-dark:hover, a.text-dark:focus {
 .marketplace-shop-info .shop-logo {
   float: left;
   margin-top: -55px;
-  width: 200px;
-  height: 200px;
+  width: 100%; /* Usa un valor relativo para que sea flexible */
+  max-width: 350px; /* Establece un tamaño máximo */
+  height: auto; /* Mantiene la proporción de la imagen */
   border: 10px solid #fff;
   border-radius: 10px;
   background: #fff;
-  line-height: 130px;
+  line-height: 0; /* Asegura que no haya una altura fija para la imagen */
+  display: flex;
+  justify-content: center;
+}
+.marketplace-shop-info .shop-logo img {
+  width: 100%; /* La imagen ocupará el 100% del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  border-radius: 10px;
 }
 
 .precio-oferta{
