@@ -42,7 +42,7 @@ function generarCategoriasHTML(menu, tipo_categoria = null) {
             <div class="carousel-item ${isActive}" style="height: 410px;">
                 <img class="img-fluid" src="${default_imagen_categoria}" alt="" id="${id_categoria}">
                 <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 700px;">
+                    <div class="p-3">
                         <h4 class="text-light text-uppercase font-weight-medium mb-3"></h4>
                         <h3 class="display-4 text-white font-weight-semi-bold mb-4">${nombre_categoria}</h3>
                         <a href="" class="btn btn-light py-2 px-3 pasarCategoriaGaleria" id='${json_obj}'>Comprar</a>
