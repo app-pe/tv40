@@ -5,7 +5,7 @@ let footer =
         <a href="" class="text-decoration-none">
             <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border border-white px-3 mr-1">TV40</span>Shop</h1>
         </a>
-        <p>Es una plataforma virtual con propósito de servicio al emprendedor afiliado, lo hacemos realidad creando y mostrando el catálogo de productos por un periodo gratuito de 40 días.</p>        
+        <p>Es una plataforma virtual con propósito de servicio al emprendedor, mostramos tu catálogo de productos por un periodo gratuito de 40 días.</p>        
         <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>tv40shop@gmail.com</p>
     </div>
     <div class="col-lg-8 col-md-12">
