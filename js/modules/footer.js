@@ -3,9 +3,9 @@ let footer =
 <div class="row px-xl-5 pt-5">
     <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
         <a href="" class="text-decoration-none">
-            <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border border-white px-3 mr-1">TV</span>40</h1>
+            <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border border-white px-3 mr-1">TV40</span>Shop</h1>
         </a>
-        <p>TV40 es una tienda virtual con un propósito definido que es entregar productos de calidad a nuestros clientes.</p>        
+        <p>Somos una plataforma virtual con un propósito definido que es servir a los emprendedores afiliados para promover su catálogo de productos por un periodo gratuito de 40 días.</p>        
         <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>tv40shop@gmail.com</p>
     </div>
     <div class="col-lg-8 col-md-12">
