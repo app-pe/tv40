@@ -6,7 +6,7 @@ let footer =
             <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border border-white px-3 mr-1">TV</span>40</h1>
         </a>
         <p>TV40 es una tienda virtual con un propósito definido que es entregar productos de calidad a nuestros clientes.</p>        
-        <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>tv40.tiendavirtual@gmail.com</p>
+        <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>tv40shop@gmail.com</p>
     </div>
     <div class="col-lg-8 col-md-12">
         <div class="row">
