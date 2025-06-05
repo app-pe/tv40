@@ -4,9 +4,9 @@ let shop =
 
   <!-- Banner       -->`+
   mostrarBannertienda()+ 
-  `<div class="row container">
+  `
         <div class="col-lg-3 marketplace-shop-info">             
-            <div class="shop-logo mr-4">
+            <div class="shop-logo">
                 <a href="#">`+
                 mostrarLogotienda()+
                 `</a>
@@ -26,7 +26,7 @@ let shop =
                 <small class="pt-1">(50 Reviews)</small>
             </div>                
         </div>
-    </div>       
+       
 
 `;
 

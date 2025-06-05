@@ -9614,32 +9614,31 @@ a.text-dark:hover, a.text-dark:focus {
     height: 400px;   
 }
 
-/* estilo agregado para la pagina de las tiendas */
-.page-header {
-  height: 400px;
-  /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/header.jpg); */
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .marketplace-shop-info .shop-logo {
-  float: left;
-  margin-top: -55px;
-  width: 100%; /* Usa un valor relativo para que sea flexible */
-  max-width: 350px; /* Establece un tamaño máximo */
-  height: auto; /* Mantiene la proporción de la imagen */
+  float: none; /* elimina conflicto de alineación */
+  margin-top: -95px;
+  width: 80%;
+  max-width: 350px;
+  height: auto;
   border: 10px solid #fff;
   border-radius: 10px;
   background: #fff;
-  line-height: 0; /* Asegura que no haya una altura fija para la imagen */
-  display: flex;
-  justify-content: center;
+  line-height: 0;
+  margin-left: auto;
+  margin-right: auto; /* centrado horizontal */
 }
+
 .marketplace-shop-info .shop-logo img {
-  width: 100%; /* La imagen ocupará el 100% del contenedor */
-  height: auto; /* Mantiene la proporción de la imagen */
+  width: 100%;
+  height: auto;
   border-radius: 10px;
+}
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 991.98px) {
+  .marketplace-shop-info .shop-logo {
+    margin-top: -15px;
+    width: 50%;
+  }
 }
 
 .precio-oferta{

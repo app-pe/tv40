@@ -123,7 +123,9 @@ function mostrarBannertienda(){
     var imagen_banner = filtrarTienda2.imagen_banner;  
     let datosTienda =
     `
-    <img src="${imagen_banner}" class="img-fluid" width="100%" alt="">    
+    <div class="banner-container" style="width: 100%; height: auto; overflow: hidden;">
+        <img src="${imagen_banner}" class="img-fluid banner-img" alt="Banner">
+    </div>
     `;    
     return datosTienda;
 }
