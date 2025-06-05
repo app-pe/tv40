@@ -5,14 +5,15 @@ let shop =
   <!-- Banner       -->`+
   mostrarBannertienda()+ 
   `
-        <div class="col-lg-3 marketplace-shop-info">             
+  <div class="row align-items-center my-3">
+        <div class="col-12 col-md-4 col-lg-3 marketplace-shop-info text-center">             
             <div class="shop-logo">
                 <a href="#">`+
                 mostrarLogotienda()+
                 `</a>
             </div>
         </div>  
-        <div class="col-lg-8 mt-2">`+
+        <div class="col-12 col-md-8 col-lg-8 mt-2">`+
         mostrarDatostienda()+              
         `<div class="d-flex mb-3">
                 <p class="mr-2">Calificación</p>
@@ -27,7 +28,7 @@ let shop =
             </div>                
         </div>
        
-
+</div>
 `;
 
 function generarShop(bodyy){

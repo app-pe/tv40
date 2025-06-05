@@ -13,7 +13,8 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -21,24 +22,55 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->    
+    <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 <style>
     .banner-container {
-    width: 100%;
-    max-height: 300px; /* ajusta según tu diseño */
-    overflow: hidden;
-}
+        width: 100%;
+        max-height: 300px;
+        /* ajusta según tu diseño */
+        overflow: hidden;
+    }
 
-.banner-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
+    .banner-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
 
+    .marketplace-shop-info .shop-logo {
+        float: none;
+        /* elimina conflicto de alineación */
+        margin-top: -95px;
+        width: 80%;
+        max-width: 350px;
+        height: auto;
+        border: 10px solid #fff;
+        border-radius: 10px;
+        background: #fff;
+        line-height: 0;
+        margin-left: auto;
+        margin-right: auto;
+        /* centrado horizontal */
+    }
+
+    .marketplace-shop-info .shop-logo img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* Ajustes para pantallas pequeñas */
+    @media (max-width: 991.98px) {
+        .marketplace-shop-info .shop-logo {
+            margin-top: -30px;
+            width: 50%;
+        }
+    }
 </style>
+
 <body>
     <!-- Topbar Start -->
 
@@ -46,13 +78,13 @@
 
 
     <!-- Navbar Start -->
- 
+
     <!-- Navbar End -->
 
 
 
     <!-- Page Header Start -->
-   
+
 
 
     <!-- Page Header End -->
@@ -64,7 +96,7 @@
 
 
     <!-- Footer Start -->
-  
+
     <!-- Footer End -->
 
 
@@ -80,8 +112,8 @@
 
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>    
-    
+    <script src="mail/contact.js"></script>
+
     <!-- Template Javascript -->
     <script src="js/app.js" type="module"></script>
 </body>

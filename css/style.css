@@ -9614,32 +9614,8 @@ a.text-dark:hover, a.text-dark:focus {
     height: 400px;   
 }
 
-.marketplace-shop-info .shop-logo {
-  float: none; /* elimina conflicto de alineación */
-  margin-top: -95px;
-  width: 80%;
-  max-width: 350px;
-  height: auto;
-  border: 10px solid #fff;
-  border-radius: 10px;
-  background: #fff;
-  line-height: 0;
-  margin-left: auto;
-  margin-right: auto; /* centrado horizontal */
-}
 
-.marketplace-shop-info .shop-logo img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-/* Ajustes para pantallas pequeñas */
-@media (max-width: 991.98px) {
-  .marketplace-shop-info .shop-logo {
-    margin-top: -15px;
-    width: 50%;
-  }
-}
+
 
 .precio-oferta{
   /* list-style-type: none */
