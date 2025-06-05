@@ -253,7 +253,7 @@
         {"id_producto":"p9","id_atributo":"atbp9","id_color":"no","nombre_img":"ebook_eclavo.jpg"},
         {"id_producto":"p10","id_atributo":"atbp10","id_color":"no","nombre_img":"portada_cuento.jpg"},
         {"id_producto":"p11","id_atributo":"atbp11","id_color":"no","nombre_img":"chifles.jpeg"},
-        {"id_producto":"p12","id_atributo":"atbp12","id_color":"no","nombre_img":"cajacafe15unid.jpeg"}
+        {"id_producto":"p12","id_atributo":"atbp12","id_color":"no","nombre_img":"cajacafe15unid.jpg"}
         
     ],
     "atributo_producto":[
