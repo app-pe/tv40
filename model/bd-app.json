@@ -46,9 +46,9 @@
             "descripcion_tienda": "Empresa dedicada a la producción de café orgánico con aroma frutal.",
             "ruc": 10008387309,
             "razon_social": "Café Orgánico Don Sergio",
-            "imagen_logo": "img/tiendas/chiflocos/logo_cafedonsergio.jpg",
-            "imagen_banner": "img/tiendas/chiflocos/banner_chiflocos.jpg",
-            "url_imagen_tienda":"img/tiendas/chiflocos/"
+            "imagen_logo": "img/tiendas/cafedonsergio/logo_cafedonsergio.jpg",
+            "imagen_banner": "img/tiendas/cafedonsergio/banner_chiflocos.jpg",
+            "url_imagen_tienda":"img/tiendas/cafedonsergio/"
         }
     ],
     "categoria":[          
