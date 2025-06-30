@@ -33,10 +33,20 @@
         {
             "id_tienda": "shop4",
             "nombre_tienda": "Chifles Chiflocos",
-            "descripcion_tienda": "Empresa dedicada a la preparación de Snacks, Chifles en todas sus presentaciones acompañados de Frutos secos.",
+            "descripcion_tienda": "Empresa dedicada a la preparación de Snacks, Chifles en todas sus presentaciones.",
             "ruc": 10008387309,
             "razon_social": "Chifles Chiflocos",
             "imagen_logo": "img/tiendas/chiflocos/logo_chiflocos.jpg",
+            "imagen_banner": "img/tiendas/chiflocos/banner_chiflocos.jpg",
+            "url_imagen_tienda":"img/tiendas/chiflocos/"
+        },
+        {
+            "id_tienda": "shop5",
+            "nombre_tienda": "Café Orgánico Don Sergio",
+            "descripcion_tienda": "Empresa dedicada a la producción de café orgánico con aroma frutal.",
+            "ruc": 10008387309,
+            "razon_social": "Café Orgánico Don Sergio",
+            "imagen_logo": "img/tiendas/chiflocos/logo_cafedonsergio.png",
             "imagen_banner": "img/tiendas/chiflocos/banner_chiflocos.jpg",
             "url_imagen_tienda":"img/tiendas/chiflocos/"
         }
@@ -193,7 +203,7 @@
         },
         {     
         "id_producto": "p11",
-        "nombre_producto": "Pack de Snacks Chifles Lili",   
+        "nombre_producto": "Pack de Snacks Chifles chiflocos y Café Don Sergio",   
         "imagen_principal": "chifles.jpg",      
         "precio_catalogo": 70,
         "precio_oferta": 50, 
@@ -226,7 +236,19 @@
         "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>Los chifles son ricos en carbohidratos complejos, lo que los convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El plátano verde, base de los chifles, es una excelente fuente de fibra, lo que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en potasio</h4><p>El potasio en los chifles ayuda a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
         "id_categoria": "cat11",     
         "id_tienda": "shop4"             
-        }                 
+        },
+        {     
+        "id_producto": "p14",
+        "nombre_producto": "Caja de Cafe Orgánico con aroma frutal 15 Unid. de 500g c/u",   
+        "imagen_principal": "cajacafe15unid.jpg",      
+        "precio_catalogo": 435,
+        "precio_oferta": 395, 
+        "cantidad": 15,  
+        "descripcion":"<p class='mb-1'>El Café Orgánico con aroma frutal Don Sergio es una deliciosa bebida originaria de las tierras de moyobamba en Péru.</p><p class='mb-1'>Los granos de café orgánico con aroma frutal obtienen su sabor al estar alrededor de plantaciones de frutas y al ser tostados se integran los aromas dando como resultado una bebida que resalta su sabor cuando lo prepara.</p><p class='mb-1'>Es la bebida perfecta para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante y llevate a casa este delicioso café orgánico con aroma frutal para que compartas la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>El café orgánico tostado es rico en antioxidantes que son buenos para mejorar su salud lo que lo convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El café orgánico tostado es una excelente fuente de energía que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en antioxidantes</h4><p>Los antioxidantes ayudan a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
+        "id_categoria": "cat11",     
+        "id_tienda": "shop5"             
+        }         
     ],
     "imagenes":[
         {"id_producto":"p1","id_atributo":"atbp1","id_color":"c1","nombre_img":"polo1_blanco_adelante.jpg"},
@@ -266,7 +288,8 @@
         {"id_producto":"p10","id_atributo":"atbp10","id_color":"no","nombre_img":"portada_cuento.jpg"},
         {"id_producto":"p11","id_atributo":"atbp11","id_color":"no","nombre_img":"chifles.jpeg"},
         {"id_producto":"p12","id_atributo":"atbp12","id_color":"no","nombre_img":"cajacafe15unid.jpg"},
-        {"id_producto":"p13","id_atributo":"atbp13","id_color":"no","nombre_img":"cajachifles15unid.jpg"}
+        {"id_producto":"p13","id_atributo":"atbp13","id_color":"no","nombre_img":"cajachifles15unid.jpg"},
+        {"id_producto":"p14","id_atributo":"atbp14","id_color":"no","nombre_img":"cajacafe15unid.jpg"}
         
     ],
     "atributo_producto":[
@@ -638,6 +661,14 @@
          "id_color":"no",
          "id_tallas":"",
          "id_pack":"pack13"
+        },
+        {     
+         "id_atributo": "atbp14",   
+         "cantidad": 5,  
+         "id_producto": "p14",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack14"
         }                        
     ],
     "colores":[
