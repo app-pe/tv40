@@ -80,7 +80,7 @@ function medioPago(){
     if(op_pago != ""){
         return op_pago;                                            
     }else{
-        alert("Debe seleccionar un MEDIO DE PAGO--"); 
+        alert("Debe seleccionar un MEDIO DE PAGO"); 
     }
 
 }
@@ -88,41 +88,25 @@ function enviarPedido(){
     console.log("---ENVIAR PEDIDO---");
     //PASO1: CAPTURAMOS DATOS DE LA PERSONA Y op_pago
     var vnombre = document.getElementById("vnombre").value;
-    var vapellido = document.getElementById("vapellido").value;
-    var vcorreo = document.getElementById("vcorreo").value;
+    
     var vcelular = document.getElementById("vcelular").value;
     var vdireccion = document.getElementById("vdireccion").value;
-    var vubicacion = document.getElementById("vubicacion").value;
-    var vdistrito = document.getElementById("vdistrito");    
-    vdistrito = vdistrito.options[vdistrito.selectedIndex].text; 
+   
     //medioPago    
     var op_pago = medioPago();  
 
     //PASO2: VALIDAMOS QUE NO ESTEN VACIOS LOS DATOS DE LA PERSONA
     if(vnombre === ""){
-        alert("Debe seleccionar un NOMBRE--");                                                   
-    }       
-    if(vapellido === ""){
-        alert("Debe seleccionar un APELLIDO--");                                                   
-    }       
-    if(vcorreo === ""){
-        alert("Debe seleccionar un CORREO--");                                                   
-    }       
+        alert("Debe ingresar su NOMBRE");                                                   
+    } 
     if(vcelular === ""){
-        alert("Debe seleccionar un CELULAR--");                                                   
+        alert("Debe ingresar su CELULAR");                                                   
     }       
     if(vdireccion === ""){
-        alert("Debe seleccionar un DIRECCION--");                                                   
-    }       
-    if(vubicacion === ""){
-        alert("Debe seleccionar un UBICACION--");                                                   
-    }       
-    if(vdistrito === ""){
-        alert("Debe seleccionar un DISTRITO--");                                                   
-    }      
-    
+        alert("Debe ingresar la DIRECCION de envío");                                                   
+    }  
     //SI ALGUN DATO ESTA VACIO NO SE REGISTRA NADA
-    if(op_pago === undefined | vnombre === "" | vapellido === "" | vcorreo === "" | vcelular === "" | vdireccion === "" | vubicacion === "" | vdistrito === ""){
+    if(op_pago === undefined | vnombre === "" | vcelular === "" | vdireccion === ""){
         //nada
     } 
     else{
@@ -136,12 +120,9 @@ function enviarPedido(){
         filas += item.cantidad+" "+item.nombre_producto+" "+item.tallav+" "+item.colorv+" "+item.atb+" "+"S/"+item.subtotal+"%0D%0A";
     });
     console.log(filas);
-    datos_persona = "Nombre: "+vnombre+" "+vapellido+"%0D%0A"+
-                    "Correo: "+vcorreo+"%0D%0A"+
+    datos_persona = "Nombre: "+vnombre+"%0D%0A"+                    
                     "Celular: "+vcelular+"%0D%0A"+
-                    "Direccion: "+vdireccion+"%0D%0A"+
-                    "Ubicacion: "+vubicacion+"%0D%0A"+
-                    "Distrito: "+vdistrito;
+                    "Direccion: "+vdireccion;                   
     //botn enviar
     var url = document.getElementById('enlace');
     //armamos mensaje

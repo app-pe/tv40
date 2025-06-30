@@ -10,31 +10,14 @@ let checkout =
                     <div class="row">
                         <div class="col-md-6 form-group">                            
                             <input id="vnombre" class="form-control" type="text" placeholder="Nombre">
-                        </div>
-                        <div class="col-md-6 form-group">                            
-                            <input id="vapellido" class="form-control" type="text" placeholder="Apellido">
-                        </div>
-                        <div class="col-md-6 form-group">                            
-                            <input id="vcorreo" class="form-control" type="text" placeholder="correo@gmail.com">
-                        </div>
+                        </div>                        
                         <div class="col-md-6 form-group">                            
                             <input id="vcelular" class="form-control" type="text" placeholder="celular">
                         </div>
                         <div class="col-md-6 form-group">                            
                             <input id="vdireccion" class="form-control" type="text" placeholder="dirección de envío">
                         </div>                        
-                        <div class="col-md-6 form-group">                            
-                            <input id="vubicacion" class="form-control" type="text" placeholder="ubicación de envío">
-                        </div>                        
-                        <div class="col-md-6 form-group">
-                            <label>Distrito</label>
-                            <select id="vdistrito" class="custom-select">                                
-                                <option>Surco</option>
-                                <option>Miraflores</option>
-                                <option>San Isidro</option>
-                                <option>Lima</option>
-                            </select>
-                        </div>
+                        
                         
                  
                     </div>
