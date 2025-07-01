@@ -259,6 +259,18 @@
         "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>El café orgánico tostado es rico en antioxidantes que son buenos para mejorar su salud lo que lo convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El café orgánico tostado es una excelente fuente de energía que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en antioxidantes</h4><p>Los antioxidantes ayudan a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
         "id_categoria": "cat12",     
         "id_tienda": "shop5"             
+        },
+        {     
+        "id_producto": "p15",
+        "nombre_producto": "Pack de Chifles La Finca con plátano maduro y verde 3 Unid. de 240g c/u",   
+        "imagen_principal": "cajachifles15unid.jpg",      
+        "precio_catalogo": 20,
+        "precio_oferta": 15, 
+        "cantidad": 10,  
+        "descripcion":"<p class='mb-1'>Los chifles son un delicioso snack originario de América Latina, especialmente popular en países como Perú.</p><p class='mb-1'>Están hechos a base de plátano maduro y verde cortado en rodajas finas, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>Los chifles son ricos en carbohidratos complejos, lo que los convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El plátano verde, base de los chifles, es una excelente fuente de fibra, lo que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en potasio</h4><p>El potasio en los chifles ayuda a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
+        "id_categoria": "cat11",     
+        "id_tienda": "shop6"             
         }         
     ],
     "imagenes":[
@@ -300,7 +312,8 @@
         {"id_producto":"p11","id_atributo":"atbp11","id_color":"no","nombre_img":"chifles.jpeg"},
         {"id_producto":"p12","id_atributo":"atbp12","id_color":"no","nombre_img":"cajacafe10unid.jpg"},
         {"id_producto":"p13","id_atributo":"atbp13","id_color":"no","nombre_img":"cajachifles15unid.jpg"},
-        {"id_producto":"p14","id_atributo":"atbp14","id_color":"no","nombre_img":"cajacafe10unid.jpg"}
+        {"id_producto":"p14","id_atributo":"atbp14","id_color":"no","nombre_img":"cajacafe10unid.jpg"},
+        {"id_producto":"p15","id_atributo":"atbp15","id_color":"no","nombre_img":"chifleslafinca.jpeg"}
         
     ],
     "atributo_producto":[
@@ -680,7 +693,15 @@
          "id_color":"no",
          "id_tallas":"",
          "id_pack":"pack14"
-        }                        
+        },
+        {     
+         "id_atributo": "atbp15",   
+         "cantidad": 5,  
+         "id_producto": "p15",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack15"
+        }                                 
     ],
     "colores":[
         {"id_color":"c1","nombre_color":"blanco"},
