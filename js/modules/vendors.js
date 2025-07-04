@@ -7,29 +7,17 @@ let vendors =
     <div class="col">
         <div class="owl-carousel vendor-carousel">
             <div class="vendor-item border p-4">
-                <img src="img/vendor-1.jpg" alt="">
+            <a href="https://app-pe.github.io/tv40/shop.html?id=shop4"><img src="img/vendor-1.jpg" alt=""></a>                
             </div>
             <div class="vendor-item border p-4">
-                <img src="img/vendor-2.jpg" alt="">
+            <a href="https://app-pe.github.io/tv40/shop.html?id=shop5"><img src="img/vendor-2.jpg" alt=""></a>                
             </div>
             <div class="vendor-item border p-4">
-                <img src="img/vendor-3.jpg" alt="">
-            </div>
+            <a href="https://app-pe.github.io/tv40/shop.html?id=shop6"><img src="img/vendor-3.jpg" alt=""></a>                
+            </div> 
             <div class="vendor-item border p-4">
-                <img src="img/vendor-4.jpg" alt="">
-            </div>
-            <div class="vendor-item border p-4">
-                <img src="img/vendor-5.jpg" alt="">
-            </div>
-            <div class="vendor-item border p-4">
-                <img src="img/vendor-6.jpg" alt="">
-            </div>
-            <div class="vendor-item border p-4">
-                <img src="img/vendor-7.jpg" alt="">
-            </div>
-            <div class="vendor-item border p-4">
-                <img src="img/vendor-8.jpg" alt="">
-            </div>
+            <a href="https://app-pe.github.io/tv40/shop.html?id=shop7"><img src="img/vendor-4.jpg" alt=""></a>                
+            </div>            
         </div>
     </div>
 </div>`;
