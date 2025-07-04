@@ -37,7 +37,7 @@ let topbar =
 `
 <div class="row align-items-center py-3 px-xl-5">
 <div class="col-lg-3 d-none d-lg-block">
-    <a href="" class="text-decoration-none">
+    <a href="https://app-pe.github.io/tv40/index.html" class="text-decoration-none">
         <h1 class="m-0 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border px-3 mr-1">TV40</span>Shop</h1>
     </a>
 </div>
