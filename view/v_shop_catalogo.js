@@ -26,7 +26,7 @@ let shop_catalogo =
                                 `+mostrarfiltroPreciosTienda()+`
                             </div>
                         </div>
-                        <div class="dropdown ml-2">
+                        <div class="dropdown ml-0">
                             <button class="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
                                         Categoría
@@ -35,7 +35,7 @@ let shop_catalogo =
                                 `+mostrarFiltroCategoriasTienda()+`
                             </div>
                         </div>
-                        <div class="dropdown ml-2">
+                        <div class="dropdown ml-0">
                             <button class="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
                                         Color
@@ -44,7 +44,7 @@ let shop_catalogo =
                                 `+mostrarFiltroColoresTienda()+`
                             </div>
                         </div>
-                        <div class="dropdown ml-2">
+                        <div class="dropdown ml-0">
                             <button class="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
                                         Talla

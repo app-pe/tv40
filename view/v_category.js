@@ -28,7 +28,7 @@ let category =
                                 `+mostrarfiltroPreciosCategoria()+`
                             </div>
                         </div>
-                        <div class="dropdown ml-2">
+                        <div class="dropdown ml-0">
                             <button class="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
                                         Color
@@ -37,7 +37,7 @@ let category =
                                 `+mostrarFiltroColoresCategoria()+`
                             </div>
                         </div>
-                        <div class="dropdown ml-2">
+                        <div class="dropdown ml-0">
                             <button class="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
                                         Talla
