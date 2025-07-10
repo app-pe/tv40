@@ -2,20 +2,20 @@
     "tienda":[
         {
             "id_tienda": "shop1",
-            "nombre_tienda": "Inpactum",
-            "descripcion_tienda": "Tienda de ropa con propósito",
-            "ruc": 1234777999,
-            "razon_social": "Inpactum S.A",
+            "nombre_tienda": "Inpactum Representaciones",
+            "descripcion_tienda": "Confección de Uniformes Corporativos, Artículos de Merchandising y Pedidos Personalizados",
+            "ruc": "",
+            "razon_social": "Inpactum Representaciones",
             "imagen_logo": "img/tiendas/inpactum/logo_inpactum.jpg",
             "imagen_banner": "img/tiendas/inpactum/banner_inpactum.jpg",
             "url_imagen_tienda":"img/tiendas/inpactum/"
         },
         {
             "id_tienda": "shop2",
-            "nombre_tienda": "Blueplhare",
+            "nombre_tienda": "Metanoya",
             "descripcion_tienda": "Tienda de ropa con propósito",
-            "ruc": 1234777999,
-            "razon_social": "Blueplhare S.A",
+            "ruc": "",
+            "razon_social": "Metanoya",
             "imagen_logo": "img/tiendas/bp/logo_bp.jpg",
             "imagen_banner": "img/tiendas/bp/banner_bp.jpg",
             "url_imagen_tienda":"img/tiendas/bp/"
@@ -24,11 +24,11 @@
             "id_tienda": "shop3",
             "nombre_tienda": "Club de Lectura",
             "descripcion_tienda": "Para los amantes de la lectura",
-            "ruc": 1234777900,
+            "ruc": "",
             "razon_social": "Club de Lectura",
-            "imagen_logo": "img/tiendas/bp/logo_bp.jpg",
-            "imagen_banner": "img/tiendas/bp/banner_bp.jpg",
-            "url_imagen_tienda":"img/tiendas/bp/"
+            "imagen_logo": "img/tiendas/clubdelectura/logo_clubdelectura.jpg",
+            "imagen_banner": "img/tiendas/clubdelectura/banner_clubdelectura.jpg",
+            "url_imagen_tienda":"img/tiendas/clubdelectura/"
         },
         {
             "id_tienda": "shop4",
