@@ -14,9 +14,10 @@ let shop_catalogo =
         <div class="col-lg-12 col-md-12">
             <div class="row pb-3">
                 <div class="col-12 pb-1" id="divFiltros">
+                    <label for="customRange2" class="form-label text-primary font-weight-bold">Filtros</label>
                     <div class="d-flex align-items-center mb-4">
-                        <label for="customRange2" class="form-label text-primary font-weight-bold">Filtros</label>
-                        <div class="dropdown ml-4">
+                        
+                        <div class="dropdown ml-0">
                             <button class="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
                                         Precio
@@ -25,28 +26,28 @@ let shop_catalogo =
                                 `+mostrarfiltroPreciosTienda()+`
                             </div>
                         </div>
-                        <div class="dropdown ml-4">
+                        <div class="dropdown ml-2">
                             <button class="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
-                                        Categorías
+                                        Categoría
                                     </button>
                             <div class="dropdown-menu" aria-labelledby="triggerId">
                                 `+mostrarFiltroCategoriasTienda()+`
                             </div>
                         </div>
-                        <div class="dropdown ml-4">
+                        <div class="dropdown ml-2">
                             <button class="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
-                                        Colores
+                                        Color
                                     </button>
                             <div class="dropdown-menu" aria-labelledby="triggerId">
                                 `+mostrarFiltroColoresTienda()+`
                             </div>
                         </div>
-                        <div class="dropdown ml-4">
+                        <div class="dropdown ml-2">
                             <button class="btn border dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
                                     aria-expanded="false">
-                                        Tallas
+                                        Talla
                                     </button>
                             <div class="dropdown-menu" aria-labelledby="triggerId">
                                 `+mostrarFiltroTallasTienda()+`
