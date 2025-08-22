@@ -107,13 +107,14 @@ function mostrarCatalogoProductosTienda(){
     return catalogox;
 }
 
-function mostrarDatostienda(){ 
+function mostrarDatostienda(){
+//<h4 class="font-weight-semi-bold">${nombre_tienda}</h4>   
 var nombre_tienda = filtrarTienda2.nombre_tienda;
 var ruc = filtrarTienda2.ruc;
 var razon_social = filtrarTienda2.razon_social;   
 let datosTienda =
-`
-<h3 class="font-weight-semi-bold">${nombre_tienda}</h3>               
+`               
+<p class="lh-sm">MARCA: ${nombre_tienda}</p>
 <p class="lh-sm">RUC: ${ruc}</p>
 <p class="lh-sm">Razón Social: ${razon_social}</p>
 `;    
