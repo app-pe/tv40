@@ -209,7 +209,7 @@
         "id_tienda": "shop1"             
         },
         {     
-        "id_producto": "p9",
+        "id_producto": "",
         "nombre_producto": "Libro Elizabeth Clavo",   
         "imagen_principal": "ebook_eclavo.jpg",      
         "precio_catalogo": 55,
@@ -221,7 +221,7 @@
         "id_tienda": "shop3"             
         },
         {     
-        "id_producto": "p10",
+        "id_producto": "",
         "nombre_producto": "Cuento para niños sobre Educación Financiera",   
         "imagen_principal": "portada_cuento.jpg",      
         "precio_catalogo": 50,
@@ -696,7 +696,7 @@
         {     
          "id_atributo": "atbp9",   
          "cantidad": 5,  
-         "id_producto": "p9",
+         "id_producto": "",
          "id_color":"no",
          "id_tallas":"",
          "id_portada":"porta9"
@@ -704,7 +704,7 @@
         {     
          "id_atributo": "atbp10",   
          "cantidad": 5,  
-         "id_producto": "p10",
+         "id_producto": "",
          "id_color":"no",
          "id_tallas":"",
          "id_portada":"porta10"
