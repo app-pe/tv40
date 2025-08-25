@@ -291,7 +291,32 @@
         "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>Los chifles son ricos en carbohidratos complejos, lo que los convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El plátano verde, base de los chifles, es una excelente fuente de fibra, lo que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en potasio</h4><p>El potasio en los chifles ayuda a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
         "id_categoria": "cat11",     
         "id_tienda": "shop6"             
-        }         
+        },
+        {     
+        "id_producto": "p16",
+        "nombre_producto": "Cuentos para niños sobre Educación Financiera",   
+        "imagen_principal": "portada_cuentosEducacionFinanciera.jpg",
+        "precio_catalogo": 50,
+        "precio_oferta": 35, 
+        "cantidad": 15,  
+        "descripcion":"<p class='mb-1'>Este cuento es ideal para enseñar a los niños sobre Educación Financiera.</p><p class='mb-1'>Los cuentos son excelentes para disfrutar la mejor experiencia y confort de la lectura.</p>",  
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios de leer este libro son mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Gestionar mejor el tiempo y los recursos disponibles</li><li class='list-group-item px-0'>Desarrollar la mentalidad financiera</li></ul></div> </div>",
+        "id_categoria": "cat9",     
+        "id_tienda": "shop7"             
+        },
+        {     
+        "id_producto": "p17",
+        "nombre_producto": "Libro Un Bosque llamado Armonía",   
+        "imagen_principal": "portada_libroUnBosquellamadoArmonia.jpg",
+        "precio_catalogo": 50,
+        "precio_oferta": 35, 
+        "cantidad": 15,  
+        "descripcion":"<p class='mb-1'>Este libro es ideal para enseñar a los niños sobre Resolución de Conflictos, la paz genera desarrollo.</p><p class='mb-1'>Los libros son excelentes para disfrutar la mejor experiencia y confort de la lectura.</p>",  
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios de leer este libro son mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Aprender a gestionar las emociones.</li><li class='list-group-item px-0'>Desarrollar la inteligencia emocional en los niños.</li></ul></div> </div>",
+        "id_categoria": "cat9",     
+        "id_tienda": "shop7"             
+        }
+
     ],
     "imagenes":[
         {"id_producto":"p1","id_atributo":"atbp1","id_color":"c1","nombre_img":"polo1_blanco_adelante.jpg"},
@@ -333,7 +358,9 @@
         {"id_producto":"p12","id_atributo":"atbp12","id_color":"no","nombre_img":"cajacafe10unid.jpg"},
         {"id_producto":"p13","id_atributo":"atbp13","id_color":"no","nombre_img":"cajachifles15unid.jpg"},
         {"id_producto":"p14","id_atributo":"atbp14","id_color":"no","nombre_img":"cajacafe10unid.jpg"},
-        {"id_producto":"p15","id_atributo":"atbp15","id_color":"no","nombre_img":"chifleslafinca.jpeg"}
+        {"id_producto":"p15","id_atributo":"atbp15","id_color":"no","nombre_img":"chifleslafinca.jpeg"},
+        {"id_producto":"p16","id_atributo":"atbp16","id_color":"no","nombre_img":"portada_cuentosEducacionFinanciera.jpg"},
+        {"id_producto":"p17","id_atributo":"atbp17","id_color":"no","nombre_img":"portada_libroUnBosquellamadoArmonia.jpg"}
         
     ],
     "atributo_producto":[
@@ -721,7 +748,23 @@
          "id_color":"no",
          "id_tallas":"",
          "id_pack":"pack15"
-        }                                 
+        },
+        {     
+         "id_atributo": "atbp16",   
+         "cantidad": 5,  
+         "id_producto": "p15",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack16"
+        },
+        {     
+         "id_atributo": "atbp17",   
+         "cantidad": 5,  
+         "id_producto": "p15",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack17"
+        }                                                       
     ],
     "colores":[
         {"id_color":"c1","nombre_color":"blanco"},
