@@ -116,7 +116,7 @@ let datosTienda =
 `               
 <p class="lh-sm">MARCA: ${nombre_tienda}</p>
 <p class="lh-sm">RUC: ${ruc}</p>
-<p class="lh-sm">Razón Social: ${razon_social}</p>
+<p class="lh-sm">RS: ${razon_social}</p>
 `;    
 return datosTienda;
 }
