@@ -207,31 +207,7 @@
         "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
         "id_categoria": "cat6",     
         "id_tienda": "shop1"             
-        },
-        {     
-        "id_producto": "",
-        "nombre_producto": "Libro Elizabeth Clavo",   
-        "imagen_principal": "ebook_eclavo.jpg",      
-        "precio_catalogo": 55,
-        "precio_oferta": 45, 
-        "cantidad": 10,  
-        "descripcion":"<p class='mb-1'>Este libro es ideal para profundizar en temas de crecimiento personal.</p><p class='mb-1'>Este libro te enseñara las claves para disfrutar la mejor experiencia y confort de tu vida.</p>",  
-        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios de leer este libro son mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Claridad y frescura de tus pensamientos</li></ul></div> </div>",
-        "id_categoria": "cat8",     
-        "id_tienda": "shop3"             
-        },
-        {     
-        "id_producto": "",
-        "nombre_producto": "Cuento para niños sobre Educación Financiera",   
-        "imagen_principal": "portada_cuento.jpg",      
-        "precio_catalogo": 50,
-        "precio_oferta": 35, 
-        "cantidad": 15,  
-        "descripcion":"<p class='mb-1'>Este cuento es ideal para enseñar a los niños sobre Educación Financiera.</p><p class='mb-1'>Los cuentos son excelentes para disfrutar la mejor experiencia y confort de la lectura.</p>",  
-        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios de leer este libro son mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Gestionar mejor el tiempo y los recursos disponibles</li><li class='list-group-item px-0'>Desarrollar la mentalidad financiera</li></ul></div> </div>",
-        "id_categoria": "cat8",     
-        "id_tienda": "shop3"             
-        },
+        },        
         {     
         "id_producto": "p11",
         "nombre_producto": "Pack de Chifles Chiflocos y Café Don Sergio",   
@@ -351,9 +327,7 @@
         {"id_producto":"p7","id_atributo":"atbp7","id_color":"c9","nombre_img":"pantalon1_verde_detras.jpg"},
         {"id_producto":"p8","id_atributo":"atbp8","id_color":"c9","nombre_img":"p2_verde_adelante.jpg"},
         {"id_producto":"p8","id_atributo":"atbp8","id_color":"c7","nombre_img":"p2_azul_adelante.jpg"},
-        {"id_producto":"p8","id_atributo":"atbp8","id_color":"c5","nombre_img":"p2_negro_adelante.jpg"},
-        {"id_producto":"p9","id_atributo":"atbp9","id_color":"no","nombre_img":"ebook_eclavo.jpg"},
-        {"id_producto":"p10","id_atributo":"atbp10","id_color":"no","nombre_img":"portada_cuento.jpg"},
+        {"id_producto":"p8","id_atributo":"atbp8","id_color":"c5","nombre_img":"p2_negro_adelante.jpg"},      
         {"id_producto":"p11","id_atributo":"atbp11","id_color":"no","nombre_img":"chifles.jpeg"},
         {"id_producto":"p12","id_atributo":"atbp12","id_color":"no","nombre_img":"cajacafe10unid.jpg"},
         {"id_producto":"p13","id_atributo":"atbp13","id_color":"no","nombre_img":"cajachifles15unid.jpg"},
@@ -692,23 +666,7 @@
          "id_producto": "p8",
          "id_color":"c5",
          "id_tallas":"t5"
-        },      
-        {     
-         "id_atributo": "atbp9",   
-         "cantidad": 5,  
-         "id_producto": "",
-         "id_color":"no",
-         "id_tallas":"",
-         "id_portada":"porta9"
-        },
-        {     
-         "id_atributo": "atbp10",   
-         "cantidad": 5,  
-         "id_producto": "",
-         "id_color":"no",
-         "id_tallas":"",
-         "id_portada":"porta10"
-        },
+        }, 
         {     
          "id_atributo": "atbp11",   
          "cantidad": 5,  
@@ -786,5 +744,4 @@
         {"id_talla":"t4","nombre_talla":"L"},
         {"id_talla":"t5","nombre_talla":"XL"}    
     ]
-}
-    
+} 
