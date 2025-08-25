@@ -93,7 +93,8 @@
         {"id_categoria":"cat9","url_imagen_categoria":"img/categorias/libros/educacion_financiera/","nombre_categoria":"Educación Financiera","default_imagen_categoria": "img/categorias/libros/educacion_financiera/portada_cuentosEducacionFinanciera.jpg","tipo_categoria":"libro","estado_categoria":"desactivado","menu":"ms"},                  
         {"id_categoria":"cat10","url_imagen_categoria":"img/categorias/snacks/","nombre_categoria":"Snacks","default_imagen_categoria": "img/categorias/cat-10.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"mp"},                  
         {"id_categoria":"cat11","url_imagen_categoria":"img/categorias/snacks/chifles/","nombre_categoria":"Chifles","default_imagen_categoria": "img/categorias/snacks/chifles/chifles.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"},                  
-        {"id_categoria":"cat12","url_imagen_categoria":"img/categorias/snacks/cafe/","nombre_categoria":"Café","default_imagen_categoria": "img/categorias/snacks/cafe/logo_cafedonsergio.jpg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"}                  
+        {"id_categoria":"cat12","url_imagen_categoria":"img/categorias/snacks/cafe/","nombre_categoria":"Café","default_imagen_categoria": "img/categorias/snacks/cafe/logo_cafedonsergio.jpg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"},                  
+        {"id_categoria":"cat13","url_imagen_categoria":"img/categorias/snacks/mieldeabeja/","nombre_categoria":"Miel de Abeja","default_imagen_categoria": "img/categorias/snacks/mieldeabeja/mieldeabeja_moyobamba.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"}                  
     ], 
     "tienda_categoria":[
         {
@@ -291,6 +292,18 @@
         "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios de leer este libro son mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Aprender a gestionar las emociones.</li><li class='list-group-item px-0'>Desarrollar la inteligencia emocional en los niños.</li></ul></div> </div>",
         "id_categoria": "cat8",     
         "id_tienda": "shop7"             
+        },
+        {     
+        "id_producto": "p18",
+        "nombre_producto": "Miel de Abeja de Moyobamba Perú - 250g",   
+        "imagen_principal": "mieldeabeja_moyobamba.jpeg",      
+        "precio_catalogo": 20,
+        "precio_oferta": 15, 
+        "cantidad": 15,  
+        "descripcion":"<p class='mb-1'>Descubre el sabor auténtico de la naturaleza con nuestra miel artesanal, recolectada de manera sostenible desde el corazón de la selva en Moyobamba Perú.</p><p class='mb-1'>La miel de abeja es una fuente natural de antioxidantes, enzimas, vitaminas y minerales.</p><p class='mb-1'>Gracias a sus compuestos orgánicos, fortalece el sistema inmunológico, mejora la digestión y ayuda a combatir inflamaciones.</p><p class='mb-1'>Sin aditivos ni procesos industriales, es el endulzante natural ideal para cuidar tu cuerpo y tu bienestar todos los días, disfrutalo con tu familia y amigos.</p>",  
+        "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>La miel de abeja es una fuente natural de antioxidantes, enzimas, vitaminas y minerales.</p><h4 class='mb-3'>Digestión saludable</h4><p>Gracias a sus compuestos orgánicos, fortalece el sistema inmunológico, mejora la digestión y ayuda a combatir inflamaciones.</p><h4 class='mb-3'>Ricos en potasio</h4><p>Sin aditivos ni procesos industriales, es el endulzante natural ideal para cuidar tu cuerpo y tu bienestar todos los días, disfrutalo con tu familia y amigos.</p>",
+        "id_categoria": "cat13",     
+        "id_tienda": "shop4"             
         }
 
     ],
@@ -334,7 +347,8 @@
         {"id_producto":"p14","id_atributo":"atbp14","id_color":"no","nombre_img":"cajacafe10unid.jpg"},
         {"id_producto":"p15","id_atributo":"atbp15","id_color":"no","nombre_img":"chifleslafinca.jpeg"},
         {"id_producto":"p16","id_atributo":"atbp16","id_color":"no","nombre_img":"portada_cuentosEducacionFinanciera.jpg"},
-        {"id_producto":"p17","id_atributo":"atbp17","id_color":"no","nombre_img":"portada_libroUnBosquellamadoArmonia.jpg"}
+        {"id_producto":"p17","id_atributo":"atbp17","id_color":"no","nombre_img":"portada_libroUnBosquellamadoArmonia.jpg"},
+        {"id_producto":"p18","id_atributo":"atbp18","id_color":"no","nombre_img":"mieldeabeja_moyobamba.jpeg"}
         
     ],
     "atributo_producto":[
@@ -722,7 +736,15 @@
          "id_color":"no",
          "id_tallas":"",
          "id_pack":"pack17"
-        }                                                       
+        },
+        {     
+         "id_atributo": "atbp18",   
+         "cantidad": 5,  
+         "id_producto": "p18",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack18"
+        }                                                               
     ],
     "colores":[
         {"id_color":"c1","nombre_color":"blanco"},
