@@ -83,8 +83,8 @@
     ],
     "categoria":[          
         {"id_categoria":"cat1","url_imagen_categoria":"img/categorias/moda-hombre/","nombre_categoria":"Moda hombre","default_imagen_categoria": "img/categorias/cat-1.jpg","tipo_categoria":"hombre","estado_categoria":"activado","menu":"mp"},
-        {"id_categoria":"cat2","url_imagen_categoria":"img/categorias/moda-infantil/","nombre_categoria":"Moda mujer","default_imagen_categoria": "img/categorias/cat-2.jpg","tipo_categoria":"hombre","estado_categoria":"desactivado","menu":"mp"},
-        {"id_categoria":"cat3","url_imagen_categoria":"img/categorias/moda-mujer/","nombre_categoria":"Moda infantil","default_imagen_categoria": "img/categorias/cat-3.jpg","tipo_categoria":"hombre","estado_categoria":"desactivado","menu":"mp"},                    
+        {"id_categoria":"cat2","url_imagen_categoria":"img/categorias/moda-infantil/","nombre_categoria":"Moda mujer","default_imagen_categoria": "img/categorias/cat-2.jpg","tipo_categoria":"mujer","estado_categoria":"desactivado","menu":"mp"},
+        {"id_categoria":"cat3","url_imagen_categoria":"img/categorias/moda-mujer/","nombre_categoria":"Moda infantil","default_imagen_categoria": "img/categorias/cat-3.jpg","tipo_categoria":"infantil","estado_categoria":"desactivado","menu":"mp"},                    
         {"id_categoria":"cat4","url_imagen_categoria":"img/categorias/polos/","nombre_categoria":"Polos","default_imagen_categoria": "img/categorias/cat-4.jpg","tipo_categoria":"hombre","estado_categoria":"activado","menu":"ms"},                    
         {"id_categoria":"cat5","url_imagen_categoria":"img/categorias/poleras/","nombre_categoria":"Poleras","default_imagen_categoria": "img/categorias/cat-5.jpg","tipo_categoria":"hombre","estado_categoria":"activado","menu":"ms"},                   
         {"id_categoria":"cat6","url_imagen_categoria":"img/categorias/pantalones/","nombre_categoria":"Pantalones","default_imagen_categoria": "img/categorias/cat-6.jpg","tipo_categoria":"hombre","estado_categoria":"activado","menu":"ms"},                   
@@ -94,7 +94,9 @@
         {"id_categoria":"cat10","url_imagen_categoria":"img/categorias/snacks/","nombre_categoria":"Snacks","default_imagen_categoria": "img/categorias/cat-10.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"mp"},                  
         {"id_categoria":"cat11","url_imagen_categoria":"img/categorias/snacks/chifles/","nombre_categoria":"Chifles","default_imagen_categoria": "img/categorias/snacks/chifles/chifles.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"},                  
         {"id_categoria":"cat12","url_imagen_categoria":"img/categorias/snacks/cafe/","nombre_categoria":"Café","default_imagen_categoria": "img/categorias/snacks/cafe/cafedonsergio500g.jpg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"},                  
-        {"id_categoria":"cat13","url_imagen_categoria":"img/categorias/snacks/mieldeabeja/","nombre_categoria":"Miel de Abeja","default_imagen_categoria": "img/categorias/snacks/mieldeabeja/mieldeabeja_moyobamba.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"}                  
+        {"id_categoria":"cat13","url_imagen_categoria":"img/categorias/snacks/mieldeabeja/","nombre_categoria":"Miel de Abeja","default_imagen_categoria": "img/categorias/snacks/mieldeabeja/mieldeabeja_moyobamba.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"},
+        {"id_categoria":"cat14","url_imagen_categoria":"img/categorias/uniformes/","nombre_categoria":"Uniformes","default_imagen_categoria": "img/categorias/cat-11.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"mp"},
+        {"id_categoria":"cat15","url_imagen_categoria":"img/categorias/uniformes/casacas/","nombre_categoria":"Casacas","default_imagen_categoria": "img/categorias/uniformes/casacas/uniforme_casacaprom.jpg","tipo_categoria":"casacas","estado_categoria":"activado","menu":"ms"}                  
     ], 
     "tienda_categoria":[
         {
@@ -316,7 +318,19 @@
         "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>La miel de abeja es una fuente natural de antioxidantes, enzimas, vitaminas y minerales.</p><h4 class='mb-3'>Digestión saludable</h4><p>Gracias a sus compuestos orgánicos, fortalece el sistema inmunológico, mejora la digestión y ayuda a combatir inflamaciones.</p><h4 class='mb-3'>Ricos en antioxidantes</h4><p>Sin aditivos ni procesos industriales, es el endulzante natural ideal para cuidar tu cuerpo y tu bienestar todos los días, disfrutalo con tu familia y amigos.</p>",
         "id_categoria": "cat13",     
         "id_tienda": "shop4"             
-        }
+        },
+        {     
+        "id_producto": "p20",
+        "nombre_producto": "CASACA DE PROMOCIÓN PERSONALIZADA",   
+        "imagen_principal": "uniforme_casacaprom.jpeg",      
+        "precio_catalogo": 150,
+        "precio_oferta": 100, 
+        "cantidad": 10,  
+        "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit personalizado que deseas lucir con tus compañeros de promoción.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
+        "id_categoria": "cat15",     
+        "id_tienda": "shop8"            
+        }    
 
     ],
     "imagenes":[
@@ -361,7 +375,8 @@
         {"id_producto":"p16","id_atributo":"atbp16","id_color":"no","nombre_img":"portada_cuentosEducacionFinanciera.jpg"},
         {"id_producto":"p17","id_atributo":"atbp17","id_color":"no","nombre_img":"portada_libroUnBosquellamadoArmonia.jpg"},
         {"id_producto":"p18","id_atributo":"atbp18","id_color":"no","nombre_img":"mieldeabeja_moyobamba.jpeg"},
-        {"id_producto":"p19","id_atributo":"atbp19","id_color":"no","nombre_img":"mieldeabeja500g.jpeg"}
+        {"id_producto":"p19","id_atributo":"atbp19","id_color":"no","nombre_img":"mieldeabeja500g.jpeg"},
+        {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_casacaprom.jpeg"}
         
     ],
     "atributo_producto":[
@@ -765,7 +780,15 @@
          "id_color":"no",
          "id_tallas":"",
          "id_pack":"pack18"
-        }                                                                                 
+        },
+        {     
+         "id_atributo": "atbp20",   
+         "cantidad": 5,  
+         "id_producto": "p20",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack18"
+        }                                                                                             
     ],
     "colores":[
         {"id_color":"c1","nombre_color":"blanco"},
