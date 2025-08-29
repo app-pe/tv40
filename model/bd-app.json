@@ -304,6 +304,18 @@
         "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>La miel de abeja es una fuente natural de antioxidantes, enzimas, vitaminas y minerales.</p><h4 class='mb-3'>Digestión saludable</h4><p>Gracias a sus compuestos orgánicos, fortalece el sistema inmunológico, mejora la digestión y ayuda a combatir inflamaciones.</p><h4 class='mb-3'>Ricos en antioxidantes</h4><p>Sin aditivos ni procesos industriales, es el endulzante natural ideal para cuidar tu cuerpo y tu bienestar todos los días, disfrutalo con tu familia y amigos.</p>",
         "id_categoria": "cat13",     
         "id_tienda": "shop4"             
+        },
+        {     
+        "id_producto": "p19",
+        "nombre_producto": "Miel de Abeja de Moyobamba Perú - 500g",   
+        "imagen_principal": "mieldeabeja500g.jpeg",      
+        "precio_catalogo": 35,
+        "precio_oferta": 30, 
+        "cantidad": 15,  
+        "descripcion":"<p class='mb-1'>Descubre el sabor auténtico de la naturaleza con nuestra miel artesanal, recolectada de manera sostenible desde el corazón de la selva en Moyobamba Perú.</p><p class='mb-1'>La miel de abeja es una fuente natural de antioxidantes, enzimas, vitaminas y minerales.</p><p class='mb-1'>Gracias a sus compuestos orgánicos, fortalece el sistema inmunológico, mejora la digestión y ayuda a combatir inflamaciones.</p><p class='mb-1'>Sin aditivos ni procesos industriales, es el endulzante natural ideal para cuidar tu cuerpo y tu bienestar todos los días, disfrutalo con tu familia y amigos.</p>",  
+        "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>La miel de abeja es una fuente natural de antioxidantes, enzimas, vitaminas y minerales.</p><h4 class='mb-3'>Digestión saludable</h4><p>Gracias a sus compuestos orgánicos, fortalece el sistema inmunológico, mejora la digestión y ayuda a combatir inflamaciones.</p><h4 class='mb-3'>Ricos en antioxidantes</h4><p>Sin aditivos ni procesos industriales, es el endulzante natural ideal para cuidar tu cuerpo y tu bienestar todos los días, disfrutalo con tu familia y amigos.</p>",
+        "id_categoria": "cat13",     
+        "id_tienda": "shop4"             
         }
 
     ],
@@ -348,7 +360,8 @@
         {"id_producto":"p15","id_atributo":"atbp15","id_color":"no","nombre_img":"chifleslafinca.jpeg"},
         {"id_producto":"p16","id_atributo":"atbp16","id_color":"no","nombre_img":"portada_cuentosEducacionFinanciera.jpg"},
         {"id_producto":"p17","id_atributo":"atbp17","id_color":"no","nombre_img":"portada_libroUnBosquellamadoArmonia.jpg"},
-        {"id_producto":"p18","id_atributo":"atbp18","id_color":"no","nombre_img":"mieldeabeja_moyobamba.jpeg"}
+        {"id_producto":"p18","id_atributo":"atbp18","id_color":"no","nombre_img":"mieldeabeja_moyobamba.jpeg"},
+        {"id_producto":"p19","id_atributo":"atbp19","id_color":"no","nombre_img":"mieldeabeja500g.jpeg"}
         
     ],
     "atributo_producto":[
@@ -744,7 +757,15 @@
          "id_color":"no",
          "id_tallas":"",
          "id_pack":"pack18"
-        }                                                               
+        },
+        {     
+         "id_atributo": "atbp19",   
+         "cantidad": 5,  
+         "id_producto": "p19",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack18"
+        }                                                                                 
     ],
     "colores":[
         {"id_color":"c1","nombre_color":"blanco"},
