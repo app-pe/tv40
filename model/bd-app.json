@@ -377,6 +377,10 @@
         {"id_producto":"p18","id_atributo":"atbp18","id_color":"no","nombre_img":"mieldeabeja_moyobamba.jpeg"},
         {"id_producto":"p19","id_atributo":"atbp19","id_color":"no","nombre_img":"mieldeabeja500g.jpeg"},
         {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_casacaprom.jpeg"},
+        {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_logocasacaprom.jpeg"},
+        {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_detallecasacapron.jpeg"},
+        {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_firmascasacaprom.jpeg"},
+        {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_casacapromdetras.jpeg"},
         {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_nombreyanopromocasacaprom.jpeg"}
         
     ],
