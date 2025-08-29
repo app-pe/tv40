@@ -376,7 +376,8 @@
         {"id_producto":"p17","id_atributo":"atbp17","id_color":"no","nombre_img":"portada_libroUnBosquellamadoArmonia.jpg"},
         {"id_producto":"p18","id_atributo":"atbp18","id_color":"no","nombre_img":"mieldeabeja_moyobamba.jpeg"},
         {"id_producto":"p19","id_atributo":"atbp19","id_color":"no","nombre_img":"mieldeabeja500g.jpeg"},
-        {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_casacaprom.jpeg"}
+        {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_casacaprom.jpeg"},
+        {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_nombreyanopromocasacaprom.jpeg"}
         
     ],
     "atributo_producto":[
