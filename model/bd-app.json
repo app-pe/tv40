@@ -96,7 +96,7 @@
         {"id_categoria":"cat12","url_imagen_categoria":"img/categorias/snacks/cafe/","nombre_categoria":"Café","default_imagen_categoria": "img/categorias/snacks/cafe/cafedonsergio500g.jpg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"},                  
         {"id_categoria":"cat13","url_imagen_categoria":"img/categorias/snacks/mieldeabeja/","nombre_categoria":"Miel de Abeja","default_imagen_categoria": "img/categorias/snacks/mieldeabeja/mieldeabeja_moyobamba.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"},
         {"id_categoria":"cat14","url_imagen_categoria":"img/categorias/uniformes/","nombre_categoria":"Uniformes","default_imagen_categoria": "img/categorias/cat-11.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"mp"},
-        {"id_categoria":"cat15","url_imagen_categoria":"img/categorias/uniformes/casacas/","nombre_categoria":"Casacas","default_imagen_categoria": "img/categorias/uniformes/casacas/uniforme_casacaprom.jpg","tipo_categoria":"casacas","estado_categoria":"activado","menu":"ms"}                  
+        {"id_categoria":"cat15","url_imagen_categoria":"img/categorias/uniformes/casacas/","nombre_categoria":"Casacas","default_imagen_categoria": "img/categorias/uniformes/casacas/uniforme_casacaprom.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"}                  
     ], 
     "tienda_categoria":[
         {
