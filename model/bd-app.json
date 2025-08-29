@@ -327,7 +327,7 @@
         "precio_oferta": 100, 
         "cantidad": 10,  
         "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit personalizado que deseas lucir con tus compañeros de promoción.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
-        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>SUAVIDAD Y FRESCURA PARA TU CUERPO</li><li class='list-group-item px-0'>ADELANTE LAS INICIALES PERSONALIZADAS DEL NOMBRE</li><li class='list-group-item px-0'>DETRÁS EL NOMBRE Y AÑO DE LA PROMOCIÓN</li><li class='list-group-item px-0'>DETALES PERSONALIZADOS EN MANGAS Y BOLSILLOS, COLORES DE MODA</li><li class='list-group-item px-0'>FIRMAS DE LA PROMOCIÓN EN EL INTERIOR DE LA CASACA</li><li class='list-group-item px-0'>LOGO DEL COLEGIO EN LA CASACA</li>  </ul></div> </div>",
         "id_categoria": "cat15",     
         "id_tienda": "shop8"            
         }    
