@@ -353,7 +353,7 @@
         "precio_oferta": 85, 
         "cantidad": 10,  
         "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit personalizado que deseas lucir con tus compañeros de promoción.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
-        "beneficio":"<h4 class='mb-3'>DETALLES PERSONALIZADOS</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>ADELANTE NOMBRE Y LOGO DE LA PROMOCIÓN</li><li class='list-group-item px-0'>DETALLES EN MANGAS Y BOLSILLOS, COLORES DE MODA</li><li class='list-group-item px-0'>DETRAS ESTAMPADO GRANDE PERSONALIZADO CON MENSAJE DE LA PROMOCIÓN</li><li class='list-group-item px-0'>OTRAS PERSONALZIACIONES QUE TE IMAGINES PARA TU POLO DE UNIFORME CON CUELLO</li>  </ul></div> </div>",
+        "beneficio":"<h4 class='mb-3'>DETALLES PERSONALIZADOS</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>ADELANTE NOMBRE Y LOGO DE LA PROMOCIÓN</li><li class='list-group-item px-0'>DETALLES EN MANGAS Y BOLSILLOS, COLORES DE MODA</li><li class='list-group-item px-0'>DETRAS ESTAMPADO GRANDE PERSONALIZADO CON MENSAJE DE LA PROMOCIÓN</li><li class='list-group-item px-0'>OTRAS PERSONALZIACIONES QUE TE IMAGINES PARA TU POLERA DE UNIFORME CON CAPUCHA</li>  </ul></div> </div>",
         "id_categoria": "cat17",     
         "id_tienda": "shop8"            
         }                
