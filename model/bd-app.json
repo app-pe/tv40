@@ -97,7 +97,8 @@
         {"id_categoria":"cat13","url_imagen_categoria":"img/categorias/snacks/mieldeabeja/","nombre_categoria":"Miel de Abeja","default_imagen_categoria": "img/categorias/snacks/mieldeabeja/mieldeabeja_moyobamba.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"},
         {"id_categoria":"cat14","url_imagen_categoria":"img/categorias/uniformes/","nombre_categoria":"Uniformes","default_imagen_categoria": "img/categorias/cat-11.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"mp"},
         {"id_categoria":"cat15","url_imagen_categoria":"img/categorias/uniformes/casacas/","nombre_categoria":"Casacas","default_imagen_categoria": "img/categorias/uniformes/casacas/uniforme_casacaprom.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},                  
-        {"id_categoria":"cat16","url_imagen_categoria":"img/categorias/uniformes/polos/","nombre_categoria":"Polos","default_imagen_categoria": "img/categorias/uniformes/polos/uniforme_poloybolsa.jpg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"}                  
+        {"id_categoria":"cat16","url_imagen_categoria":"img/categorias/uniformes/polos/","nombre_categoria":"Polos","default_imagen_categoria": "img/categorias/uniformes/polos/uniforme_poloybolsa.jpg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},                  
+        {"id_categoria":"cat17","url_imagen_categoria":"img/categorias/uniformes/poleras/","nombre_categoria":"Poleras","default_imagen_categoria": "img/categorias/uniformes/poleras/uniforme_poleradelante.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"}                  
     ], 
     "tienda_categoria":[
         {
@@ -343,7 +344,19 @@
         "beneficio":"<h4 class='mb-3'>DETALLES PERSONALIZADOS</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>ADELANTE LOGO DE LA INSTITUCIÓN</li><li class='list-group-item px-0'>DETALLES EN CUELLO Y COSTURAS, COLORES DE MODA</li><li class='list-group-item px-0'>OTRAS PERSONALZIACIONES QUE TE IMAGINES PARA TU POLO DE UNIFORME CON CUELLO</li>  </ul></div> </div>",
         "id_categoria": "cat16",     
         "id_tienda": "shop8"            
-        }        
+        },
+        {     
+        "id_producto": "p22",
+        "nombre_producto": "POLERA DE UNIFORME CON CAPUCHA PERSONALIZADA",   
+        "imagen_principal": "uniforme_poleradelante.jpeg",      
+        "precio_catalogo": 100,
+        "precio_oferta": 85, 
+        "cantidad": 10,  
+        "descripcion":"<p class='mb-1'>Esta prenda es ideal para lograr el outfit personalizado que deseas lucir con tus compañeros de promoción.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>DETALLES PERSONALIZADOS</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>ADELANTE NOMBRE Y LOGO DE LA PROMOCIÓN</li><li class='list-group-item px-0'>DETALLES EN MANGAS Y BOLSILLOS, COLORES DE MODA</li><li class='list-group-item px-0'>DETRAS ESTAMPADO GRANDE PERSONALIZADO CON MENSAJE DE LA PROMOCIÓN</li><li class='list-group-item px-0'>OTRAS PERSONALZIACIONES QUE TE IMAGINES PARA TU POLO DE UNIFORME CON CUELLO</li>  </ul></div> </div>",
+        "id_categoria": "cat17",     
+        "id_tienda": "shop8"            
+        }                
 
     ],
     "imagenes":[
@@ -395,7 +408,10 @@
         {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_firmascasacaprom.jpeg"},
         {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_casacapromdetras.jpeg"},
         {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_nombreyanopromocasacaprom.jpeg"},
-        {"id_producto":"p21","id_atributo":"atbp21","id_color":"no","nombre_img":"uniforme_poloybolsa.jpg"}
+        {"id_producto":"p21","id_atributo":"atbp21","id_color":"no","nombre_img":"uniforme_poloybolsa.jpg"},
+        {"id_producto":"p22","id_atributo":"atbp22","id_color":"no","nombre_img":"uniforme_poleradelante.jpeg"},
+        {"id_producto":"p22","id_atributo":"atbp22","id_color":"no","nombre_img":"uniforme_poleradetras.jpeg"},
+        {"id_producto":"p22","id_atributo":"atbp22","id_color":"no","nombre_img":"uniforme_polerachicospromo.jpeg"}
         
     ],
     "atributo_producto":[
@@ -815,7 +831,15 @@
          "id_color":"no",
          "id_tallas":"",
          "id_pack":"pack21"
-        }                                                                                                 
+        },
+        {     
+         "id_atributo": "atbp22",   
+         "cantidad": 5,  
+         "id_producto": "p22",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack22"
+        }                                                                                                     
     ],
     "colores":[
         {"id_color":"c1","nombre_color":"blanco"},
