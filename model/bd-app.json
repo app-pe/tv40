@@ -79,6 +79,16 @@
             "imagen_logo": "img/tiendas/uniformesperu/logo_uniformesperu.jpg",
             "imagen_banner": "img/tiendas/uniformesperu/banner_uniformesperu.jpg",
             "url_imagen_tienda":"img/tiendas/uniformesperu/"
+        },
+        {
+            "id_tienda": "shop9",
+            "nombre_tienda": "REFUGIO VERDE",
+            "descripcion_tienda": "Venta de plantas ornamentales, Pedidos Personalizados",
+            "ruc": "",
+            "razon_social": "",
+            "imagen_logo": "img/tiendas/refugioverde/logo_refugioverde.jpeg",
+            "imagen_banner": "img/tiendas/refugioverde/banner_refugioverde.jpg",
+            "url_imagen_tienda":"img/tiendas/refugioverde/"
         }
     ],
     "categoria":[          
@@ -98,7 +108,8 @@
         {"id_categoria":"cat14","url_imagen_categoria":"img/categorias/uniformes/","nombre_categoria":"Uniformes","default_imagen_categoria": "img/categorias/cat-11.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"mp"},
         {"id_categoria":"cat15","url_imagen_categoria":"img/categorias/uniformes/casacas/","nombre_categoria":"Casacas","default_imagen_categoria": "img/categorias/uniformes/casacas/uniforme_casacaprom.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},                  
         {"id_categoria":"cat16","url_imagen_categoria":"img/categorias/uniformes/polos/","nombre_categoria":"Polos","default_imagen_categoria": "img/categorias/uniformes/polos/uniforme_poloybolsa.jpg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},                  
-        {"id_categoria":"cat17","url_imagen_categoria":"img/categorias/uniformes/poleras/","nombre_categoria":"Poleras","default_imagen_categoria": "img/categorias/uniformes/poleras/uniforme_poleradelante.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"}                  
+        {"id_categoria":"cat17","url_imagen_categoria":"img/categorias/uniformes/poleras/","nombre_categoria":"Poleras","default_imagen_categoria": "img/categorias/uniformes/poleras/uniforme_poleradelante.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},
+        {"id_categoria":"cat18","url_imagen_categoria":"img/categorias/plantas/","nombre_categoria":"Plantas","default_imagen_categoria": "img/categorias/cat-12.jpg","tipo_categoria":"plantas","estado_categoria":"activado","menu":"mp"}                  
     ], 
     "tienda_categoria":[
         {
@@ -356,6 +367,30 @@
         "beneficio":"<h4 class='mb-3'>DETALLES PERSONALIZADOS</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>ADELANTE NOMBRE Y LOGO DE LA PROMOCIÓN</li><li class='list-group-item px-0'>DETALLES EN MANGAS Y BOLSILLOS, COLORES DE MODA</li><li class='list-group-item px-0'>DETRAS ESTAMPADO GRANDE PERSONALIZADO CON MENSAJE DE LA PROMOCIÓN</li><li class='list-group-item px-0'>OTRAS PERSONALZIACIONES QUE TE IMAGINES PARA TU POLERA DE UNIFORME CON CAPUCHA</li>  </ul></div> </div>",
         "id_categoria": "cat17",     
         "id_tienda": "shop8"            
+        },                
+        {     
+        "id_producto": "p23",
+        "nombre_producto": "Sansevieria trifasciata o Lengua de Suegra",   
+        "imagen_principal": "SansevieriaTrifasciata_lenguadesuegra.jpg",      
+        "precio_catalogo": 60,
+        "precio_oferta": 45, 
+        "cantidad": 10,  
+        "descripcion":"<p class='mb-1'>Esta planta es ideal para interiores, ya que purifica el aire (según estudios de la NASA).</p><p class='mb-1'>Es muy resistente y fácil de cuidar.</p>",  
+        "beneficio":"<h4 class='mb-3'>Por que tener una Sansevieria trifasciata en casa</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Su forma elegante, vertical y moderna la hace perfecta para espacios minimalistas o decoraciones urbanas.</li><li class='list-group-item px-0'>Mejora la calidad del sueño debido a que produce oxígeno por la noche (proceso CAM), es ideal para colocar en el dormitorio.</li><li class='list-group-item px-0'>No requiere riego frecuente (1 vez cada 15 días o menos).</li><li class='list-group-item px-0'>Tolera poca luz, ambientes secos y cambios de temperatura.</li>  </ul></div> </div>",
+        "id_categoria": "cat18",     
+        "id_tienda": "shop9"            
+        },                
+        {     
+        "id_producto": "p24",
+        "nombre_producto": "Monstera deliciosa o Costilla de Adán",   
+        "imagen_principal": "MonsteraDeliciosa_costilladeadan.jpg",      
+        "precio_catalogo": 60,
+        "precio_oferta": 45, 
+        "cantidad": 10,  
+        "descripcion":"<p class='mb-1'>Planta de Hojas grandes, verdes, brillantes y profundamente divididas con perforaciones naturales. Su forma única recuerda a una costilla, de ahí su nombre común.</p><p class='mb-1'>Tener plantas grandes y verdes como la monstera puede mejorar el estado de ánimo, reducir el estrés y fomentar una sensación de bienestar y conexión natural.</p>",  
+        "beneficio":"<h4 class='mb-3'>Por que tener una Monstera Deliciosa en casa</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Aporta un toque exótico y elegante a cualquier espacio.</li><li class='list-group-item px-0'>Sus hojas icónicas la han convertido en una de las plantas más populares del diseño de interiores moderno, boho, escandinavo y tropical.</li><li class='list-group-item px-0'>Fácil mantenimiento, Riego moderado (cuando se seca la tierra)/li><li class='list-group-item px-0'>Luz indirecta brillante (tolera poca luz, pero crece mejor con luz media), vive muchos años si se le da un ambiente adecuado.</li>  </ul></div> </div>",
+        "id_categoria": "cat18",     
+        "id_tienda": "shop9"            
         }                
 
     ],
@@ -411,7 +446,9 @@
         {"id_producto":"p21","id_atributo":"atbp21","id_color":"no","nombre_img":"uniforme_poloybolsa.jpg"},
         {"id_producto":"p22","id_atributo":"atbp22","id_color":"no","nombre_img":"uniforme_poleradelante.jpeg"},
         {"id_producto":"p22","id_atributo":"atbp22","id_color":"no","nombre_img":"uniforme_poleradetras.jpeg"},
-        {"id_producto":"p22","id_atributo":"atbp22","id_color":"no","nombre_img":"uniforme_polerachicospromo.jpeg"}
+        {"id_producto":"p22","id_atributo":"atbp22","id_color":"no","nombre_img":"uniforme_polerachicospromo.jpeg"},
+        {"id_producto":"p23","id_atributo":"atbp23","id_color":"no","nombre_img":"SansevieriaTrifasciata_lenguadesuegra.jpg"},
+        {"id_producto":"p24","id_atributo":"atbp24","id_color":"no","nombre_img":"MonsteraDeliciosa_costilladeadan.jpg"}
         
     ],
     "atributo_producto":[
@@ -839,7 +876,23 @@
          "id_color":"no",
          "id_tallas":"",
          "id_pack":"pack22"
-        }                                                                                                     
+        },
+        {     
+         "id_atributo": "atbp23",   
+         "cantidad": 5,  
+         "id_producto": "p23",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack23"
+        },                                                                                                             
+        {     
+         "id_atributo": "atbp24",   
+         "cantidad": 5,  
+         "id_producto": "p24",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack24"
+        }                                                                                                             
     ],
     "colores":[
         {"id_color":"c1","nombre_color":"blanco"},
