@@ -23,7 +23,10 @@ let vendors =
             </div>
             <div class="vendor-item border p-4">
             <a href="https://app-pe.github.io/tv40/shop.html?id=shop1"><img src="img/vendor-6.jpg" alt=""></a>                
-            </div>                
+            </div>   
+            <div class="vendor-item border p-4">
+            <a href="https://app-pe.github.io/tv40/shop.html?id=shop9"><img src="img/vendor-7.jpeg" alt=""></a>                
+            </div>             
         </div>
     </div>
 </div>`;
