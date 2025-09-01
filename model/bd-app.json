@@ -109,7 +109,8 @@
         {"id_categoria":"cat15","url_imagen_categoria":"img/categorias/uniformes/casacas/","nombre_categoria":"Casacas","default_imagen_categoria": "img/categorias/uniformes/casacas/uniforme_casacaprom.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},                  
         {"id_categoria":"cat16","url_imagen_categoria":"img/categorias/uniformes/polos/","nombre_categoria":"Polos","default_imagen_categoria": "img/categorias/uniformes/polos/uniforme_poloybolsa.jpg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},                  
         {"id_categoria":"cat17","url_imagen_categoria":"img/categorias/uniformes/poleras/","nombre_categoria":"Poleras","default_imagen_categoria": "img/categorias/uniformes/poleras/uniforme_poleradelante.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},
-        {"id_categoria":"cat18","url_imagen_categoria":"img/categorias/plantas/","nombre_categoria":"Plantas","default_imagen_categoria": "img/categorias/cat-12.jpg","tipo_categoria":"plantas","estado_categoria":"activado","menu":"mp"}                  
+        {"id_categoria":"cat18","url_imagen_categoria":"img/categorias/plantas/","nombre_categoria":"Plantas","default_imagen_categoria": "img/categorias/cat-12.jpg","tipo_categoria":"plantas","estado_categoria":"activado","menu":"mp"},
+        {"id_categoria":"cat19","url_imagen_categoria":"img/categorias/plantas/ornamentales/","nombre_categoria":"Ornamentales","default_imagen_categoria": "img/categorias/plantas/ornamentales/SansevieriaTrifasciata_lenguadesuegra.jpeg","tipo_categoria":"plantas","estado_categoria":"activado","menu":"ms"}                  
     ], 
     "tienda_categoria":[
         {
@@ -377,7 +378,7 @@
         "cantidad": 10,  
         "descripcion":"<p class='mb-1'>Esta planta es ideal para interiores, ya que purifica el aire (según estudios de la NASA).</p><p class='mb-1'>Es muy resistente y fácil de cuidar.</p>",  
         "beneficio":"<h4 class='mb-3'>Por que tener una Sansevieria trifasciata en casa</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Su forma elegante, vertical y moderna la hace perfecta para espacios minimalistas o decoraciones urbanas.</li><li class='list-group-item px-0'>Mejora la calidad del sueño debido a que produce oxígeno por la noche (proceso CAM), es ideal para colocar en el dormitorio.</li><li class='list-group-item px-0'>No requiere riego frecuente (1 vez cada 15 días o menos).</li><li class='list-group-item px-0'>Tolera poca luz, ambientes secos y cambios de temperatura.</li>  </ul></div> </div>",
-        "id_categoria": "cat18",     
+        "id_categoria": "cat19",     
         "id_tienda": "shop9"            
         },                
         {     
@@ -389,7 +390,7 @@
         "cantidad": 10,  
         "descripcion":"<p class='mb-1'>Planta de Hojas grandes, verdes, brillantes y profundamente divididas con perforaciones naturales. Su forma única recuerda a una costilla, de ahí su nombre común.</p><p class='mb-1'>Tener plantas grandes y verdes como la monstera puede mejorar el estado de ánimo, reducir el estrés y fomentar una sensación de bienestar y conexión natural.</p>",  
         "beneficio":"<h4 class='mb-3'>Por que tener una Monstera Deliciosa en casa</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Aporta un toque exótico y elegante a cualquier espacio.</li><li class='list-group-item px-0'>Sus hojas icónicas la han convertido en una de las plantas más populares del diseño de interiores moderno, boho, escandinavo y tropical.</li><li class='list-group-item px-0'>Fácil mantenimiento, Riego moderado (cuando se seca la tierra)/li><li class='list-group-item px-0'>Luz indirecta brillante (tolera poca luz, pero crece mejor con luz media), vive muchos años si se le da un ambiente adecuado.</li>  </ul></div> </div>",
-        "id_categoria": "cat18",     
+        "id_categoria": "cat19",     
         "id_tienda": "shop9"            
         }                
 
