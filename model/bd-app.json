@@ -92,7 +92,7 @@
         }
     ],
     "categoria":[          
-        {"id_categoria":"cat1","url_imagen_categoria":"img/categorias/moda-hombre/","nombre_categoria":"Moda hombre","default_imagen_categoria": "img/categorias/cat-1.jpg","tipo_categoria":"hombre","estado_categoria":"activado","menu":"mp"},
+        {"id_categoria":"cat1","url_imagen_categoria":"img/categorias/moda-hombre/","nombre_categoria":"Moda hombre","default_imagen_categoria": "img/categorias/cat-1.jpg","tipo_categoria":"hombre","estado_categoria":"desactivado","menu":"mp"},
         {"id_categoria":"cat2","url_imagen_categoria":"img/categorias/moda-infantil/","nombre_categoria":"Moda mujer","default_imagen_categoria": "img/categorias/cat-2.jpg","tipo_categoria":"mujer","estado_categoria":"desactivado","menu":"mp"},
         {"id_categoria":"cat3","url_imagen_categoria":"img/categorias/moda-mujer/","nombre_categoria":"Moda infantil","default_imagen_categoria": "img/categorias/cat-3.jpg","tipo_categoria":"infantil","estado_categoria":"desactivado","menu":"mp"},                    
         {"id_categoria":"cat4","url_imagen_categoria":"img/categorias/polos/","nombre_categoria":"Polos","default_imagen_categoria": "img/categorias/cat-4.jpg","tipo_categoria":"hombre","estado_categoria":"activado","menu":"ms"},                    
