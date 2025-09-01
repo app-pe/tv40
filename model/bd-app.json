@@ -110,7 +110,7 @@
         {"id_categoria":"cat16","url_imagen_categoria":"img/categorias/uniformes/polos/","nombre_categoria":"Polos","default_imagen_categoria": "img/categorias/uniformes/polos/uniforme_poloybolsa.jpg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},                  
         {"id_categoria":"cat17","url_imagen_categoria":"img/categorias/uniformes/poleras/","nombre_categoria":"Poleras","default_imagen_categoria": "img/categorias/uniformes/poleras/uniforme_poleradelante.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},
         {"id_categoria":"cat18","url_imagen_categoria":"img/categorias/plantas/","nombre_categoria":"Plantas","default_imagen_categoria": "img/categorias/cat-12.jpg","tipo_categoria":"plantas","estado_categoria":"activado","menu":"mp"},
-        {"id_categoria":"cat19","url_imagen_categoria":"img/categorias/plantas/ornamentales/","nombre_categoria":"Ornamentales","default_imagen_categoria": "img/categorias/plantas/ornamentales/SansevieriaTrifasciata_lenguadesuegra.jpeg","tipo_categoria":"plantas","estado_categoria":"activado","menu":"ms"}                  
+        {"id_categoria":"cat19","url_imagen_categoria":"img/categorias/plantas/ornamentales/","nombre_categoria":"Ornamentales","default_imagen_categoria": "img/categorias/plantas/ornamentales/SansevieriaTrifasciata_lenguadesuegra.jpg","tipo_categoria":"plantas","estado_categoria":"activado","menu":"ms"}                  
     ], 
     "tienda_categoria":[
         {
