@@ -120,7 +120,8 @@
         {"id_categoria":"cat16","url_imagen_categoria":"img/categorias/uniformes/polos/","nombre_categoria":"Polos","default_imagen_categoria": "img/categorias/uniformes/polos/uniforme_poloybolsa.jpg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},                  
         {"id_categoria":"cat17","url_imagen_categoria":"img/categorias/uniformes/poleras/","nombre_categoria":"Poleras","default_imagen_categoria": "img/categorias/uniformes/poleras/uniforme_poleradelante.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},
         {"id_categoria":"cat18","url_imagen_categoria":"img/categorias/plantas/","nombre_categoria":"Plantas","default_imagen_categoria": "img/categorias/cat-12.jpg","tipo_categoria":"plantas","estado_categoria":"activado","menu":"mp"},
-        {"id_categoria":"cat19","url_imagen_categoria":"img/categorias/plantas/ornamentales/","nombre_categoria":"Ornamentales","default_imagen_categoria": "img/categorias/plantas/ornamentales/SansevieriaTrifasciata_lenguadesuegra.jpg","tipo_categoria":"plantas","estado_categoria":"activado","menu":"ms"}                  
+        {"id_categoria":"cat19","url_imagen_categoria":"img/categorias/plantas/ornamentales/","nombre_categoria":"Ornamentales","default_imagen_categoria": "img/categorias/plantas/ornamentales/SansevieriaTrifasciata_lenguadesuegra.jpg","tipo_categoria":"plantas","estado_categoria":"activado","menu":"ms"},
+        {"id_categoria":"cat20","url_imagen_categoria":"img/categorias/snacks/mani/","nombre_categoria":"Maní","default_imagen_categoria": "img/categorias/snacks/mani/mani_confitado.jpg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"}                                 
     ], 
     "tienda_categoria":[
         {
@@ -410,9 +411,21 @@
         "precio_catalogo": 15,
         "precio_oferta": 10, 
         "cantidad": 15,  
-        "descripcion":"<p class='mb-1'>Los chifles son un delicioso snack originario de América Latina, especialmente popular en países como Ecuador.</p><p class='mb-1'>Están hechos a base de plátano verde y maduro cortado en rodajas finas, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",  
-        "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>Los chifles son ricos en carbohidratos complejos, lo que los convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El plátano verde, base de los chifles, es una excelente fuente de fibra, lo que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en potasio</h4><p>El potasio en los chifles ayuda a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
+        "descripcion":"<p class='mb-1'>Los chifles son un delicioso snack originario de América Latina, especialmente popular en países como Ecuador.</p><p class='mb-1'>Su sabor suave y textura cremosa lo hacen ideal para consumir tostado, hervido, en salsas, dulces y fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>Antioxidante natural, contiene resveratrol, un antioxidante que ayuda a combatir el envejecimiento celular.</p><h4 class='mb-3'>Cuida la salud del corazón</h4><p>Ayuda a reducir el colesterol malo (LDL).</p><h4 class='mb-3'>Favorece la salud cerebral</h4><p>Contiene niacina, vitamina E y antioxidantes beneficiosos para la memoria y el sistema nervioso.</p>",
         "id_categoria": "cat11",     
+        "id_tienda": "shop10"             
+        },
+        {     
+        "id_producto": "p26",
+        "nombre_producto": "Maní Crujientes AleLui",   
+        "imagen_principal": "mani_confitado.jpg",      
+        "precio_catalogo": 15,
+        "precio_oferta": 10, 
+        "cantidad": 15,  
+        "descripcion":"<p class='mb-1'>El maní es un delicioso snack originario de América Latina, especialmente popular en países como Ecuador.</p><p class='mb-1'>Se consume como fruto seco, tostado, salado, dulce, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Apoya la función cerebral</h4><p>Por su contenido de niacina y vitamina E, que son esenciales para la salud del sistema nervioso.</p><h4 class='mb-3'>Digestión saludable</h4><p>Favorece la salud digestiva y ayuda a mantener la saciedad por más tiempo.</p><h4 class='mb-3'>Rico en vitaminas y minerales</h4><p>Buenas cantidades de vitamina E, niacina (B3), ácido fólico, magnesio, fósforo y zinc.</p>",
+        "id_categoria": "cat20",     
         "id_tienda": "shop10"             
         }                
 
@@ -472,7 +485,8 @@
         {"id_producto":"p22","id_atributo":"atbp22","id_color":"no","nombre_img":"uniforme_polerachicospromo.jpeg"},
         {"id_producto":"p23","id_atributo":"atbp23","id_color":"no","nombre_img":"SansevieriaTrifasciata_lenguadesuegra.jpg"},
         {"id_producto":"p24","id_atributo":"atbp24","id_color":"no","nombre_img":"MonsteraDeliciosa_costilladeadan.jpg"},
-        {"id_producto":"p25","id_atributo":"atbp25","id_color":"no","nombre_img":"bolsaschiflesalado_crujientesalelui.jpg"}
+        {"id_producto":"p25","id_atributo":"atbp25","id_color":"no","nombre_img":"bolsaschiflesalado_crujientesalelui.jpg"},
+        {"id_producto":"p26","id_atributo":"atbp26","id_color":"no","nombre_img":"mani_confitado.jpg"}
         
     ],
     "atributo_producto":[
@@ -917,14 +931,22 @@
          "id_tallas":"",
          "id_pack":"pack24"
         },
-         {     
+        {     
          "id_atributo": "atbp25",   
          "cantidad": 5,  
          "id_producto": "p25",
          "id_color":"no",
          "id_tallas":"",
-         "id_pack":"pack24"
-        }                                                                                                                        
+         "id_pack":"pack25"
+        },
+        {     
+         "id_atributo": "atbp26",   
+         "cantidad": 5,  
+         "id_producto": "p26",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack26"
+        }                                                                                                                                
     ],
     "colores":[
         {"id_color":"c1","nombre_color":"blanco"},
