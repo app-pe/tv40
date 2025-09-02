@@ -402,6 +402,18 @@
         "beneficio":"<h4 class='mb-3'>Por que tener una Monstera Deliciosa en casa</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Aporta un toque exótico y elegante a cualquier espacio.</li><li class='list-group-item px-0'>Sus hojas icónicas la han convertido en una de las plantas más populares del diseño de interiores moderno, boho, escandinavo y tropical.</li><li class='list-group-item px-0'>Fácil mantenimiento, Riego moderado (cuando se seca la tierra)</li><li class='list-group-item px-0'>Luz indirecta brillante (tolera poca luz, pero crece mejor con luz media), vive muchos años si se le da un ambiente adecuado.</li>  </ul></div> </div>",
         "id_categoria": "cat19",     
         "id_tienda": "shop9"            
+        },
+        {     
+        "id_producto": "p25",
+        "nombre_producto": "Chifles Crujientes AleLui",   
+        "imagen_principal": "bolsaschiflesalado_crujientesalelui.jpg",      
+        "precio_catalogo": 15,
+        "precio_oferta": 10, 
+        "cantidad": 15,  
+        "descripcion":"<p class='mb-1'>Los chifles son un delicioso snack originario de América Latina, especialmente popular en países como Ecuador.</p><p class='mb-1'>Están hechos a base de plátano verde y maduro cortado en rodajas finas, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>Los chifles son ricos en carbohidratos complejos, lo que los convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El plátano verde, base de los chifles, es una excelente fuente de fibra, lo que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en potasio</h4><p>El potasio en los chifles ayuda a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
+        "id_categoria": "cat11",     
+        "id_tienda": "shop10"             
         }                
 
     ],
@@ -459,7 +471,8 @@
         {"id_producto":"p22","id_atributo":"atbp22","id_color":"no","nombre_img":"uniforme_poleradetras.jpeg"},
         {"id_producto":"p22","id_atributo":"atbp22","id_color":"no","nombre_img":"uniforme_polerachicospromo.jpeg"},
         {"id_producto":"p23","id_atributo":"atbp23","id_color":"no","nombre_img":"SansevieriaTrifasciata_lenguadesuegra.jpg"},
-        {"id_producto":"p24","id_atributo":"atbp24","id_color":"no","nombre_img":"MonsteraDeliciosa_costilladeadan.jpg"}
+        {"id_producto":"p24","id_atributo":"atbp24","id_color":"no","nombre_img":"MonsteraDeliciosa_costilladeadan.jpg"},
+        {"id_producto":"p25","id_atributo":"atbp25","id_color":"no","nombre_img":"bolsaschiflesalado_crujientesalelui.jpg"}
         
     ],
     "atributo_producto":[
@@ -903,7 +916,15 @@
          "id_color":"no",
          "id_tallas":"",
          "id_pack":"pack24"
-        }                                                                                                             
+        },
+         {     
+         "id_atributo": "atbp25",   
+         "cantidad": 5,  
+         "id_producto": "p25",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack24"
+        }                                                                                                                        
     ],
     "colores":[
         {"id_color":"c1","nombre_color":"blanco"},
