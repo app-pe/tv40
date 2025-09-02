@@ -89,6 +89,16 @@
             "imagen_logo": "img/tiendas/refugioverde/logo_refugioverde.jpeg",
             "imagen_banner": "img/tiendas/refugioverde/banner_refugioverde.jpg",
             "url_imagen_tienda":"img/tiendas/refugioverde/"
+        },
+        {
+            "id_tienda": "shop10",
+            "nombre_tienda": "CRUJIENTES ALELUI",
+            "descripcion_tienda": "Venta de Chifles Crujientes Salados y Dulces, otros snacks.",
+            "ruc": "",
+            "razon_social": "",
+            "imagen_logo": "img/tiendas/crujientesalelui/logo_crujientesAleLui.jpg",
+            "imagen_banner": "img/tiendas/crujientesalelui/.jpg",
+            "url_imagen_tienda":"img/tiendas/crujientesalelui/"
         }
     ],
     "categoria":[          
