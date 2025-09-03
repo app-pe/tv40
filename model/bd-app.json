@@ -93,12 +93,22 @@
         {
             "id_tienda": "shop10",
             "nombre_tienda": "CRUJIENTES ALELUI",
-            "descripcion_tienda": "Venta de Chifles Crujientes Salados y Dulces, otros snacks.",
+            "descripcion_tienda": "Venta de Chifles Crujientes Salados y Dulces.",
             "ruc": "",
             "razon_social": "",
             "imagen_logo": "img/tiendas/crujientesalelui/logo_crujientesAleLui.jpg",
             "imagen_banner": "img/tiendas/crujientesalelui/banner_crujientesAleLui.jpg",
             "url_imagen_tienda":"img/tiendas/crujientesalelui/"
+        },
+        {
+            "id_tienda": "shop11",
+            "nombre_tienda": "MANI CRONCH LUI DI",
+            "descripcion_tienda": "Venta de Maní Crujientes Salados y Dulces, otros snacks.",
+            "ruc": "",
+            "razon_social": "",
+            "imagen_logo": "img/tiendas/manicronchluidi/logo_manicronchLuiDi.jpg",
+            "imagen_banner": "img/tiendas/manicronchluidi/banner_logo_manicronchLuiDi.jpg",
+            "url_imagen_tienda":"img/tiendas/manicronchluidi/"
         }
     ],
     "categoria":[          
