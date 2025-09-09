@@ -416,7 +416,7 @@
         },
         {     
         "id_producto": "p25",
-        "nombre_producto": "Chifles Crujientes AleLui",   
+        "nombre_producto": "Chifles Salados Crujientes AleLui",   
         "imagen_principal": "bolsaschiflesalado_crujientesalelui.jpg",      
         "precio_catalogo": 15,
         "precio_oferta": 10, 
@@ -428,8 +428,8 @@
         },
         {     
         "id_producto": "p26",
-        "nombre_producto": "Chifles Crujientes AleLui",   
-        "imagen_principal": "bolsaschiflesalado_crujientesalelui2.jpg",      
+        "nombre_producto": "Chifles Dulces Crujientes AleLui",   
+        "imagen_principal": "bolsaschiflesdulces_crujientesalelui.jpg",      
         "precio_catalogo": 15,
         "precio_oferta": 10, 
         "cantidad": 15,  
