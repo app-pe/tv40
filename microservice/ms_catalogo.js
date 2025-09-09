@@ -19,6 +19,7 @@ function generarCatalogoProductos(arrayprouctos){
     let precio_catalogo = "";
     let precio_oferta = "";
     let nombre_img = "";
+    
     //cambio de valor a url en shop
     for(var j=0;j<arrayprouctos.length;j++){  
         id_categoria = arrayprouctos[j].id_categoria;
@@ -34,6 +35,23 @@ function generarCatalogoProductos(arrayprouctos){
         nombre_img = arrayprouctos[j].nombre_img;        
         url = arrayprouctos[j].url_imagen_categoria;
 
+        //validar para id_tienda shop10 y shop11
+        var cambiar_titulos = "";
+        if(id_tienda==='shop10' || id_tienda==='shop11'){
+        cambiar_titulos =
+        `
+        <div><h6 class="text-left text-products"">Ventas por Mayor y Menor</h6></div>
+        <div><h6 class="text-left precio-oferta">+593 963229217</h6></div>
+        `;
+            
+        }else{
+        cambiar_titulos =
+        `
+        <div><h6 class="text-left precio-catalogo">S/ ${precio_catalogo}</h6></div>
+        <div><h6 class="text-left precio-oferta">S/ ${precio_oferta}</h6></div>
+        `;
+        }
+
     catalogox +=
     `
     <div class="col-lg-3 col-md-6 col-sm-12 pb-1 ${id_categoria} ${id_tallas} ${id_color}">
@@ -45,8 +63,7 @@ function generarCatalogoProductos(arrayprouctos){
             </div>
             <div class="card-body border-left border-right text-left p-0 pt-1 pb-1">                
                 <div><h6 class="text-left text-products">${nombre_producto}</h6></div>
-                <div><h6 class="text-left precio-catalogo">S/ ${precio_catalogo}</h6></div>
-                <div><h6 class="text-left precio-oferta">S/ ${precio_oferta}</h6></div>                                   
+                `+cambiar_titulos+`                            
                 
             </div>
             <div class="card-footer d-flex justify-content-between bg-light border">
