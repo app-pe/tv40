@@ -497,7 +497,19 @@
         "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>Antioxidante natural, contiene resveratrol, un antioxidante que ayuda a combatir el envejecimiento celular.</p><h4 class='mb-3'>Cuida la salud del corazón</h4><p>Ayuda a reducir el colesterol malo (LDL).</p><h4 class='mb-3'>Favorece la salud cerebral</h4><p>Contiene niacina, vitamina E y antioxidantes beneficiosos para la memoria y el sistema nervioso.</p>",
         "id_categoria": "cat11",     
         "id_tienda": "shop10"             
-        }                 
+        },
+        {     
+        "id_producto": "p32",
+        "nombre_producto": "Don Sergio Café Orgánico de Moyobamba - 500g",   
+        "imagen_principal": "cafedonsergio500g.jpg",      
+        "precio_catalogo": 70,
+        "precio_oferta": 50, 
+        "cantidad": 50,  
+        "descripcion":"<p class='mb-1'>El Café Orgánico Don Sergio con aroma frutal es una deliciosa bebida originaria de las tierras de moyobamba en Péru.</p><p class='mb-1'>Los granos de café orgánico con aroma frutal obtienen su sabor al estar alrededor de plantaciones de frutas y al ser tostados se integran los aromas dando como resultado una bebida que resalta su sabor cuando lo prepara.</p><p class='mb-1'>Es la bebida perfecta para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante y llevate a casa este delicioso café orgánico con aroma frutal para que compartas la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>El café orgánico tostado es rico en antioxidantes que son buenos para mejorar su salud lo que lo convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El café orgánico tostado es una excelente fuente de energía que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en antioxidantes</h4><p>Los antioxidantes ayudan a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
+        "id_categoria": "cat12",     
+        "id_tienda": "shop4"             
+        }              
 
     ],
     "imagenes":[
@@ -561,7 +573,8 @@
         {"id_producto":"p28","id_atributo":"atbp28","id_color":"no","nombre_img":"mani_dulce.jpg"},
         {"id_producto":"p29","id_atributo":"atbp29","id_color":"no","nombre_img":"mani_salado.jpg"},
         {"id_producto":"p30","id_atributo":"atbp30","id_color":"no","nombre_img":"bolsa_frutossecos.jpg"},
-        {"id_producto":"p31","id_atributo":"atbp31","id_color":"no","nombre_img":"bolsascamotesfritos_crujientesalelui.jpg"}
+        {"id_producto":"p31","id_atributo":"atbp31","id_color":"no","nombre_img":"bolsascamotesfritos_crujientesalelui.jpg"},
+        {"id_producto":"p32","id_atributo":"atbp32","id_color":"no","nombre_img":"cafedonsergio500g.jpg"}
         
     ],
     "atributo_producto":[
@@ -1061,7 +1074,15 @@
          "id_color":"no",
          "id_tallas":"",
          "id_pack":"pack31"
-        }                                                                                                                                                                      
+        },
+        {     
+         "id_atributo": "atbp32",   
+         "cantidad": 5,  
+         "id_producto": "p32",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack32"
+        }                                                                                                                                                                           
     ],
     "colores":[
         {"id_color":"c1","nombre_color":"blanco"},
