@@ -131,7 +131,7 @@
         {"id_categoria":"cat17","url_imagen_categoria":"img/categorias/uniformes/poleras/","nombre_categoria":"Poleras","default_imagen_categoria": "img/categorias/uniformes/poleras/uniforme_poleradelante.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},
         {"id_categoria":"cat18","url_imagen_categoria":"img/categorias/plantas/","nombre_categoria":"Plantas","default_imagen_categoria": "img/categorias/cat-12.jpg","tipo_categoria":"plantas","estado_categoria":"activado","menu":"mp"},
         {"id_categoria":"cat19","url_imagen_categoria":"img/categorias/plantas/ornamentales/","nombre_categoria":"Ornamentales","default_imagen_categoria": "img/categorias/plantas/ornamentales/SansevieriaTrifasciata_lenguadesuegra.jpg","tipo_categoria":"plantas","estado_categoria":"activado","menu":"ms"},
-        {"id_categoria":"cat20","url_imagen_categoria":"img/categorias/snacks/mani/","nombre_categoria":"Maní","default_imagen_categoria": "img/categorias/snacks/mani/mani_confitado.jpg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"}                                 
+        {"id_categoria":"cat20","url_imagen_categoria":"img/categorias/snacks/mani/","nombre_categoria":"Maní","default_imagen_categoria": "img/categorias/snacks/mani/mani_dulce.jpg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"}                                 
     ], 
     "tienda_categoria":[
         {
@@ -544,7 +544,7 @@
         {"id_producto":"p23","id_atributo":"atbp23","id_color":"no","nombre_img":"SansevieriaTrifasciata_lenguadesuegra.jpg"},
         {"id_producto":"p24","id_atributo":"atbp24","id_color":"no","nombre_img":"MonsteraDeliciosa_costilladeadan.jpg"},
         {"id_producto":"p25","id_atributo":"atbp25","id_color":"no","nombre_img":"bolsaschiflesalado_crujientesalelui.jpg"},
-        {"id_producto":"p26","id_atributo":"atbp26","id_color":"no","nombre_img":"bolsaschiflesalado_crujientesalelui2.jpg"},
+        {"id_producto":"p26","id_atributo":"atbp26","id_color":"no","nombre_img":"bolsaschiflesdulces_crujientesalelui.jpg"},
         {"id_producto":"p27","id_atributo":"atbp27","id_color":"no","nombre_img":"bolsascamotes_crujientesalelui.jpg"},
         {"id_producto":"p28","id_atributo":"atbp28","id_color":"no","nombre_img":"mani_dulce.jpg"},
         {"id_producto":"p29","id_atributo":"atbp29","id_color":"no","nombre_img":"mani_salado.jpg"},
