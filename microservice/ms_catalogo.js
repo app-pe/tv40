@@ -37,11 +37,28 @@ function generarCatalogoProductos(arrayprouctos){
 
         //validar para id_tienda shop10 y shop11
         var cambiar_titulos = "";
+        var cambiar_enlaces = "";
+        var cambiar_enlaceImagen = "";
+        var cabecera = "PEDIDO:";
+        var pedidoProducto = nombre_producto;
+        var pedidoUrl = "https://api.whatsapp.com/send?phone=+593963229217&text="+cabecera+"%0D%0A"+pedidoProducto;
+        var tiendaUrl = "https://app-pe.github.io/tv40/shop.html?id="+id_tienda;
         if(id_tienda==='shop10' || id_tienda==='shop11'){
         cambiar_titulos =
         `
         <div><h6 class="text-left text-products"">Ventas por Mayor y Menor</h6></div>
         <div><h6 class="text-left precio-oferta">+593 963229217</h6></div>
+        `;
+        cambiar_enlaces =
+        `
+        <a id="${id_tienda}" href="${tiendaUrl}" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>Ver Tienda</a>
+        <a id="${id_atributo+"?"+id_color}" href="${pedidoUrl}" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Comprar</a>
+        `;
+        cambiar_enlaceImagen =
+        `
+        <a href="${pedidoUrl}" class="cat-img position-relative overflow-hidden mb-3">
+        <img class="cat-img" src="${url+nombre_img}" id="${id_atributo+"?"+id_color}" alt="${nombre_producto}">
+        </a>
         `;
             
         }else{
@@ -50,16 +67,27 @@ function generarCatalogoProductos(arrayprouctos){
         <div><h6 class="text-left precio-catalogo">S/ ${precio_catalogo}</h6></div>
         <div><h6 class="text-left precio-oferta">S/ ${precio_oferta}</h6></div>
         `;
+        cambiar_enlaces =
+        `
+        <a id="${id_tienda}" href="" class="btn btn-sm text-dark p-0 pasaridTienda"><i class="fas fa-eye text-primary mr-1"></i>Ver Tienda</a>
+        <a id="${id_atributo+"?"+id_color}" href="" class="btn btn-sm text-dark p-0 pasaridCategoria2"><i class="fas fa-shopping-cart text-primary mr-1"></i>Comprar</a>
+        `;
+        cambiar_enlaceImagen =
+        `
+        <a href="" class="cat-img position-relative overflow-hidden mb-3">
+        <img class="cat-img pasaridCategoria" src="${url+nombre_img}" id="${id_atributo+"?"+id_color}" alt="${nombre_producto}">
+        </a>
+        `;
+
         }
+        
 
     catalogox +=
     `
     <div class="col-lg-3 col-md-6 col-sm-12 pb-1 ${id_categoria} ${id_tallas} ${id_color}">
         <div class="card product-item border-0 mb-4">
             <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-            <a href="" class="cat-img position-relative overflow-hidden mb-3">
-                <img class="cat-img pasaridCategoria" src="${url+nombre_img}" id="${id_atributo+"?"+id_color}" alt="${nombre_producto}">
-            </a>
+                `+cambiar_enlaceImagen+`
             </div>
             <div class="card-body border-left border-right text-left p-0 pt-1 pb-1">                
                 <div><h6 class="text-left text-products">${nombre_producto}</h6></div>
@@ -67,8 +95,7 @@ function generarCatalogoProductos(arrayprouctos){
                 
             </div>
             <div class="card-footer d-flex justify-content-between bg-light border">
-                <a id="${id_tienda}" href="" class="btn btn-sm text-dark p-0 pasaridTienda"><i class="fas fa-eye text-primary mr-1"></i>Ver Tienda</a>
-                <a id="${id_atributo+"?"+id_color}" href="" class="btn btn-sm text-dark p-0 pasaridCategoria2"><i class="fas fa-shopping-cart text-primary mr-1"></i>Comprar</a>
+                `+cambiar_enlaces+`
             </div>
         </div>
     </div>
