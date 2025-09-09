@@ -452,7 +452,7 @@
         },
         {     
         "id_producto": "p28",
-        "nombre_producto": "Maní Crujientes MANI CRONCH LUI DI",   
+        "nombre_producto": "Maní Dulce Crujientes MANI CRONCH LUI DI",   
         "imagen_principal": "mani_dulce.jpg",      
         "precio_catalogo": 15,
         "precio_oferta": 10, 
@@ -464,7 +464,7 @@
         },
         {     
         "id_producto": "p29",
-        "nombre_producto": "Maní Crujientes MANI CRONCH LUI DI",   
+        "nombre_producto": "Maní Salado Crujientes MANI CRONCH LUI DI",   
         "imagen_principal": "mani_salado.jpg",      
         "precio_catalogo": 15,
         "precio_oferta": 10, 
