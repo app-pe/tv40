@@ -285,7 +285,7 @@
         {     
         "id_producto": "p14",
         "nombre_producto": "Don Sergio Café Orgánico de Moyobamba - 5 Unid. de 500g",   
-        "imagen_principal": "cajacafe10unid.jpg",      
+        "imagen_principal": "cajacafedonsergio_5unid500g.jpg",      
         "precio_catalogo": 300,
         "precio_oferta": 250, 
         "cantidad": 10,  
@@ -549,7 +549,7 @@
         {"id_producto":"p11","id_atributo":"atbp11","id_color":"no","nombre_img":"chifles.jpeg"},
         {"id_producto":"p12","id_atributo":"atbp12","id_color":"no","nombre_img":"cafedonsergio1kg.jpg"},
         {"id_producto":"p13","id_atributo":"atbp13","id_color":"no","nombre_img":"cajachifles15unid.jpg"},
-        {"id_producto":"p14","id_atributo":"atbp14","id_color":"no","nombre_img":"cajacafe10unid.jpg"},
+        {"id_producto":"p14","id_atributo":"atbp14","id_color":"no","nombre_img":"cajacafedonsergio_5unid500g.jpg"},
         {"id_producto":"p15","id_atributo":"atbp15","id_color":"no","nombre_img":"chifleslafinca.jpeg"},
         {"id_producto":"p16","id_atributo":"atbp16","id_color":"no","nombre_img":"portada_cuentosEducacionFinanciera.jpg"},
         {"id_producto":"p17","id_atributo":"atbp17","id_color":"no","nombre_img":"portada_libroUnBosquellamadoArmonia.jpg"},
