@@ -254,14 +254,14 @@ function eliminarProducto(e){
 function mostrarTotalconenvio(totalx){        
     var totalconEnvio = 0;
     var envio = 0;
-    if(totalx < 200){
+    if(totalx < 100){
         if(totalx === 0){
             //alert("DEBE AGREGAR UN PRODUCTO");
             window.open("index.html", "_self");
         }else{
             //resum_envio = 20 soles
-            document.getElementById("resum_envio").innerHTML = 20;
-            envio = 20;
+            document.getElementById("resum_envio").innerHTML = 10;
+            envio = 10;
         }
         
     }else{
