@@ -114,8 +114,40 @@ function enviarPedido(){
     var filas = "";
     var total = 0;
     var datos_persona = "";
+    //agregamos prueba para enviar a 2 numeros de shop
+    var shopId = "";
+    var baseUrlX = "";    
     const carrito = JSON.parse(localStorage.getItem("items_carrito")) || [];
-    carrito.forEach((item) => {        
+
+    // Paso 1: Obtener todos los shopIds únicos
+    const tiendasUnicas = new Set(carrito.map(item => item.id_tienda));
+    if (tiendasUnicas.size === 1) {
+        const unicoShopId = [...tiendasUnicas][0]; // Convertimos Set a Array
+        if(unicoShopId  === "shop4"){
+        baseUrlX = "https://api.whatsapp.com/send?phone=51992065380&text=";
+        }
+        if(unicoShopId  === "shop5"){
+        baseUrlX = "https://api.whatsapp.com/send?phone=51999781083&text=";
+        }
+        if(unicoShopId  === "shop6"){
+        baseUrlX = "https://api.whatsapp.com/send?phone=51945652763&text=";
+        }
+        if(unicoShopId  === "shop7"){
+        baseUrlX = "https://api.whatsapp.com/send?phone=51988627732&text=";
+        }
+        if(unicoShopId  === "shop8"){
+        baseUrlX = "https://api.whatsapp.com/send?phone=51997967183&text=";
+        }
+        if(unicoShopId  === "shop9"){
+        baseUrlX = "https://api.whatsapp.com/send?phone=51999831439&text=";
+        }
+        
+    
+    } else {
+        baseUrlX = "https://api.whatsapp.com/send?phone=51999781083&text=";
+    }
+
+    carrito.forEach((item) => {                
         var total = item.subtotal+item.envio;
         filas += item.cantidad+" "+item.nombre_producto+" "+item.tallav+" "+item.colorv+" "+item.atb+" "+"S/"+item.subtotal+"%0D%0A";
     });
@@ -139,7 +171,7 @@ function enviarPedido(){
     var cabecera_detallepagoyenvio =  "DETALLE DE PAGO Y ENVÍO";
     var cab = "|cantidad|producto|color|talla|precio|";   
         
-    var baseUrl = "https://api.whatsapp.com/send?phone=51999781083&text="+cabecera+"%0D%0A"+cabecera_detalleprod+"%0D%0A"+
+    var baseUrl = baseUrlX+cabecera+"%0D%0A"+cabecera_detalleprod+"%0D%0A"+
     filas+"%0D%0A"+cabecera_detallepagoyenvio+"%0D%0A"+mediopago+"%0D%0A"+envio+"%0D%0A"+totalpagar+"%0D%0A"+"%0D%0A"+
     cabecera2+"%0D%0A"+datos_persona;
       
