@@ -124,7 +124,7 @@ function enviarPedido(){
     if (tiendasUnicas.size === 1) {
         const unicoShopId = [...tiendasUnicas][0]; // Convertimos Set a Array
         if(unicoShopId  === "shop4"){
-        baseUrlX = "https://api.whatsapp.com/send?phone=51992065380&text=";
+        baseUrlX = "https://api.whatsapp.com/send?phone=51999781083&text=";
         }
         if(unicoShopId  === "shop5"){
         baseUrlX = "https://api.whatsapp.com/send?phone=51999781083&text=";
