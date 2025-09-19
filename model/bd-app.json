@@ -123,7 +123,7 @@
         {"id_categoria":"cat9","url_imagen_categoria":"img/categorias/libros/educacion_financiera/","nombre_categoria":"Educación Financiera","default_imagen_categoria": "img/categorias/libros/educacion_financiera/portada_cuentosEducacionFinanciera.jpg","tipo_categoria":"libro","estado_categoria":"desactivado","menu":"ms"},                  
         {"id_categoria":"cat10","url_imagen_categoria":"img/categorias/snacks/","nombre_categoria":"Snacks","default_imagen_categoria": "img/categorias/cat-10.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"mp"},                  
         {"id_categoria":"cat11","url_imagen_categoria":"img/categorias/snacks/chifles/","nombre_categoria":"Chifles","default_imagen_categoria": "img/categorias/snacks/chifles/bolsaschiflesalados_crujientesalelui.jpg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"},                  
-        {"id_categoria":"cat12","url_imagen_categoria":"img/categorias/snacks/cafe/","nombre_categoria":"Café","default_imagen_categoria": "img/categorias/snacks/cafe/cafedonsergio500g.jpg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"},                  
+        {"id_categoria":"cat12","url_imagen_categoria":"img/categorias/snacks/cafe/","nombre_categoria":"Café","default_imagen_categoria": "img/categorias/snacks/cafe/donsergiocafe500g.jpg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"},                  
         {"id_categoria":"cat13","url_imagen_categoria":"img/categorias/snacks/mieldeabeja/","nombre_categoria":"Miel de Abeja","default_imagen_categoria": "img/categorias/snacks/mieldeabeja/mieldeabeja_moyobamba.jpeg","tipo_categoria":"snack","estado_categoria":"activado","menu":"ms"},
         {"id_categoria":"cat14","url_imagen_categoria":"img/categorias/uniformes/","nombre_categoria":"Uniformes","default_imagen_categoria": "img/categorias/cat-11.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"mp"},
         {"id_categoria":"cat15","url_imagen_categoria":"img/categorias/uniformes/casacas/","nombre_categoria":"Casacas","default_imagen_categoria": "img/categorias/uniformes/casacas/uniforme_casacaprom.jpeg","tipo_categoria":"uniformes","estado_categoria":"activado","menu":"ms"},                  
@@ -248,8 +248,8 @@
         },        
         {     
         "id_producto": "p11",
-        "nombre_producto": "Pack de Chifles Chiflocos y Café Don Sergio",   
-        "imagen_principal": "chifles.jpg",      
+        "nombre_producto": "Pack Don Sergio Café Orgánico de Moyobamba 500g y bolsa de Chifle Chiflocos",   
+        "imagen_principal": "pack_donsergiocafe500gychifle.jpg",      
         "precio_catalogo": 70,
         "precio_oferta": 50, 
         "cantidad": 15,  
@@ -260,7 +260,7 @@
         },
         {     
         "id_producto": "p12",
-        "nombre_producto": "Don Sergio Café Orgánico de Moyobamba - 1 Unid. de 1kg",   
+        "nombre_producto": "Don Sergio Café Orgánico de Moyobamba 1kg",
         "imagen_principal": "cafedonsergio1kg.jpg",      
         "precio_catalogo": 150,
         "precio_oferta": 100, 
@@ -284,10 +284,10 @@
         },
         {     
         "id_producto": "p14",
-        "nombre_producto": "Don Sergio Café Orgánico de Moyobamba - 5 Unid. de 500g",   
-        "imagen_principal": "cajacafedonsergio_5unid500g.jpg",      
-        "precio_catalogo": 300,
-        "precio_oferta": 250, 
+        "nombre_producto": "Pack Don Sergio Café Orgánico de Moyobamba 500g y bolsa de Chifle Chiflocos",   
+        "imagen_principal": "pack_donsergiocafe500gychifle.jpg",      
+        "precio_catalogo": 70,
+        "precio_oferta": 50, 
         "cantidad": 10,  
         "descripcion":"<p class='mb-1'>El Café Orgánico Don Sergio con aroma frutal es una deliciosa bebida originaria de las tierras de moyobamba en Péru.</p><p class='mb-1'>Los granos de café orgánico con aroma frutal obtienen su sabor al estar alrededor de plantaciones de frutas y al ser tostados se integran los aromas dando como resultado una bebida que resalta su sabor cuando lo prepara.</p><p class='mb-1'>Es la bebida perfecta para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante y llevate a casa este delicioso café orgánico con aroma frutal para que compartas la mejor experiencia y confort.</p>",  
         "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>El café orgánico tostado es rico en antioxidantes que son buenos para mejorar su salud lo que lo convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El café orgánico tostado es una excelente fuente de energía que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en antioxidantes</h4><p>Los antioxidantes ayudan a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
@@ -500,8 +500,8 @@
         },
         {     
         "id_producto": "p32",
-        "nombre_producto": "Don Sergio Café Orgánico de Moyobamba - 1 Unid. de 500g",   
-        "imagen_principal": "cafedonsergio500g.jpg",      
+        "nombre_producto": "Don Sergio Café Orgánico de Moyobamba 500g",   
+        "imagen_principal": "donsergiocafe500g.jpg",      
         "precio_catalogo": 70,
         "precio_oferta": 50, 
         "cantidad": 50,  
@@ -549,7 +549,7 @@
         {"id_producto":"p11","id_atributo":"atbp11","id_color":"no","nombre_img":"chifles.jpeg"},
         {"id_producto":"p12","id_atributo":"atbp12","id_color":"no","nombre_img":"cafedonsergio1kg.jpg"},
         {"id_producto":"p13","id_atributo":"atbp13","id_color":"no","nombre_img":"cajachifles15unid.jpg"},
-        {"id_producto":"p14","id_atributo":"atbp14","id_color":"no","nombre_img":"cajacafedonsergio_5unid500g.jpg"},
+        {"id_producto":"p14","id_atributo":"atbp14","id_color":"no","nombre_img":"pack_donsergiocafe500gychifle.jpg"},
         {"id_producto":"p15","id_atributo":"atbp15","id_color":"no","nombre_img":"chifleslafinca.jpeg"},
         {"id_producto":"p16","id_atributo":"atbp16","id_color":"no","nombre_img":"portada_cuentosEducacionFinanciera.jpg"},
         {"id_producto":"p17","id_atributo":"atbp17","id_color":"no","nombre_img":"portada_libroUnBosquellamadoArmonia.jpg"},
@@ -574,7 +574,7 @@
         {"id_producto":"p29","id_atributo":"atbp29","id_color":"no","nombre_img":"mani_salado.jpg"},
         {"id_producto":"p30","id_atributo":"atbp30","id_color":"no","nombre_img":"bolsa_frutossecos.jpg"},
         {"id_producto":"p31","id_atributo":"atbp31","id_color":"no","nombre_img":"bolsascamotesfritos_crujientesalelui.jpg"},
-        {"id_producto":"p32","id_atributo":"atbp32","id_color":"no","nombre_img":"cafedonsergio500g.jpg"}
+        {"id_producto":"p32","id_atributo":"atbp32","id_color":"no","nombre_img":"donsergiocafe500g.jpg"}
         
     ],
     "atributo_producto":[
