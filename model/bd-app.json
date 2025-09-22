@@ -272,10 +272,10 @@
         },
         {     
         "id_producto": "p13",
-        "nombre_producto": "Caja de Chifles Chiflocos con plátano maduro orgánico 15 Unid. de 250g c/u",   
+        "nombre_producto": "Caja de Chifles Chiflocos con plátano maduro orgánico 10 Unid. de 250g c/u",   
         "imagen_principal": "cajachifles15unid.jpg",      
-        "precio_catalogo": 220,
-        "precio_oferta": 140, 
+        "precio_catalogo": 175,
+        "precio_oferta": 150, 
         "cantidad": 15,  
         "descripcion":"<p class='mb-1'>Los chifles son un delicioso snack originario de América Latina, especialmente popular en países como Perú.</p><p class='mb-1'>Están hechos a base de plátano verde cortado en rodajas finas, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",  
         "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>Los chifles son ricos en carbohidratos complejos, lo que los convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El plátano verde, base de los chifles, es una excelente fuente de fibra, lo que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en potasio</h4><p>El potasio en los chifles ayuda a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
