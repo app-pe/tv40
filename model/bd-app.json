@@ -248,10 +248,10 @@
         },        
         {     
         "id_producto": "p11",
-        "nombre_producto": "Pack Don Sergio Café Orgánico de Moyobamba 500g y bolsa de Chifle Chiflocos",   
-        "imagen_principal": "pack_donsergiocafe500gychifle.jpg",      
-        "precio_catalogo": 70,
-        "precio_oferta": 50, 
+        "nombre_producto": "Chifles Dulces 250g, crujientes y frescos, buenaaazos",   
+        "imagen_principal": "chiflocos_bolsachifledulce250g.jpg",
+        "precio_catalogo": 20,
+        "precio_oferta": 15, 
         "cantidad": 15,  
         "descripcion":"<p class='mb-1'>Los chifles son un delicioso snack originario de América Latina, especialmente popular en países como Perú.</p><p class='mb-1'>Están hechos a base de plátano verde cortado en rodajas finas, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",  
         "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>Los chifles son ricos en carbohidratos complejos, lo que los convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El plátano verde, base de los chifles, es una excelente fuente de fibra, lo que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en potasio</h4><p>El potasio en los chifles ayuda a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
@@ -509,6 +509,18 @@
         "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>El café orgánico tostado es rico en antioxidantes que son buenos para mejorar su salud lo que lo convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El café orgánico tostado es una excelente fuente de energía que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en antioxidantes</h4><p>Los antioxidantes ayudan a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
         "id_categoria": "cat12",     
         "id_tienda": "shop5"             
+        },
+        {     
+        "id_producto": "p33",
+        "nombre_producto": "Chifles Salados 250g, crujientes y frescos, buenaaazos",   
+        "imagen_principal": "chiflocos_bolsachiflesalado250g.jpg",
+        "precio_catalogo": 20,
+        "precio_oferta": 15, 
+        "cantidad": 15,  
+        "descripcion":"<p class='mb-1'>Los chifles son un delicioso snack originario de América Latina, especialmente popular en países como Perú.</p><p class='mb-1'>Están hechos a base de plátano verde cortado en rodajas finas, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",  
+        "beneficio":"<h4 class='mb-3'>Fuente de energía</h4><p>Los chifles son ricos en carbohidratos complejos, lo que los convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El plátano verde, base de los chifles, es una excelente fuente de fibra, lo que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en potasio</h4><p>El potasio en los chifles ayuda a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
+        "id_categoria": "cat11",     
+        "id_tienda": "shop4"             
         }              
 
     ],
@@ -546,7 +558,7 @@
         {"id_producto":"p8","id_atributo":"atbp8","id_color":"c9","nombre_img":"p2_verde_adelante.jpg"},
         {"id_producto":"p8","id_atributo":"atbp8","id_color":"c7","nombre_img":"p2_azul_adelante.jpg"},
         {"id_producto":"p8","id_atributo":"atbp8","id_color":"c5","nombre_img":"p2_negro_adelante.jpg"},      
-        {"id_producto":"p11","id_atributo":"atbp11","id_color":"no","nombre_img":"chifles.jpeg"},
+        {"id_producto":"p11","id_atributo":"atbp11","id_color":"no","nombre_img":"chiflocos_bolsachifledulce250g.jpg"},
         {"id_producto":"p12","id_atributo":"atbp12","id_color":"no","nombre_img":"cafedonsergio1kg.jpg"},
         {"id_producto":"p13","id_atributo":"atbp13","id_color":"no","nombre_img":"cajachifles15unid.jpg"},
         {"id_producto":"p14","id_atributo":"atbp14","id_color":"no","nombre_img":"pack_donsergiocafe500gychifle.jpg"},
@@ -574,7 +586,8 @@
         {"id_producto":"p29","id_atributo":"atbp29","id_color":"no","nombre_img":"mani_salado.jpg"},
         {"id_producto":"p30","id_atributo":"atbp30","id_color":"no","nombre_img":"bolsa_frutossecos.jpg"},
         {"id_producto":"p31","id_atributo":"atbp31","id_color":"no","nombre_img":"bolsascamotesfritos_crujientesalelui.jpg"},
-        {"id_producto":"p32","id_atributo":"atbp32","id_color":"no","nombre_img":"donsergiocafe500g.jpg"}
+        {"id_producto":"p32","id_atributo":"atbp32","id_color":"no","nombre_img":"donsergiocafe500g.jpg"},
+        {"id_producto":"p33","id_atributo":"atbp33","id_color":"no","nombre_img":"chiflocos_bolsachiflesalado250g.jpg"}
         
     ],
     "atributo_producto":[
@@ -1082,6 +1095,14 @@
          "id_color":"no",
          "id_tallas":"",
          "id_pack":"pack32"
+        },                                                                                                                                                                           
+        {     
+         "id_atributo": "atbp33",   
+         "cantidad": 5,  
+         "id_producto": "p33",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack33"
         }                                                                                                                                                                           
     ],
     "colores":[
