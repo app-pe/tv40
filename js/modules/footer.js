@@ -7,7 +7,7 @@ let footer =
         </a>        
         <h1 style="font-size: 18px; text-align: justify;">Impulsa tu negocio y conecta con clientes y emprendedores</h1>        
         <h2 style="font-size: 18px; text-align: justify;">Plataforma con propósito de servicio al emprendedor</h2>
-        <p style="text-align: justify;">muestra gratis tu marca y catálogo por 40 días sin comisiones. Impulsa tu negocio y conecta con clientes y emprendedores.</p>        
+        <h2 style="font-size: 18px; text-align: justify;">Muestra gratis tu marca y catálogo por 40 días sin comisiones. Impulsa tu negocio y conecta con clientes y emprendedores.</h2>        
         <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>tv40shop@gmail.com</p>
     </div>
     <div class="col-lg-6 col-md-12">
