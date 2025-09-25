@@ -4,10 +4,10 @@ let footer =
     <div class="col-lg-6 col-md-12 mb-5 pr-3 pr-xl-5">
         <a href="https://app-pe.github.io/tv40/index.html" class="text-decoration-none">
             <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border border-white px-3 mr-1">TV40</span>Shop</h1>
-        </a>
+        </a>        
+        <h1 style="font-size: 18px; text-align: justify;">Impulsa tu negocio y conecta con clientes y emprendedores</h1>        
         <h2 style="font-size: 18px; text-align: justify;">Plataforma con propósito de servicio al emprendedor</h2>
-        <h2 style="font-size: 18px; text-align: justify;">Impulsa tu negocio y conecta con clientes y emprendedores</h2>        
-        <p>muestra gratis tu marca y catálogo por 40 días sin comisiones. Impulsa tu negocio y conecta con clientes y emprendedores.</p>        
+        <p style="text-align: justify;">muestra gratis tu marca y catálogo por 40 días sin comisiones. Impulsa tu negocio y conecta con clientes y emprendedores.</p>        
         <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>tv40shop@gmail.com</p>
     </div>
     <div class="col-lg-6 col-md-12">
