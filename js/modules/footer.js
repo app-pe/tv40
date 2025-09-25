@@ -5,9 +5,9 @@ let footer =
         <a href="https://app-pe.github.io/tv40/index.html" class="text-decoration-none">
             <h1 class="mb-4 display-5 font-weight-semi-bold"><span class="text-primary font-weight-bold border border-white px-3 mr-1">TV40</span>Shop</h1>
         </a>        
-        <h1 style="font-size: 18px; text-align: justify;">Impulsa tu negocio y conecta con clientes y emprendedores</h1>        
-        <h2 style="font-size: 18px; text-align: justify;">Plataforma con propósito de servicio al emprendedor</h2>
-        <h2 style="font-size: 14px; text-align: justify;">Muestra gratis tu marca y catálogo por 40 días sin comisiones. Impulsa tu negocio y conecta con clientes y emprendedores.</h2>        
+        <h1 style="font-size: 18px; text-align: justify;">Impulsa tu negocio y conecta con clientes y emprendedores.</h1>        
+        <h2 style="font-size: 18px; text-align: justify;">Plataforma con propósito de servicio al emprendedor.</h2>
+        <h2 style="font-size: 18px; text-align: justify;">Muestra gratis tu marca y catálogo por 40 días sin comisiones.</h2>        
         <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>tv40shop@gmail.com</p>
     </div>
     <div class="col-lg-6 col-md-12">
