@@ -16,7 +16,7 @@ let vendors =
             <a href="https://app-pe.github.io/tv40/shop.html?id=shop4"><img src="img/vendor-1.jpg" alt=""></a>                
             </div>
             <div class="vendor-item border p-4">
-            <a href="https://app-pe.github.io/tv40/shop.html?id=shop5"><img src="img/vendor-2.jpg" alt=""></a>                
+            <a href="shop.html?id=shop5"><img src="img/vendor-2.jpg" alt=""></a>                
             </div>
             <div class="vendor-item border p-4">
             <a href="https://app-pe.github.io/tv40/shop.html?id=shop6"><img src="img/vendor-3.jpg" alt=""></a>                
