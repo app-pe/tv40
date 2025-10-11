@@ -14,6 +14,7 @@ function generarCatalogoProductos(arrayprouctos){
     let id_tallas = "";
     let id_producto = "";
     let id_tienda = "";
+    let cantidad = "";
     let id_atributo = "";
     let nombre_producto = "";
     let precio_catalogo = "";
@@ -27,6 +28,7 @@ function generarCatalogoProductos(arrayprouctos){
         id_tallas = arrayprouctos[j].id_tallas;
         id_producto = arrayprouctos[j].id_producto;
         id_tienda = arrayprouctos[j].id_tienda;
+        cantidad = arrayprouctos[j].cantidad;
         id_atributo = arrayprouctos[j].id_atributo;
         nombre_producto = arrayprouctos[j].nombre_producto;
         precio_catalogo = arrayprouctos[j].precio_catalogo;
@@ -81,7 +83,7 @@ function generarCatalogoProductos(arrayprouctos){
 
         }
         
-
+    if(cantidad!==0){
     catalogox +=
     `
     <div class="col-lg-3 col-md-6 col-sm-12 pb-1 ${id_categoria} ${id_tallas} ${id_color}">
@@ -100,7 +102,7 @@ function generarCatalogoProductos(arrayprouctos){
         </div>
     </div>
     `; 
-    
+    }
 }
 
 return catalogox;

@@ -66,6 +66,7 @@ function crearCatalogo(filtrarProductosCategoria){
         filtrarImagenAtb.precio_oferta = filtrarProductosCategoria[i].precio_oferta;  
         filtrarImagenAtb.id_tienda = filtrarProductosCategoria[i].id_tienda;  
         filtrarImagenAtb.id_categoria = filtrarProductosCategoria[i].id_categoria;  
+        filtrarImagenAtb.cantidad = filtrarProductosCategoria[i].cantidad;
         //var url_imagen_categoria = 
         filtrarImagenAtb.url_imagen_categoria = retornarUrlCategorias();
         arrayatbprod = arrayatbprod.concat(filtrarImagenAtb);

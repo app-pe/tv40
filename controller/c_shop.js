@@ -82,6 +82,7 @@ function crearCatalogoTienda(filtrarProductosTienda){
           filtrarImagenAtb.precio_catalogo = filtrarProductosTienda[i].precio_catalogo;
           filtrarImagenAtb.precio_oferta = filtrarProductosTienda[i].precio_oferta;  
           filtrarImagenAtb.id_tienda = filtrarProductosTienda[i].id_tienda; 
+          filtrarImagenAtb.cantidad = filtrarProductosTienda[i].cantidad; 
           filtrarImagenAtb.id_categoria = filtrarProductosTienda[i].id_categoria;  
           var id_categoria = filtrarProductosTienda[i].id_categoria;  
           //var url_imagen_categoria = 
