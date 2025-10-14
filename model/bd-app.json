@@ -8,7 +8,8 @@
             "razon_social": "",
             "imagen_logo": "img/tiendas/inpactum/logo_inpactum.jpg",
             "imagen_banner": "img/tiendas/inpactum/banner_inpactum.jpg",
-            "url_imagen_tienda":"img/tiendas/inpactum/"
+            "url_imagen_tienda":"img/tiendas/inpactum/",
+            "estado":0
         },
         {
             "id_tienda": "shop2",
@@ -18,7 +19,8 @@
             "razon_social": "",
             "imagen_logo": "img/tiendas/bp/logo_bp.jpg",
             "imagen_banner": "img/tiendas/bp/banner_bp.jpg",
-            "url_imagen_tienda":"img/tiendas/bp/"
+            "url_imagen_tienda":"img/tiendas/bp/",
+            "estado":0
         },
         {
             "id_tienda": "shop3",
@@ -28,7 +30,8 @@
             "razon_social": "",
             "imagen_logo": "img/tiendas/clubdelectura/logo_clubdelectura.jpg",
             "imagen_banner": "img/tiendas/clubdelectura/banner_clubdelectura.jpg",
-            "url_imagen_tienda":"img/tiendas/clubdelectura/"
+            "url_imagen_tienda":"img/tiendas/clubdelectura/",
+            "estado":0
         },
         {
             "id_tienda": "shop4",
@@ -38,7 +41,8 @@
             "razon_social": "N8510823N/NADVRC",
             "imagen_logo": "img/tiendas/chiflocos/logo_chiflocos.jpg",
             "imagen_banner": "img/tiendas/chiflocos/banner_chiflocos.jpg",
-            "url_imagen_tienda":"img/tiendas/chiflocos/"
+            "url_imagen_tienda":"img/tiendas/chiflocos/",
+            "estado":1
         },
         {
             "id_tienda": "shop5",
@@ -48,7 +52,8 @@
             "razon_social": "Q0024924N/UAAODE",
             "imagen_logo": "img/tiendas/cafedonsergio/logo_cafedonsergio.jpg",
             "imagen_banner": "img/tiendas/cafedonsergio/banner_donsergiocafe.jpg",
-            "url_imagen_tienda":"img/tiendas/cafedonsergio/"
+            "url_imagen_tienda":"img/tiendas/cafedonsergio/",
+            "estado":1
         },
         {
             "id_tienda": "shop6",
@@ -58,7 +63,8 @@
             "razon_social": "",
             "imagen_logo": "img/tiendas/chifleslafinca/logo_chifleslafinca.jpg",
             "imagen_banner": "img/tiendas/chifleslafinca/banner_chifleslafinca.jpg",
-            "url_imagen_tienda":"img/tiendas/chifleslafinca/"
+            "url_imagen_tienda":"img/tiendas/chifleslafinca/",
+            "estado":1
         },
         {
             "id_tienda": "shop7",
@@ -68,7 +74,8 @@
             "razon_social": "",
             "imagen_logo": "img/tiendas/enciendeunaluz/logo_enciendeunaluz.jpg",
             "imagen_banner": "img/tiendas/enciendeunaluz/banner_enciendeunaluz.jpg",
-            "url_imagen_tienda":"img/tiendas/enciendeunaluz/"
+            "url_imagen_tienda":"img/tiendas/enciendeunaluz/",
+            "estado":1
         },
         {
             "id_tienda": "shop8",
@@ -78,7 +85,8 @@
             "razon_social": "",
             "imagen_logo": "img/tiendas/uniformesperu/logo_uniformesperu.jpg",
             "imagen_banner": "img/tiendas/uniformesperu/banner_uniformesperu.jpg",
-            "url_imagen_tienda":"img/tiendas/uniformesperu/"
+            "url_imagen_tienda":"img/tiendas/uniformesperu/",
+            "estado":0
         },
         {
             "id_tienda": "shop9",
@@ -88,7 +96,8 @@
             "razon_social": "",
             "imagen_logo": "img/tiendas/refugioverde/logo_refugioverde.jpeg",
             "imagen_banner": "img/tiendas/refugioverde/banner_refugioverde.jpg",
-            "url_imagen_tienda":"img/tiendas/refugioverde/"
+            "url_imagen_tienda":"img/tiendas/refugioverde/",
+            "estado":1
         },
         {
             "id_tienda": "shop10",
@@ -98,7 +107,8 @@
             "razon_social": "",
             "imagen_logo": "img/tiendas/crujientesalelui/logo_crujientesAleLui.jpg",
             "imagen_banner": "img/tiendas/crujientesalelui/banner_crujientesAleLui.jpg",
-            "url_imagen_tienda":"img/tiendas/crujientesalelui/"
+            "url_imagen_tienda":"img/tiendas/crujientesalelui/",
+            "estado":1
         },
         {
             "id_tienda": "shop11",
@@ -108,7 +118,8 @@
             "razon_social": "",
             "imagen_logo": "img/tiendas/manicronchluidi/logo_manicronchLuiDi.jpg",
             "imagen_banner": "img/tiendas/manicronchluidi/banner_logo_manicronchLuiDi.jpg",
-            "url_imagen_tienda":"img/tiendas/manicronchluidi/"
+            "url_imagen_tienda":"img/tiendas/manicronchluidi/",
+            "estado":1
         }
     ],
     "categoria":[          

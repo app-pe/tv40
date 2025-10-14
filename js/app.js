@@ -17,11 +17,12 @@ import { generarDivOffers } from './modules/offers.js';
 import { generarDivProductsModa } from './modules/products.js';
 import { generarDivVendors } from './modules/vendors.js';
 import { generarDivFooter } from './modules/footer.js';
-
+import { retornarObjTienda } from '../model/ms_filtros.js';
 const bodyy = document.querySelector('body');
 var nombrePaginaActual = validarUrl();
 
-if(nombrePaginaActual === "index.html"){   
+
+if(nombrePaginaActual === "index.html"){       
     generarTopbar(bodyy);//0 
     generarNavbarCarousel(bodyy);//1
     //generarDivFeatured(bodyy);//2
@@ -32,11 +33,18 @@ if(nombrePaginaActual === "index.html"){
     generarDivFooter(bodyy);//7   
 }
 if(nombrePaginaActual === "shop.html"){
+    var filtrarTienda = retornarObjTienda();
+    if(filtrarTienda.estado === 1){
     generarTopbar(bodyy);//0 
     generarNavbar(bodyy);//1 
     generarShop(bodyy);//2   
     generarShopCatalogo(bodyy);//3     
     generarDivFooter(bodyy);//4    
+    }
+    if(filtrarTienda.estado === 0){
+    window.open("index.html");
+    }
+
 }
 if(nombrePaginaActual === "category.html"){
     generarTopbar(bodyy);//0 

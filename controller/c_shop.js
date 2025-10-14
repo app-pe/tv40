@@ -8,9 +8,29 @@ import { generarCatalogoProductos } from '../microservice/ms_catalogo.js';
 var productos = data.producto;
 var imagenesatb = data.imagenes; 
 var atributos = data.atributo_producto; 
+var tiendas = data.tienda; 
 var filtrarTienda2 = retornarObjTienda();
 var filtrarProductosTienda = retornarProductosTienda();
 var arrayidCategorias = retornarIdCategoriaProductosTienda();
+
+function mostrarSellers(){
+let show_seller = "";
+for(var i=0;i<tiendas.length;i++){
+var idtienda = tiendas[i].id_tienda;
+var imglogo = tiendas[i].imagen_logo;
+var estado = tiendas[i].estado;
+if(estado === 1){
+show_seller +=
+`
+  <div class="vendor-item border p-4">
+            <a href="shop.html?id=${idtienda}"><img src="${imglogo}" alt=""></a>                
+            </div>
+`;
+}
+
+}
+return show_seller;
+}
 
 function retornarIdCategoriaProductosTienda(){   
     //retorna las categorias del producto de la tienda    
@@ -144,4 +164,4 @@ function mostrarLogotienda(){
 
 
 
-export{mostrarBannertienda,mostrarLogotienda,mostrarDatostienda,mostrarCatalogoProductosTienda,crearCatalogoTienda}
+export{mostrarBannertienda,mostrarLogotienda,mostrarDatostienda,mostrarCatalogoProductosTienda,crearCatalogoTienda,mostrarSellers}

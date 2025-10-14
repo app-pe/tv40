@@ -35,7 +35,8 @@ class Products {
     }
 }
 //console.log("data---");
-const data = await new Products("https://raw.githubusercontent.com/app-pe/tv40/refs/heads/main/model/bd-app.json").getSingleProduct()
+//const data = await new Products("https://raw.githubusercontent.com/app-pe/tv40/refs/heads/main/model/bd-app.json").getSingleProduct()
+const data = await new Products("model/bd-app.json").getSingleProduct()
 //console.log(data);
 
 export {datos,data}
