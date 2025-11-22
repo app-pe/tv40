@@ -340,7 +340,19 @@
         "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios de leer este libro son mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Aprender a gestionar las emociones.</li><li class='list-group-item px-0'>Desarrollar la inteligencia emocional en los niños.</li></ul></div> </div>",
         "id_categoria": "cat8",     
         "id_tienda": "shop7"             
-        },        
+        },
+        {     
+        "id_producto": "p18",
+        "nombre_producto": "SOY UN LÍDER",   
+        "imagen_principal": "portada_libro_soyunlider.jpg",
+        "precio_catalogo": 65,
+        "precio_oferta": 49, 
+        "cantidad": 15,  
+        "descripcion":"<p class='mb-1'>Este libro es ideal para enseñar a los jóvenes sobre El poder de la influencia en el liderazgo.</p><p class='mb-1'>Los libros son excelentes para disfrutar la mejor experiencia y confort de la lectura.</p>",  
+        "beneficio":"<h4 class='mb-3'>Beneficios</h4><p>Los beneficios de leer este libro son mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Transformo mi vida para transformar el mundo.</li><li class='list-group-item px-0'>Desarrollar la inteligencia emocional en los jóvenes.</li></ul></div> </div>",
+        "id_categoria": "cat8",     
+        "id_tienda": "shop7"             
+        },                
         {     
         "id_producto": "p19",
         "nombre_producto": "Miel de Abeja de Moyobamba Perú - 500g",   
@@ -564,6 +576,8 @@
         {"id_producto":"p15","id_atributo":"atbp15","id_color":"no","nombre_img":"chifleslafinca.jpeg"},
         {"id_producto":"p16","id_atributo":"atbp16","id_color":"no","nombre_img":"portada_cuentosEducacionFinanciera.jpg"},
         {"id_producto":"p17","id_atributo":"atbp17","id_color":"no","nombre_img":"portada_libroUnBosquellamadoArmonia.jpg"},        
+        {"id_producto":"p18","id_atributo":"atbp18","id_color":"no","nombre_img":"portada_libro_soyunlider.jpg"},        
+        {"id_producto":"p18","id_atributo":"atbp18","id_color":"no","nombre_img":"tapa_librosoyunlider.jpg"},        
         {"id_producto":"p19","id_atributo":"atbp19","id_color":"no","nombre_img":"mieldeabeja500g.jpeg"},
         {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_casacaprom.jpeg"},
         {"id_producto":"p20","id_atributo":"atbp20","id_color":"no","nombre_img":"uniforme_logocasacaprom.jpeg"},
@@ -974,6 +988,14 @@
          "id_tallas":"",
          "id_pack":"pack17"
         },        
+        {     
+         "id_atributo": "atbp18",   
+         "cantidad": 5,  
+         "id_producto": "p18",
+         "id_color":"no",
+         "id_tallas":"",
+         "id_pack":"pack18"
+        },    
         {     
          "id_atributo": "atbp19",   
          "cantidad": 5,  
