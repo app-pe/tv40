@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: tv40/sitemap.xml
+Sitemap: /tv40/sitemap.xml
