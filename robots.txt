@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: /tv40/sitemap.xml
+Sitemap: https://raw.githubusercontent.com/app-pe/tv40/refs/heads/main/sitemap.xml
