@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>TV40</title>
+    <title>TV40Shop</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="TV40" name="keywords">
     <meta content="TV40" name="description">
@@ -24,6 +24,30 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const shopId = urlParams.get('id');
+
+    if (shopId === 'shop4') {
+        // Optimización específica para Chifles Chiflocos
+        document.title = "Chifles Chiflocos | Sabor de Casa y Calidad Premium";
+        
+        document.querySelector('meta[name="description"]').setAttribute("content", 
+            "Compra los mejores Chifles Chiflocos. Producto natural con Sabor de Casa y Registro Sanitario N8510823N/NADVRC. ¡El snack más crujiente y fresco!");
+        
+        document.querySelector('meta[name="keywords"]').setAttribute("content", 
+            "chifles chiflocos, chiflocos, snacks naturales, venta de chifles");
+
+        // Crear etiqueta canonical dinámica
+        let link = document.createElement('link');
+        link.rel = 'canonical';
+        link.href = "https://app-pe.github.io/tv40/shop.html?id=shop4";
+        document.head.appendChild(link);
+        
+    }
+</script>
+
 </head>
 <style>
     .banner-container {

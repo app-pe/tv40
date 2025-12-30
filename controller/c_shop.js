@@ -19,11 +19,12 @@ for(var i=0;i<tiendas.length;i++){
 var idtienda = tiendas[i].id_tienda;
 var imglogo = tiendas[i].imagen_logo;
 var estado = tiendas[i].estado;
+var nombre_tienda = filtrarTienda2.nombre_tienda;
 if(estado === 1){
 show_seller +=
 `
   <div class="vendor-item border p-4">
-            <a href="shop.html?id=${idtienda}"><img src="${imglogo}" alt=""></a>                
+            <a href="shop.html?id=${idtienda}"><img src="${imglogo}" alt="Logo oficial de ${nombre_tienda} - Sabor de Casa"></a>                
             </div>
 `;
 }
@@ -135,7 +136,7 @@ var ruc = filtrarTienda2.ruc;
 var razon_social = filtrarTienda2.razon_social;   
 let datosTienda =
 `               
-<p class="lh-sm">MARCA: ${nombre_tienda}</p>
+<p class="lh-sm">MARCA: <h1>${nombre_tienda}</h1></p>
 <p class="lh-sm">RUC: ${ruc}</p>
 <p class="lh-sm">RS: ${razon_social}</p>
 `;    
@@ -143,10 +144,11 @@ return datosTienda;
 }
 function mostrarBannertienda(){  
     var imagen_banner = filtrarTienda2.imagen_banner;  
+    var nombre_tienda = filtrarTienda2.nombre_tienda;
     let datosTienda =
     `
     <div class="banner-container" style="width: 100%; height: auto; overflow: hidden;">
-        <img src="${imagen_banner}" class="img-fluid banner-img" alt="Banner">
+        <img src="${imagen_banner}" class="img-fluid banner-img" alt="Banner oficial de ${nombre_tienda} - Sabor de Casa">
     </div>
     `;    
     return datosTienda;
