@@ -46,6 +46,22 @@
         document.head.appendChild(link);
         
     }
+    else if (shopId === 'shop5') {
+        // Optimización para Don Sergio Café
+        document.title = "Don Sergio Café | Café Orgánico de Especialidad Tostado y Molido";
+        
+        document.querySelector('meta[name="description"]').setAttribute("content", 
+            "Descubre Don Sergio Café, disfruta el potente aroma y sabor frutado del mejor café orgánico de Moyobamba Perú. RUC 10008387309 y RS Q0024924N/UAAODE. ¡Calidad garantizada en cada taza!");
+        
+        document.querySelector('meta[name="keywords"]').setAttribute("content", 
+            "don sergio café, café orgánico, café tostado y molido, café de especialidad, café peruano, café de moyobamba");
+
+        // Canonical para evitar contenido duplicado
+        let link = document.createElement('link');
+        link.rel = 'canonical';
+        link.href = "https://app-pe.github.io/tv40/shop.html?id=shop5";
+        document.head.appendChild(link);
+    }
 </script>
 
 </head>
