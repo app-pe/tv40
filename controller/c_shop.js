@@ -24,7 +24,7 @@ if(estado === 1){
 show_seller +=
 `
   <div class="vendor-item border p-4">
-            <a href="shop.html?id=${idtienda}"><img src="${imglogo}" alt="Logo oficial de ${nombre_tienda} - Sabor de Casa"></a>                
+            <a href="shop.html?id=${idtienda}"><img src="${imglogo}" alt="Logo oficial de ${nombre_tienda}"></a>                
             </div>
 `;
 }
@@ -135,9 +135,9 @@ var nombre_tienda = filtrarTienda2.nombre_tienda;
 var ruc = filtrarTienda2.ruc;
 var razon_social = filtrarTienda2.razon_social;   
 let datosTienda =
-`               
-<p class="lh-sm"><h1>${nombre_tienda}</h1></p>
-<p class="lh-sm">RUC: ${ruc}</p>
+`
+${ruc ? `<p class="lh-sm"><h1>${nombre_tienda}</h1></p>` : ""}
+${ruc ? `<p class="lh-sm">RUC: ${ruc}</p>` : ""}
 ${razon_social ? `<p class="lh-sm">RS: ${razon_social}</p>` : ""}
 `;    
 return datosTienda;
@@ -148,16 +148,17 @@ function mostrarBannertienda(){
     let datosTienda =
     `
     <div class="banner-container" style="width: 100%; height: auto; overflow: hidden;">
-        <img src="${imagen_banner}" class="img-fluid banner-img" alt="Banner oficial de ${nombre_tienda} - Sabor de Casa">
+        <img src="${imagen_banner}" class="img-fluid banner-img" alt="Banner oficial de ${nombre_tienda}">
     </div>
     `;    
     return datosTienda;
 }
 function mostrarLogotienda(){ 
-    var imagen_logo = filtrarTienda2.imagen_logo;   
+    var imagen_logo = filtrarTienda2.imagen_logo;  
+    var nombre_tienda = filtrarTienda2.nombre_tienda; 
     let datosTienda =
     `
-    <img src="${imagen_logo}" class="" alt="">
+    <img src="${imagen_logo}" class="" alt="Logo oficial de ${nombre_tienda}">
     `;    
     return datosTienda;
 }
