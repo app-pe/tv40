@@ -35,7 +35,7 @@
         },
         {
             "id_tienda": "shop4",
-            "nombre_tienda": "Chifles Chiflocos",
+            "nombre_tienda": "CHIFLOCOS",
             "descripcion_tienda": "Empresa dedicada a la preparación de Snacks, Chifles en todas sus presentaciones.",
             "ruc": 10008387309,
             "razon_social": "N8510823N/NADVRC",
@@ -46,7 +46,7 @@
         },
         {
             "id_tienda": "shop5",
-            "nombre_tienda": "Café Orgánico Don Sergio",
+            "nombre_tienda": "DON SERGIO CAFÉ",
             "descripcion_tienda": "Empresa dedicada a la producción de café orgánico con aroma frutal.",
             "ruc": 10008387309,
             "razon_social": "Q0024924N/UAAODE",
