@@ -136,7 +136,7 @@ var ruc = filtrarTienda2.ruc;
 var razon_social = filtrarTienda2.razon_social;   
 let datosTienda =
 `               
-<p class="lh-sm">MARCA: <h1>${nombre_tienda}</h1></p>
+<p class="lh-sm"><h1>${nombre_tienda}</h1></p>
 <p class="lh-sm">RUC: ${ruc}</p>
 <p class="lh-sm">RS: ${razon_social}</p>
 `;    
