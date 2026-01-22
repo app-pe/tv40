@@ -74,6 +74,25 @@
 
         setCanonical("https://app-pe.github.io/tv40/shop.html?id=shop7");
     }
+    else if (shopId === 'shop10') {
+        // Optimización específica para CRUJIENTES ALELUI
+        document.title = "CRUJIENTES ALELUI | Chifles Artesanales y Snacks de Plátano";
+        
+        document.querySelector('meta[name="description"]').setAttribute("content", 
+            "Disfruta de CRUJIENTES ALELUI: los chifles de plátano más frescos y crujientes. Calidad artesanal en cada snack. ¡Pide los tuyos y siente el verdadero sabor!");
+        
+        document.querySelector('meta[name="keywords"]').setAttribute("content", 
+            "crujientes alelui, chifles crujientes alelui, chifles de machala, chifles ecuatorianos, snacks de machala");
+
+        // Canonical para evitar contenido duplicado
+        let link = document.querySelector('link[rel="canonical"]');
+        if (!link) {
+            link = document.createElement('link');
+            link.rel = 'canonical';
+            document.head.appendChild(link);
+        }
+        link.href = "https://app-pe.github.io/tv40/shop.html?id=shop10";
+    }
 </script>
 
 </head>
