@@ -93,6 +93,25 @@
         }
         link.href = "https://app-pe.github.io/tv40/shop.html?id=shop10";
     }
+    else if (shopId === 'shop11') {
+        // Optimización específica para MANI CRONCH LUI DI
+        document.title = "MANI CRONCH LUI DI | Maní Crocante y Snacks Premium";
+        
+        document.querySelector('meta[name="description"]').setAttribute("content", 
+            "Prueba MANI CRONCH LUI DI: el maní más crocante y delicioso. Calidad artesanal para tus momentos de snack. ¡Haz tu pedido ahora y disfruta del mejor sabor!");
+        
+        document.querySelector('meta[name="keywords"]').setAttribute("content", 
+            "mani cronch lui di, mani crocante de machala, snacks de machala, maní de machala");
+
+        // Canonical para evitar contenido duplicado
+        let link = document.querySelector('link[rel="canonical"]');
+        if (!link) {
+            link = document.createElement('link');
+            link.rel = 'canonical';
+            document.head.appendChild(link);
+        }
+        link.href = "https://app-pe.github.io/tv40/shop.html?id=shop11";
+    }
 </script>
 
 </head>
