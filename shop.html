@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Verificación de Google -->
+    <meta name="google-site-verification" content="hCjS0H4TYe50pV9vJRecLt5Hgf5GMjZneqtcSqWxwUA" />
+
+    <!-- Configuración básica -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Entrada de tienda: shop.html?id=shopN arranca la SPA en #/tienda/shopN.
+         js/utils/seo.js aplica el título, descripción y canonical propios de cada tienda. -->
+    <title>TV40Shop</title>
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Promociona tu marca y catálogo por 40 días sin comisiones. Conecta con clientes y emprendedores.">
+    <meta name="keywords" content="marketplace emprendedores Perú, tienda virtual Perú, ventas online Perú, plataforma para emprendedores, TV40Shop">
+    <meta name="author" content="TV40Shop">
+
+    <!-- Open Graph (para Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:site_name" content="TV40Shop">
+    <meta property="og:title" content="TV40Shop | Marketplace para Emprendedores en Perú">
+    <meta property="og:description" content="Promociona tu marca y catálogo por 40 días sin comisiones. Conecta con clientes y emprendedores.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://app-pe.github.io/tv40/img/preview.jpg">
+    <meta property="og:locale" content="es_PE">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TV40Shop | Marketplace para Emprendedores en Perú">
+    <meta name="twitter:description" content="Promociona gratis tu marca y catálogo por 40 días sin comisiones. Conecta con clientes y emprendedores.">
+    <meta name="twitter:image" content="https://app-pe.github.io/tv40/img/preview.jpg">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet + estilos propios de la app -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Esqueleto fijo: lo pinta js/layout.js una sola vez -->
+    <div class="container-fluid" id="show_topbar"></div>
+    <div class="container-fluid mb-1" id="show_navbar"></div>
+
+    <!-- Contenido de cada ruta: lo pinta js/routes.js -->
+    <main id="app" aria-live="polite">
+        <noscript>
+            <div class="container text-center py-5">Activa JavaScript para ver el catálogo de TV40Shop.</div>
+        </noscript>
+    </main>
+
+    <div class="container-fluid bg-secondary text-dark mt-5 pt-5" id="show_footer"></div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Aplicación (SPA con router por hash) -->
+    <script src="js/app.js" type="module"></script>
+</body>
+
+</html>

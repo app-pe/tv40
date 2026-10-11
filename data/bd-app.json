@@ -1,0 +1,1745 @@
+{
+    "tienda": [
+        {
+            "id_tienda": "shop1",
+            "nombre_tienda": "Inpactum Representaciones",
+            "descripcion_tienda": "Confección de Uniformes Corporativos, Artículos de Merchandising y Pedidos Personalizados",
+            "ruc": "",
+            "razon_social": "",
+            "imagen_logo": "img/tiendas/inpactum/logo_inpactum.jpg",
+            "imagen_banner": "img/tiendas/inpactum/banner_inpactum.jpg",
+            "url_imagen_tienda": "img/tiendas/inpactum/",
+            "estado": 0
+        },
+        {
+            "id_tienda": "shop2",
+            "nombre_tienda": "Metanoya",
+            "descripcion_tienda": "Tienda de ropa con propósito",
+            "ruc": "",
+            "razon_social": "",
+            "imagen_logo": "img/tiendas/bp/logo_bp.jpg",
+            "imagen_banner": "img/tiendas/bp/banner_bp.jpg",
+            "url_imagen_tienda": "img/tiendas/bp/",
+            "estado": 0
+        },
+        {
+            "id_tienda": "shop3",
+            "nombre_tienda": "Club de Lectura",
+            "descripcion_tienda": "Para los amantes de la lectura",
+            "ruc": "",
+            "razon_social": "",
+            "imagen_logo": "img/tiendas/clubdelectura/logo_clubdelectura.jpg",
+            "imagen_banner": "img/tiendas/clubdelectura/banner_clubdelectura.jpg",
+            "url_imagen_tienda": "img/tiendas/clubdelectura/",
+            "estado": 0
+        },
+        {
+            "id_tienda": "shop4",
+            "nombre_tienda": "CHIFLOCOS",
+            "descripcion_tienda": "Empresa dedicada a la preparación de Snacks, Chifles en todas sus presentaciones.",
+            "ruc": 10008387309.0,
+            "razon_social": "N8510823N/NADVRC",
+            "imagen_logo": "img/tiendas/chiflocos/logo_chiflocos.jpg",
+            "imagen_banner": "img/tiendas/chiflocos/banner_chiflocos.jpg",
+            "url_imagen_tienda": "img/tiendas/chiflocos/",
+            "estado": 1
+        },
+        {
+            "id_tienda": "shop5",
+            "nombre_tienda": "DON SERGIO CAFÉ",
+            "descripcion_tienda": "Empresa dedicada a la producción de café orgánico con aroma frutal.",
+            "ruc": 10008387309.0,
+            "razon_social": "Q0024924N/UAAODE",
+            "imagen_logo": "img/tiendas/cafedonsergio/logo_cafedonsergio.jpg",
+            "imagen_banner": "img/tiendas/cafedonsergio/banner_donsergiocafe.jpg",
+            "url_imagen_tienda": "img/tiendas/cafedonsergio/",
+            "estado": 1
+        },
+        {
+            "id_tienda": "shop6",
+            "nombre_tienda": "Chifles La Finca",
+            "descripcion_tienda": "Venta de chifles de plátano maduro.",
+            "ruc": "",
+            "razon_social": "",
+            "imagen_logo": "img/tiendas/chifleslafinca/logo_chifleslafinca.jpg",
+            "imagen_banner": "img/tiendas/chifleslafinca/banner_chifleslafinca.jpg",
+            "url_imagen_tienda": "img/tiendas/chifleslafinca/",
+            "estado": 1
+        },
+        {
+            "id_tienda": "shop7",
+            "nombre_tienda": "Enciende una Luz",
+            "descripcion_tienda": "Venta de libros y cuentos infantiles",
+            "ruc": 10024371331.0,
+            "razon_social": "",
+            "imagen_logo": "img/tiendas/enciendeunaluz/logo_enciendeunaluz.jpg",
+            "imagen_banner": "img/tiendas/enciendeunaluz/banner_enciendeunaluz.jpg",
+            "url_imagen_tienda": "img/tiendas/enciendeunaluz/",
+            "estado": 1
+        },
+        {
+            "id_tienda": "shop8",
+            "nombre_tienda": "UNIFORMES PERÚ",
+            "descripcion_tienda": "Confección de Uniformes Corporativos, Artículos de Merchandising y Pedidos Personalizados",
+            "ruc": "",
+            "razon_social": "",
+            "imagen_logo": "img/tiendas/uniformesperu/logo_uniformesperu.jpg",
+            "imagen_banner": "img/tiendas/uniformesperu/banner_uniformesperu.jpg",
+            "url_imagen_tienda": "img/tiendas/uniformesperu/",
+            "estado": 0
+        },
+        {
+            "id_tienda": "shop9",
+            "nombre_tienda": "REFUGIO VERDE",
+            "descripcion_tienda": "Venta de plantas ornamentales, Pedidos Personalizados",
+            "ruc": "",
+            "razon_social": "",
+            "imagen_logo": "img/tiendas/refugioverde/logo_refugioverde.jpeg",
+            "imagen_banner": "img/tiendas/refugioverde/banner_refugioverde.jpg",
+            "url_imagen_tienda": "img/tiendas/refugioverde/",
+            "estado": 1
+        },
+        {
+            "id_tienda": "shop10",
+            "nombre_tienda": "CRUJIENTES ALELUI",
+            "descripcion_tienda": "Venta de Chifles Crujientes Salados y Dulces.",
+            "ruc": "",
+            "razon_social": "",
+            "imagen_logo": "img/tiendas/crujientesalelui/logo_crujientesAleLui.jpg",
+            "imagen_banner": "img/tiendas/crujientesalelui/banner_crujientesAleLui.jpg",
+            "url_imagen_tienda": "img/tiendas/crujientesalelui/",
+            "estado": 1
+        },
+        {
+            "id_tienda": "shop11",
+            "nombre_tienda": "MANI CRONCH LUI DI",
+            "descripcion_tienda": "Venta de Maní Crujientes Salados y Dulces, otros snacks.",
+            "ruc": "",
+            "razon_social": "",
+            "imagen_logo": "img/tiendas/manicronchluidi/logo_manicronchLuiDi.jpg",
+            "imagen_banner": "img/tiendas/manicronchluidi/banner_logo_manicronchLuiDi.jpg",
+            "url_imagen_tienda": "img/tiendas/manicronchluidi/",
+            "estado": 1
+        },
+        {
+            "id_tienda": "shop12",
+            "nombre_tienda": "El Rinconcito del Chinin",
+            "descripcion_tienda": "Comida criolla, caldo de mote, panceta a la caja china y mas",
+            "ruc": "",
+            "razon_social": "",
+            "imagen_logo": "img/tiendas/elrinconcitodelchinin/logo-elrinconcitodelchinin.jpg",
+            "imagen_banner": "img/tiendas/elrinconcitodelchinin/banner-elrinconcitodelchinin.jpg",
+            "url_imagen_tienda": "img/tiendas/elrinconcitodelchinin/",
+            "estado": 1
+        }
+    ],
+    "categoria": [
+        {
+            "id_categoria": "cat1",
+            "url_imagen_categoria": "img/categorias/moda-hombre/",
+            "nombre_categoria": "Moda hombre",
+            "default_imagen_categoria": "img/categorias/cat-1.jpg",
+            "tipo_categoria": "hombre",
+            "estado_categoria": "desactivado",
+            "menu": "mp"
+        },
+        {
+            "id_categoria": "cat2",
+            "url_imagen_categoria": "img/categorias/moda-infantil/",
+            "nombre_categoria": "Moda mujer",
+            "default_imagen_categoria": "img/categorias/cat-2.jpg",
+            "tipo_categoria": "mujer",
+            "estado_categoria": "desactivado",
+            "menu": "mp"
+        },
+        {
+            "id_categoria": "cat3",
+            "url_imagen_categoria": "img/categorias/moda-mujer/",
+            "nombre_categoria": "Moda infantil",
+            "default_imagen_categoria": "img/categorias/cat-3.jpg",
+            "tipo_categoria": "infantil",
+            "estado_categoria": "desactivado",
+            "menu": "mp"
+        },
+        {
+            "id_categoria": "cat4",
+            "url_imagen_categoria": "img/categorias/polos/",
+            "nombre_categoria": "Polos",
+            "default_imagen_categoria": "img/categorias/cat-4.jpg",
+            "tipo_categoria": "hombre",
+            "estado_categoria": "desactivado",
+            "menu": "ms"
+        },
+        {
+            "id_categoria": "cat5",
+            "url_imagen_categoria": "img/categorias/poleras/",
+            "nombre_categoria": "Poleras",
+            "default_imagen_categoria": "img/categorias/cat-5.jpg",
+            "tipo_categoria": "hombre",
+            "estado_categoria": "desactivado",
+            "menu": "ms"
+        },
+        {
+            "id_categoria": "cat6",
+            "url_imagen_categoria": "img/categorias/pantalones/",
+            "nombre_categoria": "Pantalones",
+            "default_imagen_categoria": "img/categorias/cat-6.jpg",
+            "tipo_categoria": "hombre",
+            "estado_categoria": "desactivado",
+            "menu": "ms"
+        },
+        {
+            "id_categoria": "cat7",
+            "url_imagen_categoria": "img/categorias/libros/",
+            "nombre_categoria": "Libros",
+            "default_imagen_categoria": "img/categorias/cat-7.jpg",
+            "tipo_categoria": "libro",
+            "estado_categoria": "activado",
+            "menu": "mp"
+        },
+        {
+            "id_categoria": "cat8",
+            "url_imagen_categoria": "img/categorias/libros/crecimiento_personal/",
+            "nombre_categoria": "Crecimiento Personal",
+            "default_imagen_categoria": "img/categorias/libros/crecimiento_personal/portada_libroUnBosquellamadoArmonia.jpg",
+            "tipo_categoria": "libro",
+            "estado_categoria": "activado",
+            "menu": "ms"
+        },
+        {
+            "id_categoria": "cat9",
+            "url_imagen_categoria": "img/categorias/libros/educacion_financiera/",
+            "nombre_categoria": "Educación Financiera",
+            "default_imagen_categoria": "img/categorias/libros/educacion_financiera/portada_cuentosEducacionFinanciera.jpg",
+            "tipo_categoria": "libro",
+            "estado_categoria": "desactivado",
+            "menu": "ms"
+        },
+        {
+            "id_categoria": "cat10",
+            "url_imagen_categoria": "img/categorias/snacks/",
+            "nombre_categoria": "Snacks",
+            "default_imagen_categoria": "img/categorias/cat-10.jpeg",
+            "tipo_categoria": "snack",
+            "estado_categoria": "activado",
+            "menu": "mp"
+        },
+        {
+            "id_categoria": "cat11",
+            "url_imagen_categoria": "img/categorias/snacks/chifles/",
+            "nombre_categoria": "Chifles",
+            "default_imagen_categoria": "img/categorias/snacks/chifles/bolsaschiflesalados_crujientesalelui.jpg",
+            "tipo_categoria": "snack",
+            "estado_categoria": "activado",
+            "menu": "ms"
+        },
+        {
+            "id_categoria": "cat12",
+            "url_imagen_categoria": "img/categorias/snacks/cafe/",
+            "nombre_categoria": "Café",
+            "default_imagen_categoria": "img/categorias/snacks/cafe/donsergiocafe_500g_frontal.jpg",
+            "tipo_categoria": "snack",
+            "estado_categoria": "activado",
+            "menu": "ms"
+        },
+        {
+            "id_categoria": "cat13",
+            "url_imagen_categoria": "img/categorias/snacks/mieldeabeja/",
+            "nombre_categoria": "Miel de Abeja",
+            "default_imagen_categoria": "img/categorias/snacks/mieldeabeja/mieldeabeja500g.jpeg",
+            "tipo_categoria": "snack",
+            "estado_categoria": "activado",
+            "menu": "ms"
+        },
+        {
+            "id_categoria": "cat14",
+            "url_imagen_categoria": "img/categorias/uniformes/",
+            "nombre_categoria": "Uniformes",
+            "default_imagen_categoria": "img/categorias/cat-11.jpeg",
+            "tipo_categoria": "uniformes",
+            "estado_categoria": "activado",
+            "menu": "mp"
+        },
+        {
+            "id_categoria": "cat15",
+            "url_imagen_categoria": "img/categorias/uniformes/casacas/",
+            "nombre_categoria": "Casacas",
+            "default_imagen_categoria": "img/categorias/uniformes/casacas/uniforme_casacaprom.jpeg",
+            "tipo_categoria": "uniformes",
+            "estado_categoria": "activado",
+            "menu": "ms"
+        },
+        {
+            "id_categoria": "cat16",
+            "url_imagen_categoria": "img/categorias/uniformes/polos/",
+            "nombre_categoria": "Polos",
+            "default_imagen_categoria": "img/categorias/uniformes/polos/uniforme_poloybolsa.jpg",
+            "tipo_categoria": "uniformes",
+            "estado_categoria": "activado",
+            "menu": "ms"
+        },
+        {
+            "id_categoria": "cat17",
+            "url_imagen_categoria": "img/categorias/uniformes/poleras/",
+            "nombre_categoria": "Poleras",
+            "default_imagen_categoria": "img/categorias/uniformes/poleras/uniforme_poleradelante.jpeg",
+            "tipo_categoria": "uniformes",
+            "estado_categoria": "activado",
+            "menu": "ms"
+        },
+        {
+            "id_categoria": "cat18",
+            "url_imagen_categoria": "img/categorias/plantas/",
+            "nombre_categoria": "Plantas",
+            "default_imagen_categoria": "img/categorias/cat-12.jpg",
+            "tipo_categoria": "plantas",
+            "estado_categoria": "activado",
+            "menu": "mp"
+        },
+        {
+            "id_categoria": "cat19",
+            "url_imagen_categoria": "img/categorias/plantas/ornamentales/",
+            "nombre_categoria": "Ornamentales",
+            "default_imagen_categoria": "img/categorias/plantas/ornamentales/SansevieriaTrifasciata_lenguadesuegra.jpg",
+            "tipo_categoria": "plantas",
+            "estado_categoria": "activado",
+            "menu": "ms"
+        },
+        {
+            "id_categoria": "cat20",
+            "url_imagen_categoria": "img/categorias/snacks/mani/",
+            "nombre_categoria": "Maní",
+            "default_imagen_categoria": "img/categorias/snacks/mani/mani_dulce.jpg",
+            "tipo_categoria": "snack",
+            "estado_categoria": "activado",
+            "menu": "ms"
+        },
+        {
+            "id_categoria": "cat21",
+            "url_imagen_categoria": "img/categorias/restaurante/",
+            "nombre_categoria": "Restaurante",
+            "default_imagen_categoria": "img/categorias/cat-13.jpg",
+            "tipo_categoria": "restaurante",
+            "estado_categoria": "activado",
+            "menu": "mp"
+        }
+    ],
+    "tienda_categoria": [
+        {
+            "id_tienda": "shop1",
+            "id_categoria": "cat1",
+            "nombre_tienda": "Inpactum",
+            "nombre_categoria": "Moda hombre",
+            "url_imagen": "img/categorias/moda-hombre/"
+        },
+        {
+            "id_tienda": "shop2",
+            "id_categoria": "cat4",
+            "nombre_tienda": "Inpactum",
+            "nombre_categoria": "Polos",
+            "url_imagen": "img/categorias/polos/"
+        }
+    ],
+    "producto": [
+        {
+            "id_producto": "p1",
+            "nombre_producto": "POLO MANGA CORTA MAUI AND SONS PARA HOMBRE",
+            "imagen_principal": "polo1_blanco_adelante.jpg",
+            "precio_catalogo": 90,
+            "precio_oferta": 79,
+            "cantidad": 10,
+            "descripcion": "<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
+            "id_categoria": "cat4",
+            "id_tienda": "shop1"
+        },
+        {
+            "id_producto": "p2",
+            "nombre_producto": "POLO SIN MANGAS MAUI AND SONS PARA HOMBRE",
+            "imagen_principal": "polo2_turquesa_adelante.jpg",
+            "precio_catalogo": 90,
+            "precio_oferta": 69,
+            "cantidad": 10,
+            "descripcion": "<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
+            "id_categoria": "cat4",
+            "id_tienda": "shop1"
+        },
+        {
+            "id_producto": "p3",
+            "nombre_producto": "POLERA MANGAS LARGAS MAUI AND SONS PARA HOMBRE",
+            "imagen_principal": "polera1_negro_adelante.jpg",
+            "precio_catalogo": 120,
+            "precio_oferta": 95,
+            "cantidad": 10,
+            "descripcion": "<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
+            "id_categoria": "cat5",
+            "id_tienda": "shop1"
+        },
+        {
+            "id_producto": "p4",
+            "nombre_producto": "POLERA ALGODÓN OMNI LOGO HOODIE QUIKSILVER PARA HOMBRE",
+            "imagen_principal": "polera2_negro_adelante.jpg",
+            "precio_catalogo": 250,
+            "precio_oferta": 199,
+            "cantidad": 10,
+            "descripcion": "<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
+            "id_categoria": "cat5",
+            "id_tienda": "shop1"
+        },
+        {
+            "id_producto": "p5",
+            "nombre_producto": "POLERA CANGURO 5O1326 MAUI AND SONS PARA HOMBRE",
+            "imagen_principal": "polera3_rojo_adelante.jpg",
+            "precio_catalogo": 150,
+            "precio_oferta": 100,
+            "cantidad": 10,
+            "descripcion": "<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
+            "id_categoria": "cat5",
+            "id_tienda": "shop1"
+        },
+        {
+            "id_producto": "p6",
+            "nombre_producto": "POLERA CANGURO 5O1326 MAUI AND SONS PARA HOMBRE",
+            "imagen_principal": "polera3_rojo_adelante.jpg",
+            "precio_catalogo": 150,
+            "precio_oferta": 95,
+            "cantidad": 10,
+            "descripcion": "<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
+            "id_categoria": "cat5",
+            "id_tienda": "shop2"
+        },
+        {
+            "id_producto": "p7",
+            "nombre_producto": "PANTALÓN FRICKIN REGULAR STRETCH VOLCOM PARA HOMBRE",
+            "imagen_principal": "p1_caqui_adelante.jpg",
+            "precio_catalogo": 290,
+            "precio_oferta": 239,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
+            "id_categoria": "cat6",
+            "id_tienda": "shop2"
+        },
+        {
+            "id_producto": "p8",
+            "nombre_producto": "PANTALON CARGO MULTIBOLSILLO PARA HOMBRE",
+            "imagen_principal": "p2_verde_adelante.jpg",
+            "precio_catalogo": 220,
+            "precio_oferta": 120,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>Esta prenda es ideal para lograr el outfit que deseas.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Beneficios</h4><p>Los beneficios del producto te daran mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Suavidad y frescura para tu cuerpo</li><li class='list-group-item px-0'>Fibras naturales de algodón</li><li class='list-group-item px-0'>Colores de moda</li><li class='list-group-item px-0'>Diseños personalizados</li>  </ul></div> </div>",
+            "id_categoria": "cat6",
+            "id_tienda": "shop1"
+        },
+        {
+            "id_producto": "p11",
+            "nombre_producto": "Chifles Dulces 250g, crujientes y frescos, buenaaazos",
+            "imagen_principal": "chiflocos_bolsachifledulce250g.jpg",
+            "precio_catalogo": 20,
+            "precio_oferta": 15,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>Los chifles son un delicioso snack originario de América Latina, especialmente popular en países como Perú.</p><p class='mb-1'>Están hechos a base de plátano verde cortado en rodajas finas, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Fuente de energía</h4><p>Los chifles son ricos en carbohidratos complejos, lo que los convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El plátano verde, base de los chifles, es una excelente fuente de fibra, lo que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en potasio</h4><p>El potasio en los chifles ayuda a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
+            "id_categoria": "cat11",
+            "id_tienda": "shop4"
+        },
+        {
+            "id_producto": "p13",
+            "nombre_producto": "Caja Chifles Salados 9 Unid. 250g, crujientes y frescos, buenaaazos",
+            "imagen_principal": "chiflocos_cajabolsachiflesalado9unid.jpg",
+            "precio_catalogo": 150,
+            "precio_oferta": 135,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>Los chifles son un delicioso snack originario de América Latina, especialmente popular en países como Perú.</p><p class='mb-1'>Están hechos a base de plátano verde cortado en rodajas finas, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Fuente de energía</h4><p>Los chifles son ricos en carbohidratos complejos, lo que los convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El plátano verde, base de los chifles, es una excelente fuente de fibra, lo que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en potasio</h4><p>El potasio en los chifles ayuda a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
+            "id_categoria": "cat11",
+            "id_tienda": "shop4"
+        },
+        {
+            "id_producto": "p14",
+            "nombre_producto": "Pack Don Sergio Café Orgánico de Moyobamba 500g + Chifle Chiflocos",
+            "imagen_principal": "pack_donsergiocafe500gychifle.jpg",
+            "precio_catalogo": 70,
+            "precio_oferta": 50,
+            "cantidad": 0,
+            "descripcion": "<p class='mb-1'>El Café Orgánico Don Sergio con aroma frutal es una deliciosa bebida originaria de las tierras de moyobamba en Péru.</p><p class='mb-1'>Los granos de café orgánico con aroma frutal obtienen su sabor al estar alrededor de plantaciones de frutas y al ser tostados se integran los aromas dando como resultado una bebida que resalta su sabor cuando lo prepara.</p><p class='mb-1'>Es la bebida perfecta para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante y llevate a casa este delicioso café orgánico con aroma frutal para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Fuente de energía</h4><p>El café orgánico tostado es rico en antioxidantes que son buenos para mejorar su salud lo que lo convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El café orgánico tostado es una excelente fuente de energía que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en antioxidantes</h4><p>Los antioxidantes ayudan a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
+            "id_categoria": "cat12",
+            "id_tienda": "shop5"
+        },
+        {
+            "id_producto": "p15",
+            "nombre_producto": "Pack de Chifles La Finca con plátano maduro y verde 3 Unid. de 240g c/u",
+            "imagen_principal": "cajachifles15unid.jpg",
+            "precio_catalogo": 20,
+            "precio_oferta": 15,
+            "cantidad": 10,
+            "descripcion": "<p class='mb-1'>Los chifles son un delicioso snack originario de América Latina, especialmente popular en países como Perú.</p><p class='mb-1'>Están hechos a base de plátano maduro y verde cortado en rodajas finas, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Fuente de energía</h4><p>Los chifles son ricos en carbohidratos complejos, lo que los convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El plátano verde, base de los chifles, es una excelente fuente de fibra, lo que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en potasio</h4><p>El potasio en los chifles ayuda a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
+            "id_categoria": "cat11",
+            "id_tienda": "shop6"
+        },
+        {
+            "id_producto": "p16",
+            "nombre_producto": "Cuentos para niños sobre Educación Financiera",
+            "imagen_principal": "portada_cuentosEducacionFinanciera.jpg",
+            "precio_catalogo": 60,
+            "precio_oferta": 45,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>Este cuento es ideal para enseñar a los niños sobre Educación Financiera.</p><p class='mb-1'>Los cuentos son excelentes para disfrutar la mejor experiencia y confort de la lectura.</p>",
+            "beneficio": "<h4 class='mb-3'>Beneficios</h4><p>Los beneficios de leer este libro son mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Gestionar mejor el tiempo y los recursos disponibles</li><li class='list-group-item px-0'>Desarrollar la mentalidad financiera</li></ul></div> </div>",
+            "id_categoria": "cat8",
+            "id_tienda": "shop7"
+        },
+        {
+            "id_producto": "p17",
+            "nombre_producto": "Libro Un Bosque llamado Armonía",
+            "imagen_principal": "portada_libroUnBosquellamadoArmonia.jpg",
+            "precio_catalogo": 60,
+            "precio_oferta": 45,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>Este libro es ideal para enseñar a los niños sobre Resolución de Conflictos, la paz genera desarrollo.</p><p class='mb-1'>Los libros son excelentes para disfrutar la mejor experiencia y confort de la lectura.</p>",
+            "beneficio": "<h4 class='mb-3'>Beneficios</h4><p>Los beneficios de leer este libro son mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Aprender a gestionar las emociones.</li><li class='list-group-item px-0'>Desarrollar la inteligencia emocional en los niños.</li></ul></div> </div>",
+            "id_categoria": "cat8",
+            "id_tienda": "shop7"
+        },
+        {
+            "id_producto": "p18",
+            "nombre_producto": "SOY UN LÍDER",
+            "imagen_principal": "portada_libro_soyunlider.jpg",
+            "precio_catalogo": 65,
+            "precio_oferta": 49,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>Este libro es ideal para enseñar a los jóvenes sobre El poder de la influencia en el liderazgo.</p><p class='mb-1'>Los libros son excelentes para disfrutar la mejor experiencia y confort de la lectura.</p>",
+            "beneficio": "<h4 class='mb-3'>Beneficios</h4><p>Los beneficios de leer este libro son mucho confort, alegría y energía</p><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Transformo mi vida para transformar el mundo.</li><li class='list-group-item px-0'>Desarrollar la inteligencia emocional en los jóvenes.</li></ul></div> </div>",
+            "id_categoria": "cat8",
+            "id_tienda": "shop7"
+        },
+        {
+            "id_producto": "p19",
+            "nombre_producto": "Miel de Abeja de Moyobamba Perú - 500g",
+            "imagen_principal": "mieldeabeja500g.jpeg",
+            "precio_catalogo": 35,
+            "precio_oferta": 30,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>Descubre el sabor auténtico de la naturaleza con nuestra miel artesanal, recolectada de manera sostenible desde el corazón de la selva en Moyobamba Perú.</p><p class='mb-1'>La miel de abeja es una fuente natural de antioxidantes, enzimas, vitaminas y minerales.</p><p class='mb-1'>Gracias a sus compuestos orgánicos, fortalece el sistema inmunológico, mejora la digestión y ayuda a combatir inflamaciones.</p><p class='mb-1'>Sin aditivos ni procesos industriales, es el endulzante natural ideal para cuidar tu cuerpo y tu bienestar todos los días, disfrutalo con tu familia y amigos.</p>",
+            "beneficio": "<h4 class='mb-3'>Fuente de energía</h4><p>La miel de abeja es una fuente natural de antioxidantes, enzimas, vitaminas y minerales.</p><h4 class='mb-3'>Digestión saludable</h4><p>Gracias a sus compuestos orgánicos, fortalece el sistema inmunológico, mejora la digestión y ayuda a combatir inflamaciones.</p><h4 class='mb-3'>Ricos en antioxidantes</h4><p>Sin aditivos ni procesos industriales, es el endulzante natural ideal para cuidar tu cuerpo y tu bienestar todos los días, disfrutalo con tu familia y amigos.</p>",
+            "id_categoria": "cat13",
+            "id_tienda": "shop4"
+        },
+        {
+            "id_producto": "p20",
+            "nombre_producto": "CASACA DE PROMOCIÓN PERSONALIZADA",
+            "imagen_principal": "uniforme_casacaprom.jpeg",
+            "precio_catalogo": 150,
+            "precio_oferta": 100,
+            "cantidad": 10,
+            "descripcion": "<p class='mb-1'>Esta prenda es ideal para lograr el outfit personalizado que deseas lucir con tus compañeros de promoción.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>DETALLES PERSONALIZADOS</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>ADELANTE LAS INICIALES PERSONALIZADAS DEL NOMBRE</li><li class='list-group-item px-0'>DETRÁS EL NOMBRE Y AÑO DE LA PROMOCIÓN</li><li class='list-group-item px-0'>DETALLES PERSONALIZADOS EN MANGAS Y BOLSILLOS, COLORES DE MODA</li><li class='list-group-item px-0'>FIRMAS DE LA PROMOCIÓN EN EL INTERIOR DE LA CASACA</li><li class='list-group-item px-0'>LOGO DEL COLEGIO EN LA CASACA</li><li class='list-group-item px-0'>OTRAS PERSONALZIACIONES QUE TE IMAGINES PARA TU CASACA DE PROM</li>  </ul></div> </div>",
+            "id_categoria": "cat15",
+            "id_tienda": "shop8"
+        },
+        {
+            "id_producto": "p21",
+            "nombre_producto": "POLO DE UNIFORME CON CUELLO PERSONALIZADO",
+            "imagen_principal": "uniforme_poloybolsa.jpg",
+            "precio_catalogo": 80,
+            "precio_oferta": 70,
+            "cantidad": 10,
+            "descripcion": "<p class='mb-1'>Esta prenda es ideal para lograr el outfit personalizado que deseas lucir con tus compañeros.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>DETALLES PERSONALIZADOS</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>ADELANTE LOGO DE LA INSTITUCIÓN</li><li class='list-group-item px-0'>DETALLES EN CUELLO Y COSTURAS, COLORES DE MODA</li><li class='list-group-item px-0'>OTRAS PERSONALZIACIONES QUE TE IMAGINES PARA TU POLO DE UNIFORME CON CUELLO</li>  </ul></div> </div>",
+            "id_categoria": "cat16",
+            "id_tienda": "shop8"
+        },
+        {
+            "id_producto": "p22",
+            "nombre_producto": "POLERA DE UNIFORME CON CAPUCHA PERSONALIZADA",
+            "imagen_principal": "uniforme_poleradelante.jpeg",
+            "precio_catalogo": 100,
+            "precio_oferta": 85,
+            "cantidad": 10,
+            "descripcion": "<p class='mb-1'>Esta prenda es ideal para lograr el outfit personalizado que deseas lucir con tus compañeros de promoción.</p><p class='mb-1'>Los materiales son de excelente calidad para otorgar la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>DETALLES PERSONALIZADOS</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>ADELANTE NOMBRE Y LOGO DE LA PROMOCIÓN</li><li class='list-group-item px-0'>DETALLES EN MANGAS Y BOLSILLOS, COLORES DE MODA</li><li class='list-group-item px-0'>DETRAS ESTAMPADO GRANDE PERSONALIZADO CON MENSAJE DE LA PROMOCIÓN</li><li class='list-group-item px-0'>OTRAS PERSONALZIACIONES QUE TE IMAGINES PARA TU POLERA DE UNIFORME CON CAPUCHA</li>  </ul></div> </div>",
+            "id_categoria": "cat17",
+            "id_tienda": "shop8"
+        },
+        {
+            "id_producto": "p23",
+            "nombre_producto": "Sansevieria trifasciata o Lengua de Suegra",
+            "imagen_principal": "SansevieriaTrifasciata_lenguadesuegra.jpg",
+            "precio_catalogo": 200,
+            "precio_oferta": 150,
+            "cantidad": 10,
+            "descripcion": "<p class='mb-1'>Esta planta es ideal para interiores, ya que purifica el aire (según estudios de la NASA).</p><p class='mb-1'>Es muy resistente y fácil de cuidar.</p>",
+            "beneficio": "<h4 class='mb-3'>Por que tener una Sansevieria trifasciata en casa</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Su forma elegante, vertical y moderna la hace perfecta para espacios minimalistas o decoraciones urbanas.</li><li class='list-group-item px-0'>Mejora la calidad del sueño debido a que produce oxígeno por la noche (proceso CAM), es ideal para colocar en el dormitorio.</li><li class='list-group-item px-0'>No requiere riego frecuente (1 vez cada 15 días o menos).</li><li class='list-group-item px-0'>Tolera poca luz, ambientes secos y cambios de temperatura.</li>  </ul></div> </div>",
+            "id_categoria": "cat19",
+            "id_tienda": "shop9"
+        },
+        {
+            "id_producto": "p24",
+            "nombre_producto": "Monstera deliciosa o Costilla de Adán",
+            "imagen_principal": "MonsteraDeliciosa_costilladeadan.jpg",
+            "precio_catalogo": 200,
+            "precio_oferta": 150,
+            "cantidad": 10,
+            "descripcion": "<p class='mb-1'>Planta de Hojas grandes, verdes, brillantes y profundamente divididas con perforaciones naturales. Su forma única recuerda a una costilla, de ahí su nombre común.</p><p class='mb-1'>Tener plantas grandes y verdes como la monstera puede mejorar el estado de ánimo, reducir el estrés y fomentar una sensación de bienestar y conexión natural.</p>",
+            "beneficio": "<h4 class='mb-3'>Por que tener una Monstera Deliciosa en casa</h4><div class='row'><div class='col-md-6'><ul class='list-group list-group-flush'><li class='list-group-item px-0'>Aporta un toque exótico y elegante a cualquier espacio.</li><li class='list-group-item px-0'>Sus hojas icónicas la han convertido en una de las plantas más populares del diseño de interiores moderno, boho, escandinavo y tropical.</li><li class='list-group-item px-0'>Fácil mantenimiento, Riego moderado (cuando se seca la tierra)</li><li class='list-group-item px-0'>Luz indirecta brillante (tolera poca luz, pero crece mejor con luz media), vive muchos años si se le da un ambiente adecuado.</li>  </ul></div> </div>",
+            "id_categoria": "cat19",
+            "id_tienda": "shop9"
+        },
+        {
+            "id_producto": "p25",
+            "nombre_producto": "Chifles Salados Crujientes AleLui",
+            "imagen_principal": "bolsaschiflesalados_crujientesalelui.jpg",
+            "precio_catalogo": 15,
+            "precio_oferta": 10,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>Los chifles son un delicioso snack originario de América Latina, especialmente popular en países como Ecuador.</p><p class='mb-1'>Su sabor suave y textura cremosa lo hacen ideal para consumir tostado, hervido, en salsas, dulces y fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Fuente de energía</h4><p>Antioxidante natural, contiene resveratrol, un antioxidante que ayuda a combatir el envejecimiento celular.</p><h4 class='mb-3'>Cuida la salud del corazón</h4><p>Ayuda a reducir el colesterol malo (LDL).</p><h4 class='mb-3'>Favorece la salud cerebral</h4><p>Contiene niacina, vitamina E y antioxidantes beneficiosos para la memoria y el sistema nervioso.</p>",
+            "id_categoria": "cat11",
+            "id_tienda": "shop10"
+        },
+        {
+            "id_producto": "p26",
+            "nombre_producto": "Chifles Dulces Crujientes AleLui",
+            "imagen_principal": "bolsaschiflesdulces_crujientesalelui.jpg",
+            "precio_catalogo": 15,
+            "precio_oferta": 10,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>Los chifles son un delicioso snack originario de América Latina, especialmente popular en países como Ecuador.</p><p class='mb-1'>Su sabor suave y textura cremosa lo hacen ideal para consumir tostado, hervido, en salsas, dulces y fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Fuente de energía</h4><p>Antioxidante natural, contiene resveratrol, un antioxidante que ayuda a combatir el envejecimiento celular.</p><h4 class='mb-3'>Cuida la salud del corazón</h4><p>Ayuda a reducir el colesterol malo (LDL).</p><h4 class='mb-3'>Favorece la salud cerebral</h4><p>Contiene niacina, vitamina E y antioxidantes beneficiosos para la memoria y el sistema nervioso.</p>",
+            "id_categoria": "cat11",
+            "id_tienda": "shop10"
+        },
+        {
+            "id_producto": "p27",
+            "nombre_producto": "Papas Fritas Crujientes AleLui",
+            "imagen_principal": "bolsaspapasfritas_crujientesalelui.jpg",
+            "precio_catalogo": 15,
+            "precio_oferta": 10,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>Las papas fritas son un delicioso snack originario de América Latina, especialmente popular en países como Ecuador.</p><p class='mb-1'>Su sabor suave y textura cremosa lo hacen ideal para consumir tostado, hervido, en salsas, dulces y fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Fuente de energía</h4><p>Antioxidante natural, contiene resveratrol, un antioxidante que ayuda a combatir el envejecimiento celular.</p><h4 class='mb-3'>Cuida la salud del corazón</h4><p>Ayuda a reducir el colesterol malo (LDL).</p><h4 class='mb-3'>Favorece la salud cerebral</h4><p>Contiene niacina, vitamina E y antioxidantes beneficiosos para la memoria y el sistema nervioso.</p>",
+            "id_categoria": "cat11",
+            "id_tienda": "shop10"
+        },
+        {
+            "id_producto": "p28",
+            "nombre_producto": "Maní Dulce Crujientes MANI CRONCH LUI DI",
+            "imagen_principal": "mani_dulce.jpg",
+            "precio_catalogo": 15,
+            "precio_oferta": 10,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>El maní es un delicioso snack originario de América Latina, especialmente popular en países como Ecuador.</p><p class='mb-1'>Se consume como fruto seco, tostado, salado, dulce, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Apoya la función cerebral</h4><p>Por su contenido de niacina y vitamina E, que son esenciales para la salud del sistema nervioso.</p><h4 class='mb-3'>Digestión saludable</h4><p>Favorece la salud digestiva y ayuda a mantener la saciedad por más tiempo.</p><h4 class='mb-3'>Rico en vitaminas y minerales</h4><p>Buenas cantidades de vitamina E, niacina (B3), ácido fólico, magnesio, fósforo y zinc.</p>",
+            "id_categoria": "cat20",
+            "id_tienda": "shop11"
+        },
+        {
+            "id_producto": "p29",
+            "nombre_producto": "Maní Salado Crujientes MANI CRONCH LUI DI",
+            "imagen_principal": "mani_salado.jpg",
+            "precio_catalogo": 15,
+            "precio_oferta": 10,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>El maní es un delicioso snack originario de América Latina, especialmente popular en países como Ecuador.</p><p class='mb-1'>Se consume como fruto seco, tostado, salado, dulce, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Apoya la función cerebral</h4><p>Por su contenido de niacina y vitamina E, que son esenciales para la salud del sistema nervioso.</p><h4 class='mb-3'>Digestión saludable</h4><p>Favorece la salud digestiva y ayuda a mantener la saciedad por más tiempo.</p><h4 class='mb-3'>Rico en vitaminas y minerales</h4><p>Buenas cantidades de vitamina E, niacina (B3), ácido fólico, magnesio, fósforo y zinc.</p>",
+            "id_categoria": "cat20",
+            "id_tienda": "shop11"
+        },
+        {
+            "id_producto": "p30",
+            "nombre_producto": "Frutos Secos Crujientes MANI CRONCH LUI DI",
+            "imagen_principal": "bolsa_frutossecos.jpg",
+            "precio_catalogo": 15,
+            "precio_oferta": 10,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>El maní es un delicioso snack originario de América Latina, especialmente popular en países como Ecuador.</p><p class='mb-1'>Se consume como fruto seco, tostado, salado, dulce, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Apoya la función cerebral</h4><p>Por su contenido de niacina y vitamina E, que son esenciales para la salud del sistema nervioso.</p><h4 class='mb-3'>Digestión saludable</h4><p>Favorece la salud digestiva y ayuda a mantener la saciedad por más tiempo.</p><h4 class='mb-3'>Rico en vitaminas y minerales</h4><p>Buenas cantidades de vitamina E, niacina (B3), ácido fólico, magnesio, fósforo y zinc.</p>",
+            "id_categoria": "cat20",
+            "id_tienda": "shop11"
+        },
+        {
+            "id_producto": "p31",
+            "nombre_producto": "Camotes Fritos Crujientes AleLui",
+            "imagen_principal": "bolsascamotesfritos_crujientesalelui.jpg",
+            "precio_catalogo": 15,
+            "precio_oferta": 10,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>Las papas fritas son un delicioso snack originario de América Latina, especialmente popular en países como Ecuador.</p><p class='mb-1'>Su sabor suave y textura cremosa lo hacen ideal para consumir tostado, hervido, en salsas, dulces y fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Fuente de energía</h4><p>Antioxidante natural, contiene resveratrol, un antioxidant que ayuda a combatir el envejecimiento celular.</p><h4 class='mb-3'>Cuida la salud del corazón</h4><p>Ayuda a reducir el colesterol malo (LDL).</p><h4 class='mb-3'>Favorece la salud cerebral</h4><p>Contiene niacina, vitamina E y antioxidantes beneficiosos para la memoria y el sistema nervioso.</p>",
+            "id_categoria": "cat11",
+            "id_tienda": "shop10"
+        },
+        {
+            "id_producto": "p32",
+            "nombre_producto": "Don Sergio Café Orgánico de Moyobamba 500g",
+            "imagen_principal": "donsergiocafe_500g_frontal.jpg",
+            "precio_catalogo": 70,
+            "precio_oferta": 50,
+            "cantidad": 50,
+            "descripcion": "<p class='mb-1'>El Café Orgánico Don Sergio con aroma frutal es una deliciosa bebida originaria de las tierras de moyobamba en Péru.</p><p class='mb-1'>Los granos de café orgánico con aroma frutal obtienen su sabor al estar alrededor de plantaciones de frutas y al ser tostados se integran los aromas dando como resultado una bebida que resalta su sabor cuando lo prepara.</p><p class='mb-1'>Es la bebida perfecta para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante y llevate a casa este delicioso café orgánico con aroma frutal para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Fuente de energía</h4><p>El café orgánico tostado es rico en antioxidantes que son buenos para mejorar su salud lo que lo convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El café orgánico tostado es una excelente fuente de energía que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en antioxidantes</h4><p>Los antioxidantes ayudan a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
+            "id_categoria": "cat12",
+            "id_tienda": "shop5"
+        },
+        {
+            "id_producto": "p33",
+            "nombre_producto": "Chifles Salados 250g, crujientes y frescos, buenaaazos",
+            "imagen_principal": "chiflocos_bolsachiflesalado250g.jpg",
+            "precio_catalogo": 20,
+            "precio_oferta": 15,
+            "cantidad": 15,
+            "descripcion": "<p class='mb-1'>Los chifles son un delicioso snack originario de América Latina, especialmente popular en países como Perú.</p><p class='mb-1'>Están hechos a base de plátano verde cortado en rodajas finas, fritos hasta obtener una textura crujiente.</p><p class='mb-1'>Este delicioso pack de snacks es ideal para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante con este pack para tu casa o como regalo para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Fuente de energía</h4><p>Los chifles son ricos en carbohidratos complejos, lo que los convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El plátano verde, base de los chifles, es una excelente fuente de fibra, lo que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en potasio</h4><p>El potasio en los chifles ayuda a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
+            "id_categoria": "cat11",
+            "id_tienda": "shop4"
+        },
+        {
+            "id_producto": "p34",
+            "nombre_producto": "Poderoso Caldo de Mote con Sabor Tradicional",
+            "imagen_principal": "caldo_mote.jpg",
+            "precio_catalogo": 20,
+            "precio_oferta": 15,
+            "cantidad": 10,
+            "descripcion": "<p data-path-to-node=\"0\">Disfruta del aut&eacute;ntico sabor andino con nuestro caldo de mote, preparado con granos tiernos y un concentrado de carnes que reconforta el alma. Es una joya de la cocina criolla, perfecta para quienes buscan energ&iacute;a y calor en cada cucharada.</p>\n<p data-path-to-node=\"1\">Siente el aroma de la hierbabuena fresca en este plato contundente que puedes personalizar con lim&oacute;n y un toque de aj&iacute;. Es la experiencia artesanal ideal para recargar fuerzas con el sabor m&aacute;s tradicional y delicioso del Per&uacute;.</p>",
+            "beneficio": "<h2 data-path-to-node=\"4\"><strong data-path-to-node=\"4\" data-index-in-node=\"0\">Fortalecimiento muscular y &oacute;seo</strong></h2>\n<p data-path-to-node=\"5\">La cocci&oacute;n lenta de las carnes aporta prote&iacute;nas esenciales y col&aacute;geno natural que ayudan a regenerar tejidos y fortalecer tus articulaciones.</p>\n<h2 data-path-to-node=\"0\"><strong data-path-to-node=\"0\" data-index-in-node=\"0\">Energ&iacute;a pura y natural</strong></h2>\n<p data-path-to-node=\"1\">El ma&iacute;z mote es un carbohidrato de absorci&oacute;n lenta que te brinda vitalidad constante y una sensaci&oacute;n de saciedad total durante horas.</p>\n<h2 data-path-to-node=\"2\"><strong data-path-to-node=\"2\" data-index-in-node=\"0\">Digesti&oacute;n ligera y saludable</strong></h2>\n<p data-path-to-node=\"3\">Gracias a su alto contenido de fibra natural, este caldo facilita el tr&aacute;nsito intestinal y cuida tu bienestar digestivo despu&eacute;s de cada comida.</p>",
+            "id_categoria": "cat21",
+            "id_tienda": "shop12"
+        }
+    ],
+    "imagenes": [
+        {
+            "id_producto": "p1",
+            "id_atributo": "atbp1",
+            "id_color": "c1",
+            "nombre_img": "polo1_blanco_adelante.jpg"
+        },
+        {
+            "id_producto": "p1",
+            "id_atributo": "atbp1",
+            "id_color": "c1",
+            "nombre_img": "polo1_blanco_detras.jpg"
+        },
+        {
+            "id_producto": "p1",
+            "id_atributo": "atbp1",
+            "id_color": "c2",
+            "nombre_img": "polo1_lila_adelante.jpg"
+        },
+        {
+            "id_producto": "p1",
+            "id_atributo": "atbp1",
+            "id_color": "c2",
+            "nombre_img": "polo1_lila_detras.jpg"
+        },
+        {
+            "id_producto": "p2",
+            "id_atributo": "atbp2",
+            "id_color": "c3",
+            "nombre_img": "polo2_turquesa_adelante.jpg"
+        },
+        {
+            "id_producto": "p2",
+            "id_atributo": "atbp2",
+            "id_color": "c3",
+            "nombre_img": "polo2_turquesa_detras.jpg"
+        },
+        {
+            "id_producto": "p2",
+            "id_atributo": "atbp2",
+            "id_color": "c4",
+            "nombre_img": "polo2_naranja_adelante.jpg"
+        },
+        {
+            "id_producto": "p2",
+            "id_atributo": "atbp2",
+            "id_color": "c4",
+            "nombre_img": "polo2_naranja_detras.jpg"
+        },
+        {
+            "id_producto": "p3",
+            "id_atributo": "atbp3",
+            "id_color": "c5",
+            "nombre_img": "polera1_negro_adelante.jpg"
+        },
+        {
+            "id_producto": "p3",
+            "id_atributo": "atbp3",
+            "id_color": "c5",
+            "nombre_img": "polera1_negro_detras.jpg"
+        },
+        {
+            "id_producto": "p3",
+            "id_atributo": "atbp3",
+            "id_color": "c6",
+            "nombre_img": "polera1_morado_adelante.jpg"
+        },
+        {
+            "id_producto": "p3",
+            "id_atributo": "atbp3",
+            "id_color": "c6",
+            "nombre_img": "polera1_morado_detras.jpg"
+        },
+        {
+            "id_producto": "p4",
+            "id_atributo": "atbp4",
+            "id_color": "c5",
+            "nombre_img": "polera2_negro_adelante.jpg"
+        },
+        {
+            "id_producto": "p4",
+            "id_atributo": "atbp4",
+            "id_color": "c5",
+            "nombre_img": "polera2_negro_detras.jpg"
+        },
+        {
+            "id_producto": "p4",
+            "id_atributo": "atbp4",
+            "id_color": "c7",
+            "nombre_img": "polera2_azul_adelante.jpg"
+        },
+        {
+            "id_producto": "p4",
+            "id_atributo": "atbp4",
+            "id_color": "c7",
+            "nombre_img": "polera2_azul_detras.jpg"
+        },
+        {
+            "id_producto": "p5",
+            "id_atributo": "atbp5",
+            "id_color": "c10",
+            "nombre_img": "polera3_rojo_adelante.jpg"
+        },
+        {
+            "id_producto": "p5",
+            "id_atributo": "atbp5",
+            "id_color": "c10",
+            "nombre_img": "polera3_rojo_detras.jpg"
+        },
+        {
+            "id_producto": "p5",
+            "id_atributo": "atbp5",
+            "id_color": "c9",
+            "nombre_img": "polera3_verde_adelante.jpg"
+        },
+        {
+            "id_producto": "p5",
+            "id_atributo": "atbp5",
+            "id_color": "c9",
+            "nombre_img": "polera3_verde_detras.jpg"
+        },
+        {
+            "id_producto": "p6",
+            "id_atributo": "atbp6",
+            "id_color": "c10",
+            "nombre_img": "polera3_rojo_adelante.jpg"
+        },
+        {
+            "id_producto": "p6",
+            "id_atributo": "atbp6",
+            "id_color": "c10",
+            "nombre_img": "polera3_rojo_detras.jpg"
+        },
+        {
+            "id_producto": "p6",
+            "id_atributo": "atbp6",
+            "id_color": "c9",
+            "nombre_img": "polera3_verde_adelante.jpg"
+        },
+        {
+            "id_producto": "p6",
+            "id_atributo": "atbp6",
+            "id_color": "c9",
+            "nombre_img": "polera3_verde_detras.jpg"
+        },
+        {
+            "id_producto": "p7",
+            "id_atributo": "atbp7",
+            "id_color": "c8",
+            "nombre_img": "p1_caqui_adelante.jpg"
+        },
+        {
+            "id_producto": "p7",
+            "id_atributo": "atbp7",
+            "id_color": "c8",
+            "nombre_img": "pantalon1_caqui_detras.jpg"
+        },
+        {
+            "id_producto": "p7",
+            "id_atributo": "atbp7",
+            "id_color": "c5",
+            "nombre_img": "pantalon1_negro_adelante.jpg"
+        },
+        {
+            "id_producto": "p7",
+            "id_atributo": "atbp7",
+            "id_color": "c5",
+            "nombre_img": "pantalon1_negro_detras.jpg"
+        },
+        {
+            "id_producto": "p7",
+            "id_atributo": "atbp7",
+            "id_color": "c9",
+            "nombre_img": "pantalon1_verde_adelante.jpg"
+        },
+        {
+            "id_producto": "p7",
+            "id_atributo": "atbp7",
+            "id_color": "c9",
+            "nombre_img": "pantalon1_verde_detras.jpg"
+        },
+        {
+            "id_producto": "p8",
+            "id_atributo": "atbp8",
+            "id_color": "c9",
+            "nombre_img": "p2_verde_adelante.jpg"
+        },
+        {
+            "id_producto": "p8",
+            "id_atributo": "atbp8",
+            "id_color": "c7",
+            "nombre_img": "p2_azul_adelante.jpg"
+        },
+        {
+            "id_producto": "p8",
+            "id_atributo": "atbp8",
+            "id_color": "c5",
+            "nombre_img": "p2_negro_adelante.jpg"
+        },
+        {
+            "id_producto": "p11",
+            "id_atributo": "atbp11",
+            "id_color": "no",
+            "nombre_img": "chiflocos_bolsachifledulce250g.jpg"
+        },  
+        {
+            "id_producto": "p13",
+            "id_atributo": "atbp13",
+            "id_color": "no",
+            "nombre_img": "chiflocos_cajabolsachiflesalado9unid.jpg"
+        },
+        {
+            "id_producto": "p14",
+            "id_atributo": "atbp14",
+            "id_color": "no",
+            "nombre_img": "pack_donsergiocafe500gychifle.jpg"
+        },
+        {
+            "id_producto": "p15",
+            "id_atributo": "atbp15",
+            "id_color": "no",
+            "nombre_img": "chifleslafinca.jpeg"
+        },
+        {
+            "id_producto": "p16",
+            "id_atributo": "atbp16",
+            "id_color": "no",
+            "nombre_img": "portada_cuentosEducacionFinanciera.jpg"
+        },
+        {
+            "id_producto": "p17",
+            "id_atributo": "atbp17",
+            "id_color": "no",
+            "nombre_img": "portada_libroUnBosquellamadoArmonia.jpg"
+        },
+        {
+            "id_producto": "p18",
+            "id_atributo": "atbp18",
+            "id_color": "no",
+            "nombre_img": "portada_libro_soyunlider.jpg"
+        },
+        {
+            "id_producto": "p18",
+            "id_atributo": "atbp18",
+            "id_color": "no",
+            "nombre_img": "tapa_librosoyunlider.jpg"
+        },
+        {
+            "id_producto": "p19",
+            "id_atributo": "atbp19",
+            "id_color": "no",
+            "nombre_img": "mieldeabeja500g.jpeg"
+        },
+        {
+            "id_producto": "p20",
+            "id_atributo": "atbp20",
+            "id_color": "no",
+            "nombre_img": "uniforme_casacaprom.jpeg"
+        },
+        {
+            "id_producto": "p20",
+            "id_atributo": "atbp20",
+            "id_color": "no",
+            "nombre_img": "uniforme_logocasacaprom.jpeg"
+        },
+        {
+            "id_producto": "p20",
+            "id_atributo": "atbp20",
+            "id_color": "no",
+            "nombre_img": "uniforme_detallecasacapron.jpeg"
+        },
+        {
+            "id_producto": "p20",
+            "id_atributo": "atbp20",
+            "id_color": "no",
+            "nombre_img": "uniforme_firmascasacaprom.jpeg"
+        },
+        {
+            "id_producto": "p20",
+            "id_atributo": "atbp20",
+            "id_color": "no",
+            "nombre_img": "uniforme_casacapromdetras.jpeg"
+        },
+        {
+            "id_producto": "p20",
+            "id_atributo": "atbp20",
+            "id_color": "no",
+            "nombre_img": "uniforme_nombreyanopromocasacaprom.jpeg"
+        },
+        {
+            "id_producto": "p21",
+            "id_atributo": "atbp21",
+            "id_color": "no",
+            "nombre_img": "uniforme_poloybolsa.jpg"
+        },
+        {
+            "id_producto": "p22",
+            "id_atributo": "atbp22",
+            "id_color": "no",
+            "nombre_img": "uniforme_poleradelante.jpeg"
+        },
+        {
+            "id_producto": "p22",
+            "id_atributo": "atbp22",
+            "id_color": "no",
+            "nombre_img": "uniforme_poleradetras.jpeg"
+        },
+        {
+            "id_producto": "p22",
+            "id_atributo": "atbp22",
+            "id_color": "no",
+            "nombre_img": "uniforme_polerachicospromo.jpeg"
+        },
+        {
+            "id_producto": "p23",
+            "id_atributo": "atbp23",
+            "id_color": "no",
+            "nombre_img": "SansevieriaTrifasciata_lenguadesuegra.jpg"
+        },
+        {
+            "id_producto": "p24",
+            "id_atributo": "atbp24",
+            "id_color": "no",
+            "nombre_img": "MonsteraDeliciosa_costilladeadan.jpg"
+        },
+        {
+            "id_producto": "p25",
+            "id_atributo": "atbp25",
+            "id_color": "no",
+            "nombre_img": "bolsaschiflesalados_crujientesalelui.jpg"
+        },
+        {
+            "id_producto": "p26",
+            "id_atributo": "atbp26",
+            "id_color": "no",
+            "nombre_img": "bolsaschiflesdulces_crujientesalelui.jpg"
+        },
+        {
+            "id_producto": "p27",
+            "id_atributo": "atbp27",
+            "id_color": "no",
+            "nombre_img": "bolsaspapasfritas_crujientesalelui.jpg"
+        },
+        {
+            "id_producto": "p28",
+            "id_atributo": "atbp28",
+            "id_color": "no",
+            "nombre_img": "mani_dulce.jpg"
+        },
+        {
+            "id_producto": "p29",
+            "id_atributo": "atbp29",
+            "id_color": "no",
+            "nombre_img": "mani_salado.jpg"
+        },
+        {
+            "id_producto": "p30",
+            "id_atributo": "atbp30",
+            "id_color": "no",
+            "nombre_img": "bolsa_frutossecos.jpg"
+        },
+        {
+            "id_producto": "p31",
+            "id_atributo": "atbp31",
+            "id_color": "no",
+            "nombre_img": "bolsascamotesfritos_crujientesalelui.jpg"
+        },
+        {
+            "id_producto": "p32",
+            "id_atributo": "atbp32",
+            "id_color": "no",
+            "nombre_img": "donsergiocafe_500g_frontal.jpg"
+        },
+        {
+            "id_producto": "p32",
+            "id_atributo": "atbp32",
+            "id_color": "no",
+            "nombre_img": "donsergiocafe_500g_derecha.jpg"
+        },
+        {
+            "id_producto": "p32",
+            "id_atributo": "atbp32",
+            "id_color": "no",
+            "nombre_img": "donsergiocafe_500g_izquierda.jpg"
+        },
+        {
+            "id_producto": "p33",
+            "id_atributo": "atbp33",
+            "id_color": "no",
+            "nombre_img": "chiflocos_bolsachiflesalado250g.jpg"
+        },
+        {
+            "id_producto": "p34",
+            "id_atributo": "atbp34",
+            "id_color": "no",
+            "nombre_img": "caldo_mote.jpg"
+        }
+    ],
+    "atributo_producto": [
+        {
+            "id_atributo": "atbp1",
+            "cantidad": 5,
+            "id_producto": "p1",
+            "id_color": "c1",
+            "id_tallas": "t2",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp1",
+            "cantidad": 5,
+            "id_producto": "p1",
+            "id_color": "c1",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp1",
+            "cantidad": 5,
+            "id_producto": "p1",
+            "id_color": "c1",
+            "id_tallas": "t4",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp1",
+            "cantidad": 5,
+            "id_producto": "p1",
+            "id_color": "c2",
+            "id_tallas": "t4",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp1",
+            "cantidad": 5,
+            "id_producto": "p1",
+            "id_color": "c2",
+            "id_tallas": "t5",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp2",
+            "cantidad": 5,
+            "id_producto": "p2",
+            "id_color": "c3",
+            "id_tallas": "t2",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp2",
+            "cantidad": 5,
+            "id_producto": "p2",
+            "id_color": "c3",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp2",
+            "cantidad": 5,
+            "id_producto": "p2",
+            "id_color": "c4",
+            "id_tallas": "t1",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp2",
+            "cantidad": 5,
+            "id_producto": "p2",
+            "id_color": "c4",
+            "id_tallas": "t2",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp2",
+            "cantidad": 5,
+            "id_producto": "p2",
+            "id_color": "c4",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp3",
+            "cantidad": 5,
+            "id_producto": "p3",
+            "id_color": "c5",
+            "id_tallas": "t2",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp3",
+            "cantidad": 5,
+            "id_producto": "p3",
+            "id_color": "c5",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp3",
+            "cantidad": 5,
+            "id_producto": "p3",
+            "id_color": "c5",
+            "id_tallas": "t4",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp3",
+            "cantidad": 5,
+            "id_producto": "p3",
+            "id_color": "c6",
+            "id_tallas": "t2",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp3",
+            "cantidad": 5,
+            "id_producto": "p3",
+            "id_color": "c6",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp3",
+            "cantidad": 5,
+            "id_producto": "p3",
+            "id_color": "c6",
+            "id_tallas": "t4",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp4",
+            "cantidad": 5,
+            "id_producto": "p4",
+            "id_color": "c5",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp4",
+            "cantidad": 5,
+            "id_producto": "p4",
+            "id_color": "c5",
+            "id_tallas": "t4",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp4",
+            "cantidad": 5,
+            "id_producto": "p4",
+            "id_color": "c5",
+            "id_tallas": "t5",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp4",
+            "cantidad": 5,
+            "id_producto": "p4",
+            "id_color": "c7",
+            "id_tallas": "t2",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp4",
+            "cantidad": 5,
+            "id_producto": "p4",
+            "id_color": "c7",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp5",
+            "cantidad": 5,
+            "id_producto": "p5",
+            "id_color": "c10",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp5",
+            "cantidad": 5,
+            "id_producto": "p5",
+            "id_color": "c10",
+            "id_tallas": "t4",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp5",
+            "cantidad": 5,
+            "id_producto": "p5",
+            "id_color": "c10",
+            "id_tallas": "t5",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp5",
+            "cantidad": 5,
+            "id_producto": "p5",
+            "id_color": "c9",
+            "id_tallas": "t2",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp5",
+            "cantidad": 5,
+            "id_producto": "p5",
+            "id_color": "c9",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp6",
+            "cantidad": 5,
+            "id_producto": "p6",
+            "id_color": "c10",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp6",
+            "cantidad": 5,
+            "id_producto": "p6",
+            "id_color": "c10",
+            "id_tallas": "t4",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp6",
+            "cantidad": 5,
+            "id_producto": "p6",
+            "id_color": "c10",
+            "id_tallas": "t5",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp6",
+            "cantidad": 5,
+            "id_producto": "p6",
+            "id_color": "c9",
+            "id_tallas": "t2",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp6",
+            "cantidad": 5,
+            "id_producto": "p6",
+            "id_color": "c9",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp7",
+            "cantidad": 5,
+            "id_producto": "p7",
+            "id_color": "c8",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp7",
+            "cantidad": 5,
+            "id_producto": "p7",
+            "id_color": "c8",
+            "id_tallas": "t4",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp7",
+            "cantidad": 5,
+            "id_producto": "p7",
+            "id_color": "c8",
+            "id_tallas": "t5",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp7",
+            "cantidad": 5,
+            "id_producto": "p7",
+            "id_color": "c5",
+            "id_tallas": "t2",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp7",
+            "cantidad": 5,
+            "id_producto": "p7",
+            "id_color": "c5",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp7",
+            "cantidad": 5,
+            "id_producto": "p7",
+            "id_color": "c9",
+            "id_tallas": "t2",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp7",
+            "cantidad": 5,
+            "id_producto": "p7",
+            "id_color": "c9",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp8",
+            "cantidad": 5,
+            "id_producto": "p8",
+            "id_color": "c9",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp8",
+            "cantidad": 5,
+            "id_producto": "p8",
+            "id_color": "c9",
+            "id_tallas": "t4",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp8",
+            "cantidad": 5,
+            "id_producto": "p8",
+            "id_color": "c9",
+            "id_tallas": "t5",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp8",
+            "cantidad": 5,
+            "id_producto": "p8",
+            "id_color": "c7",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp8",
+            "cantidad": 5,
+            "id_producto": "p8",
+            "id_color": "c7",
+            "id_tallas": "t4",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp8",
+            "cantidad": 5,
+            "id_producto": "p8",
+            "id_color": "c7",
+            "id_tallas": "t5",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp8",
+            "cantidad": 5,
+            "id_producto": "p8",
+            "id_color": "c5",
+            "id_tallas": "t3",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp8",
+            "cantidad": 5,
+            "id_producto": "p8",
+            "id_color": "c5",
+            "id_tallas": "t4",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp8",
+            "cantidad": 5,
+            "id_producto": "p8",
+            "id_color": "c5",
+            "id_tallas": "t5",
+            "id_pack": ""
+        },
+        {
+            "id_atributo": "atbp11",
+            "cantidad": 5,
+            "id_producto": "p11",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack11"
+        },
+        {
+            "id_atributo": "atbp13",
+            "cantidad": 5,
+            "id_producto": "p13",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack13"
+        },
+        {
+            "id_atributo": "atbp14",
+            "cantidad": 5,
+            "id_producto": "p14",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack14"
+        },
+        {
+            "id_atributo": "atbp15",
+            "cantidad": 5,
+            "id_producto": "p15",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack15"
+        },
+        {
+            "id_atributo": "atbp16",
+            "cantidad": 5,
+            "id_producto": "p16",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack16"
+        },
+        {
+            "id_atributo": "atbp17",
+            "cantidad": 5,
+            "id_producto": "p17",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack17"
+        },
+        {
+            "id_atributo": "atbp18",
+            "cantidad": 5,
+            "id_producto": "p18",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack18"
+        },
+        {
+            "id_atributo": "atbp19",
+            "cantidad": 5,
+            "id_producto": "p19",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack19"
+        },
+        {
+            "id_atributo": "atbp20",
+            "cantidad": 5,
+            "id_producto": "p20",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack20"
+        },
+        {
+            "id_atributo": "atbp21",
+            "cantidad": 5,
+            "id_producto": "p21",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack21"
+        },
+        {
+            "id_atributo": "atbp22",
+            "cantidad": 5,
+            "id_producto": "p22",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack22"
+        },
+        {
+            "id_atributo": "atbp23",
+            "cantidad": 5,
+            "id_producto": "p23",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack23"
+        },
+        {
+            "id_atributo": "atbp24",
+            "cantidad": 5,
+            "id_producto": "p24",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack24"
+        },
+        {
+            "id_atributo": "atbp25",
+            "cantidad": 5,
+            "id_producto": "p25",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack25"
+        },
+        {
+            "id_atributo": "atbp26",
+            "cantidad": 5,
+            "id_producto": "p26",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack26"
+        },
+        {
+            "id_atributo": "atbp27",
+            "cantidad": 5,
+            "id_producto": "p27",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack27"
+        },
+        {
+            "id_atributo": "atbp28",
+            "cantidad": 5,
+            "id_producto": "p28",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack28"
+        },
+        {
+            "id_atributo": "atbp29",
+            "cantidad": 5,
+            "id_producto": "p29",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack29"
+        },
+        {
+            "id_atributo": "atbp30",
+            "cantidad": 5,
+            "id_producto": "p30",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack30"
+        },
+        {
+            "id_atributo": "atbp31",
+            "cantidad": 5,
+            "id_producto": "p31",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack31"
+        },
+        {
+            "id_atributo": "atbp32",
+            "cantidad": 5,
+            "id_producto": "p32",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack32"
+        },
+        {
+            "id_atributo": "atbp33",
+            "cantidad": 5,
+            "id_producto": "p33",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack33"
+        },
+        {
+            "id_atributo": "atbp34",
+            "cantidad": 5,
+            "id_producto": "p34",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack34"
+        }
+    ],
+    "colores": [
+        {
+            "id_color": "c1",
+            "nombre_color": "blanco"
+        },
+        {
+            "id_color": "c2",
+            "nombre_color": "lila"
+        },
+        {
+            "id_color": "c3",
+            "nombre_color": "turquesa"
+        },
+        {
+            "id_color": "c4",
+            "nombre_color": "naranja"
+        },
+        {
+            "id_color": "c5",
+            "nombre_color": "negro"
+        },
+        {
+            "id_color": "c6",
+            "nombre_color": "celeste"
+        },
+        {
+            "id_color": "c7",
+            "nombre_color": "azul"
+        },
+        {
+            "id_color": "c8",
+            "nombre_color": "caqui"
+        },
+        {
+            "id_color": "c9",
+            "nombre_color": "verde"
+        },
+        {
+            "id_color": "c10",
+            "nombre_color": "rojo"
+        },
+        {
+            "id_color": "no",
+            "nombre_color": "no"
+        }
+    ],
+    "tallas": [
+        {
+            "id_talla": "t1",
+            "nombre_talla": "XS"
+        },
+        {
+            "id_talla": "t2",
+            "nombre_talla": "S"
+        },
+        {
+            "id_talla": "t3",
+            "nombre_talla": "M"
+        },
+        {
+            "id_talla": "t4",
+            "nombre_talla": "L"
+        },
+        {
+            "id_talla": "t5",
+            "nombre_talla": "XL"
+        }
+    ]
+}

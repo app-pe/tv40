@@ -1,0 +1,340 @@
+/* Estilos propios de la app (lo demás vive en style.css, basado en Bootstrap 4).
+   Antes estaban dentro de un <style> en shop.html. */
+
+/* ───────── Banner de tienda ─────────
+   Se muestra COMPLETO (sin recortar) y con un alto máximo para que quepa de un vistazo junto al
+   nombre de la tienda. Si sobra ancho, el fondo es el mismo banner difuminado. */
+.banner-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    background-color: #eef1fb;
+}
+
+.banner-container::before {
+    content: "";
+    position: absolute;
+    inset: -30px;
+    background-image: var(--banner-url);
+    background-size: cover;
+    background-position: center;
+    filter: blur(22px) brightness(.92);
+}
+
+.banner-img {
+    position: relative; /* por encima del fondo difuminado */
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: min(50vh, 460px);
+    object-fit: contain;
+}
+
+/* ───────── Logo y datos de la tienda ───────── */
+.tienda-cabecera {
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+}
+
+.marketplace-shop-info .shop-logo {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 0 1px #edf1ff;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.marketplace-shop-info .shop-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.tienda-datos h1 {
+    margin: 0 0 .25rem;
+    font-size: 1.75rem;
+    line-height: 1.2;
+}
+
+.tienda-datos p {
+    margin-bottom: .25rem;
+}
+
+@media (max-width: 767.98px) {
+    .tienda-datos h1 {
+        font-size: 1.4rem;
+    }
+
+    .marketplace-shop-info .shop-logo {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+/* ───────── Tarjetas de producto ─────────
+   Una sola card (imagen + texto + botones dentro del mismo borde).
+   Escritorio/tablet: vertical, misma altura en toda la fila.
+   Celular (< 768 px): horizontal, imagen a la izquierda y texto + botones a la derecha.
+   Abajo: precios a la izquierda e íconos a la derecha, en la misma fila. */
+.product-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Sin height:100%: la columna (d-flex) ya estira todas las cards de la fila a la misma altura.
+       Con height:100% + el margen inferior de mb-4 la card crecía 24px de más. */
+    background: #fff;
+    overflow: hidden;
+}
+
+.product-item .product-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    height: 230px;
+}
+
+.product-item .product-img a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0 !important;
+}
+
+.product-item .product-img img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.product-item .producto-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: .6rem .75rem .65rem;
+}
+
+.product-item .producto-titulo {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: small;
+    line-height: 1.25;
+    min-height: 2.5em; /* reserva 2 líneas para que precios e íconos queden alineados entre cards */
+    margin-bottom: .4rem;
+}
+
+/* Fila inferior: precios a la izquierda, botones de solo ícono a la derecha. */
+.product-item .producto-pie {
+    display: flex;
+    align-items: center; /* el precio queda centrado respecto a los íconos */
+    justify-content: space-between;
+    gap: .5rem;
+    margin-top: auto;
+}
+
+.product-item .producto-precios {
+    min-width: 0;
+}
+
+.product-item .producto-precios h6 {
+    margin: 0;
+    line-height: 1.25;
+}
+
+.product-item .producto-acciones {
+    display: flex;
+    flex: 0 0 auto;
+    gap: .4rem;
+}
+
+/* Mismo estilo que el carrito de la barra superior: botón con borde e ícono rosado. */
+.product-item .btn-accion {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background: #fff;
+}
+
+.product-item .btn-accion:hover {
+    background: #f6f7fb;
+}
+
+@media (max-width: 767.98px) {
+    /* Menos margen lateral en celular: la card horizontal aprovecha mejor el ancho. */
+    #show_filtroprod {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 15px; /* alinea las cards con los filtros y el resto de la página */
+        padding-right: 15px;
+    }
+
+    #show_filtroprod > [class*="col-"] {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .product-item {
+        flex-direction: row;
+    }
+
+    .product-item .product-img {
+        flex: 0 0 38%;
+        max-width: 150px;
+        height: auto;
+        min-height: 120px;
+        align-self: stretch;
+    }
+
+    .product-item .product-img img {
+        max-height: 120px;
+    }
+
+    /* El texto se centra junto a la imagen: el espacio sobrante se reparte arriba y abajo
+       en lugar de quedar como un hueco entre el título y los precios. */
+    .product-item .producto-info {
+        justify-content: center;
+        padding: .55rem .65rem;
+    }
+
+    .product-item .producto-pie {
+        margin-top: 0;
+    }
+
+    .product-item .producto-titulo {
+        -webkit-line-clamp: 3; /* en celular hay más alto disponible junto a la imagen */
+        min-height: 0; /* una card por fila: no hace falta reservar líneas */
+        margin-bottom: .3rem;
+    }
+}
+
+/* Mismo criterio para las tarjetas de categoría (inicio y subcategorías). */
+.cat-item {
+    width: 100%;
+}
+
+.cat-item .cat-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.cat-item .cat-img img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.cat-item h5 {
+    margin-top: auto !important;
+}
+
+/* ───────── Carrusel del inicio ─────────
+   La imagen llena todo el marco y se recorta por el centro (cover): impacto visual y llamada a entrar.
+   El marco tiene un alto fijo que NO depende de la imagen, así que una imagen muy alta, cuadrada o muy
+   ancha nunca cambia su tamaño ni se deforma (solo se recorta arriba/abajo o a los lados). */
+.carrusel-inicio {
+    --alto-carrusel: clamp(410px, 60vh, 520px); /* mínimo 410px = alto de la página publicada */
+}
+
+.carrusel-inicio .carousel-item {
+    position: relative; /* no se toca display: Bootstrap lo usa para mostrar solo la diapositiva activa */
+    height: var(--alto-carrusel);
+    overflow: hidden;
+    background-color: #2b2b2b; /* se ve solo mientras carga la imagen */
+}
+
+/* Con #header-carousel (ID) para ganarle a las reglas genéricas `.carousel-item img` de style.css
+   (que limitan el alto a 410px y mezclan contain/cover según la pantalla). */
+#header-carousel .carrusel-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Texto centrado sobre la imagen, con un velo oscuro para que se lea sobre cualquier foto. */
+.carrusel-inicio .carrusel-caption {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 4rem; /* deja libre el espacio de las flechas */
+    background: rgba(0, 0, 0, .3);
+}
+
+.carrusel-titulo {
+    max-width: 100%;
+    margin: 0 0 1.25rem;
+    font-size: clamp(1.6rem, 5vw, 3.5rem);
+    font-weight: 600;
+    line-height: 1.15;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, .5);
+    overflow-wrap: anywhere;
+}
+
+.carrusel-btn {
+    padding: .5rem 1.25rem;
+}
+
+.carrusel-flecha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+}
+
+@media (max-width: 767.98px) {
+    .carrusel-inicio {
+        --alto-carrusel: clamp(240px, 68vw, 340px);
+    }
+
+    .carrusel-inicio .carrusel-caption {
+        padding: .75rem 2.75rem;
+    }
+
+    .carrusel-titulo {
+        margin-bottom: .75rem;
+        font-size: clamp(1.4rem, 6.4vw, 2rem);
+    }
+
+    .carrusel-btn {
+        padding: .3rem 1rem;
+        font-size: .9rem;
+    }
+
+    .carrusel-flecha {
+        width: 36px;
+        height: 36px;
+    }
+}

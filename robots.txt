@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://app-pe.github.io/tv40/sitemap.xml
