@@ -1125,19 +1125,19 @@
         },
         {
             "id_producto": "p35",
-            "id_atributo": "atbpp35",
+            "id_atributo": "atbp35",
             "id_color": "no",
             "nombre_img": "donsergiocafe_250g_frontal.jpg"
         },
         {
             "id_producto": "p35",
-            "id_atributo": "atbpp35",
+            "id_atributo": "atbp35",
             "id_color": "no",
             "nombre_img": "donsergiocafe_250g_derecha.jpg"
         },
         {
             "id_producto": "p35",
-            "id_atributo": "atbpp35",
+            "id_atributo": "atbp35",
             "id_color": "no",
             "nombre_img": "donsergiocafe_250g_izquierda.jpg"
         }
