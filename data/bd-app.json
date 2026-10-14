@@ -712,6 +712,18 @@
             "beneficio": "<h2 data-path-to-node=\"4\"><strong data-path-to-node=\"4\" data-index-in-node=\"0\">Fortalecimiento muscular y &oacute;seo</strong></h2>\n<p data-path-to-node=\"5\">La cocci&oacute;n lenta de las carnes aporta prote&iacute;nas esenciales y col&aacute;geno natural que ayudan a regenerar tejidos y fortalecer tus articulaciones.</p>\n<h2 data-path-to-node=\"0\"><strong data-path-to-node=\"0\" data-index-in-node=\"0\">Energ&iacute;a pura y natural</strong></h2>\n<p data-path-to-node=\"1\">El ma&iacute;z mote es un carbohidrato de absorci&oacute;n lenta que te brinda vitalidad constante y una sensaci&oacute;n de saciedad total durante horas.</p>\n<h2 data-path-to-node=\"2\"><strong data-path-to-node=\"2\" data-index-in-node=\"0\">Digesti&oacute;n ligera y saludable</strong></h2>\n<p data-path-to-node=\"3\">Gracias a su alto contenido de fibra natural, este caldo facilita el tr&aacute;nsito intestinal y cuida tu bienestar digestivo despu&eacute;s de cada comida.</p>",
             "id_categoria": "cat21",
             "id_tienda": "shop12"
+        },
+        {
+            "id_producto": "p35",
+            "nombre_producto": "Don Sergio Café Orgánico de Moyobamba 250g",
+            "imagen_principal": "donsergiocafe_250g_frontal.jpg",
+            "precio_catalogo": 45,
+            "precio_oferta": 25,
+            "cantidad": 50,
+            "descripcion": "<p class='mb-1'>El Café Orgánico Don Sergio con aroma frutal es una deliciosa bebida originaria de las tierras de moyobamba en Péru.</p><p class='mb-1'>Los granos de café orgánico con aroma frutal obtienen su sabor al estar alrededor de plantaciones de frutas y al ser tostados se integran los aromas dando como resultado una bebida que resalta su sabor cuando lo prepara.</p><p class='mb-1'>Es la bebida perfecta para compartir en tus reuniones con la familia y amigos.</p><p class='mb-1'>Arma tu mesa en un instante y llevate a casa este delicioso café orgánico con aroma frutal para que compartas la mejor experiencia y confort.</p>",
+            "beneficio": "<h4 class='mb-3'>Fuente de energía</h4><p>El café orgánico tostado es rico en antioxidantes que son buenos para mejorar su salud lo que lo convierte en una buena fuente de energía para el cuerpo.</p><h4 class='mb-3'>Digestión saludable</h4><p>El café orgánico tostado es una excelente fuente de energía que favorece una digestión saludable.</p><h4 class='mb-3'>Ricos en antioxidantes</h4><p>Los antioxidantes ayudan a regular la función muscular y la salud cardiovascular, contribuyendo a mantener la presión arterial equilibrada.</p>",
+            "id_categoria": "cat12",
+            "id_tienda": "shop5"
         }
     ],
     "imagenes": [
@@ -1110,6 +1122,24 @@
             "id_atributo": "atbp34",
             "id_color": "no",
             "nombre_img": "caldo_mote.jpg"
+        },
+        {
+            "id_producto": "p35",
+            "id_atributo": "atbpp35",
+            "id_color": "no",
+            "nombre_img": "donsergiocafe_250g_frontal.jpg"
+        },
+        {
+            "id_producto": "p35",
+            "id_atributo": "atbpp35",
+            "id_color": "no",
+            "nombre_img": "donsergiocafe_250g_derecha.jpg"
+        },
+        {
+            "id_producto": "p35",
+            "id_atributo": "atbpp35",
+            "id_color": "no",
+            "nombre_img": "donsergiocafe_250g_izquierda.jpg"
         }
     ],
     "atributo_producto": [
@@ -1672,6 +1702,14 @@
             "id_color": "no",
             "id_tallas": "",
             "id_pack": "pack34"
+        },
+        {
+            "id_atributo": "atbp35",
+            "cantidad": 5,
+            "id_producto": "p35",
+            "id_color": "no",
+            "id_tallas": "",
+            "id_pack": "pack35"
         }
     ],
     "colores": [
